@@ -6,21 +6,29 @@ from datetime import datetime
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
-#from langchain.chains import SimpleSequentialChain
+from langchain.chains import SimpleSequentialChain
+
+# GuardRails
+#import guardrails as gd
 
 class CodeGenerator:
 
 	def __init__(self, folderName):
 		self.answer_chain = None
+		self.answer_chain2 = None
 		self.answer = None
 
 		self.model = None
 		self.template = None
+		self.templateExample = None
 		self.text = None
+		self.example = None
 		self.outputFile = None
 		self.hasTests = False
 		self.saveInfo = False
 		self.startTime = datetime.now()
+  
+		self.activePrompting = True
 
 		if folderName is not None:
 			self.outputFolder = folderName + "/"
@@ -29,12 +37,26 @@ class CodeGenerator:
   
 	def BindModel(self, model):
 		self.model = model
+
+	def LoadPrompt(self, file):
+		try:
+			with open("./prompt/" + file, 'r') as file:
+				self.template = file.read()
+		except FileNotFoundError:
+			raise Exception("[ERROR] Cannot find prompt file at path ./prompt/" + file + "!!")
   
-	def BindTemplate(self, template):
-		self.template = template
+	def LoadPromptExample(self, file):
+		try:
+			with open("./prompt/" + file, 'r') as file:
+				self.templateExample = file.read()
+		except FileNotFoundError:
+			raise Exception("[ERROR] Cannot find prompt file at path ./prompt/" + file + "!!")
   
 	def BindText(self, text):
 		self.text = text
+  
+	def BindExample(self, example):
+		self.example = example
   
 	def BindOutputFile(self, path):
 		self.outputFile = path
@@ -44,6 +66,9 @@ class CodeGenerator:
   
 	def SaveInfo(self):
 		self.saveInfo = True
+  
+	def HasExampleChain(self):
+		return self.example != None and self.templateExample != None
 
 	def LoadConfig(self):
 		if self.model is None:
@@ -56,12 +81,36 @@ class CodeGenerator:
 		llm = ChatOpenAI(openai_api_key = os.getenv('OPENAI_API_KEY'), model_name = self.model, temperature = 0)
 		prompt_template = PromptTemplate(input_variables=["text"], template = self.template)
 		self.answer_chain = LLMChain(llm = llm, prompt = prompt_template)
+  
+		# Create second chain
+		if self.HasExampleChain():
+			prompt_template2 = PromptTemplate(input_variables=["example"], template = self.templateExample)
+			self.answer_chain2 = LLMChain(llm = llm, prompt = prompt_template2)
 	
 	def RequestCode(self):
 		if self.text is None:
 			raise Exception("[ERROR] No text found!!")
      
-		self.answer = self.answer_chain.run(self.text)
+		if self.HasExampleChain():
+			chain = SimpleSequentialChain(chains = [self.answer_chain, self.answer_chain2])
+			self.answer = chain.run(input = {"text": self.text, "example": self.example})
+		else:
+			self.answer = self.answer_chain.run(self.text)
+   
+		isOk = False
+   
+		while self.activePrompting and not isOk:
+			userFeedback = input('Please review the generated code and provide additional information to regenerate it. If you consider it to be correct, please write "OK": ')
+			if userFeedback == 'OK':
+				isOk = True
+			else:
+				llm = ChatOpenAI(openai_api_key = os.getenv('OPENAI_API_KEY'), model_name = self.model, temperature = 0)
+				prompt_template = PromptTemplate(input_variables=["text"], template = self.template)
+				self.answer_chain = LLMChain(llm = llm, prompt = prompt_template)
+    
+				text = "Fix this code:\n " + self.answer + "\nAccording to this client feedback: " + userFeedback
+    
+				self.answer = self.answer_chain.run(text)
 	
 	def PrintLastAnswer(self):
 		print(self.answer)
@@ -80,8 +129,10 @@ class CodeGenerator:
   
 		start_index = self.answer.find("<code>")
 		end_index = self.answer.find("</code>")
+  
 		if start_index == -1 or end_index == -1:
 			raise Exception("[ERROR] Cannot find <code> tag!!")
+
 		start_index += len("<code>")
 		code = self.answer[start_index:end_index]
   

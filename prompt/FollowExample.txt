@@ -1,0 +1,4 @@
+Regenerate the code following this rules:
+1. You must place the generated code within the XML code tag, just like in the previous response.
+2. Do not generate new classes or interfaces.
+3. Make sure that the generated code represents a {example}.
