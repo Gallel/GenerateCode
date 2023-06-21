@@ -33,39 +33,39 @@ def LoadTests(testFilePath):
  
 	return text
 
-def CodeWithoutTests(model, text, folderName = None):
+def CodeWithoutTests(model, text, folderName = None, isActivePrompting = False):
 	print("Generating code without tests...")
-	generator = GenerateCodeWithoutTests(model, text, folderName)
+	generator = GenerateCodeWithoutTests(model, text, folderName, isActivePrompting)
 	generator.Generate()
 	print("Elapsed time: " + str(datetime.now() - startTime))
 
-def CodeWithCustomTests(model, text, tests, folderName = None):
+def CodeWithCustomTests(model, text, tests, folderName = None, isActivePrompting = False):
 	print("Generating code with custom tests...")
-	generator = GenerateCodeWithCustomTests(model, text, tests, folderName)
+	generator = GenerateCodeWithCustomTests(model, text, tests, folderName, isActivePrompting)
 	generator.Generate()
 	print("Elapsed time: " + str(datetime.now() - startTime))
 
-def CodeAndTests(model, text, folderName = None):
+def CodeAndTests(model, text, folderName = None, isActivePrompting = False):
 	print("Generating code with own tests...")
-	generator = GenerateCodeAndTests(model, text, folderName)
+	generator = GenerateCodeAndTests(model, text, folderName, isActivePrompting)
 	generator.Generate()
 	print("Elapsed time: " + str(datetime.now() - startTime))
 
-def CodeWithExample(model, text, example, folderName = None):
+def CodeWithExample(model, text, example, folderName = None, isActivePrompting = False):
 	print("Generating code with example...")
-	generator = GenerateCodeWithExample(model, text, example, folderName)
+	generator = GenerateCodeWithExample(model, text, example, folderName, isActivePrompting)
 	generator.Generate()
 	print("Elapsed time: " + str(datetime.now() - startTime))
 
-def CodeWithExampleCustomTests(model, text, tests, example, folderName = None):
+def CodeWithExampleCustomTests(model, text, tests, example, folderName = None, isActivePrompting = False):
 	print("Generating code with example and custom tests...")
-	generator = GenerateCodeWithExampleCustomTest(model, text, tests, example, folderName)
+	generator = GenerateCodeWithExampleCustomTest(model, text, tests, example, folderName, isActivePrompting)
 	generator.Generate()
 	print("Elapsed time: " + str(datetime.now() - startTime))
  
-def CodeWithExampleTests(model, text, example, folderName = None):
+def CodeWithExampleTests(model, text, example, folderName = None, isActivePrompting = False):
 	print("Generating code with example and own tests...")
-	generator = GenerateCodeWithExampleAndTest(model, text, example, folderName)
+	generator = GenerateCodeWithExampleAndTest(model, text, example, folderName, isActivePrompting)
 	generator.Generate()
 	print("Elapsed time: " + str(datetime.now() - startTime))
 
@@ -81,19 +81,23 @@ if __name__ == '__main__':
 	load_dotenv()
 	
 	model = os.getenv('OPENAI_MODEL')
-	basePath = r"D:/Escritorio/UOC/Semestre 9 (2022 - 2)/1 - TFG/Material/DSLib-master/"
-	filePath = basePath + r"docs/edu/uoc/ds/adt/sequential/QueueArrayImpl.html"
-	testFilePath = basePath + r"src/test/java/edu/uoc/ds/adt/sequential/QueueArrayTest.java"
+	basePath = r"D:/Escritorio/UOC/GEI/Semestre 9 (2022 - 2)/1 - TFG/Material/DSLib-master/"
+	filePath = basePath + r"docs/edu/uoc/ds/adt/sequential/LinkedList.html"
+	testFilePath = basePath + r"src/test/java/edu/uoc/ds/adt/sequential/LinkedListTest.java"
 	example = "queue"
 	
-	timesToIterate = 10
+	timesToIterate = 1
 	waitTime = 30
  
 	arg = "all"
+	isActivePrompting = False
 	validArgs = ["all", "1", "2", "3", "times", "example1", "example2", "example3"]
 	
 	if (len(sys.argv) > 1):
 		arg = sys.argv[1]
+  
+	if (len(sys.argv) > 2):
+		isActivePrompting = sys.argv[2] == "active"
   
 	if arg not in validArgs:
 		raise Exception("[ERROR] Invalid argument!")
@@ -105,11 +109,11 @@ if __name__ == '__main__':
 	timeToRemove = 0
  
 	if arg == "1":
-		CodeWithoutTests(model, text)
+		CodeWithoutTests(model, text, None, isActivePrompting)
 	elif arg == "2":
-		CodeWithCustomTests(model, text, tests)
+		CodeWithCustomTests(model, text, tests, None, isActivePrompting)
 	elif arg == "3":
-		CodeAndTests(model, text)
+		CodeAndTests(model, text, None, isActivePrompting)
 	elif arg == "times":
 		for i in range(timesToIterate):
 			# Generate folders
@@ -128,11 +132,11 @@ if __name__ == '__main__':
 			if i != timesToIterate - 1:
 				timeToRemove = SleepTime(waitTime, timeToRemove)
 	elif arg == "example1":
-		CodeWithExample(model, text, example)
+		CodeWithExample(model, text, example, None, isActivePrompting)
 	elif arg == "example2":
-		CodeWithExampleCustomTests(model, text, tests, example)
+		CodeWithExampleCustomTests(model, text, tests, example, None, isActivePrompting)
 	elif arg == "example3":
-		CodeWithExampleTests(model, text, example)
+		CodeWithExampleTests(model, text, example, None, isActivePrompting)
 	else:
 		CodeWithoutTests(model, text)
 		timeToRemove = SleepTime(waitTime, timeToRemove)

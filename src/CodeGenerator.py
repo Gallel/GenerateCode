@@ -27,8 +27,7 @@ class CodeGenerator:
 		self.hasTests = False
 		self.saveInfo = False
 		self.startTime = datetime.now()
-  
-		self.activePrompting = True
+		self.activePrompting = False
 
 		if folderName is not None:
 			self.outputFolder = folderName + "/"
@@ -63,6 +62,9 @@ class CodeGenerator:
   
 	def IncludeTests(self):
 		self.hasTests = True
+  
+	def EnableActivePrompting(self):
+		self.activePrompting = True
   
 	def SaveInfo(self):
 		self.saveInfo = True
@@ -100,7 +102,9 @@ class CodeGenerator:
 		isOk = False
    
 		while self.activePrompting and not isOk:
-			userFeedback = input('Please review the generated code and provide additional information to regenerate it. If you consider it to be correct, please write "OK": ')
+			self.SaveAnswer()
+			print("Temporary code saved at " + self.outputFolder + self.outputFile)
+			userFeedback = input('Please check the generated code and provide additional information to regenerate it. If you consider it to be correct, please write "OK": ')
 			if userFeedback == 'OK':
 				isOk = True
 			else:
@@ -163,3 +167,7 @@ class CodeGenerator:
 				file.write("<time value=\"" + (str(datetime.now() - self.startTime)) + "\"/>\n")
 				if self.hasTests:
 					file.write(tests + "\n")
+
+	def Generate(self):
+		self.RequestCode()
+		self.SaveAnswer()

@@ -1,7 +1,7 @@
 from src.CodeGenerator import CodeGenerator
 
 class GenerateCodeWithCustomTests(CodeGenerator):
-	def __init__(self, model, text, tests, folderName):
+	def __init__(self, model, text, tests, folderName, isActivePrompting):
 		super().__init__(folderName)
   
 		text += " The tests that you need to pass are determined by the following code: " + tests + "\n"
@@ -11,12 +11,11 @@ class GenerateCodeWithCustomTests(CodeGenerator):
 		super().BindText(text)
 		super().BindOutputFile("GenerateCodeWithCustomTests.java")
 		super().IncludeTests()
+		
+		if isActivePrompting:
+			super().EnableActivePrompting()
 
 		if folderName is not None:
 			super().SaveInfo()
   
 		super().LoadConfig()
-
-	def Generate(self):
-		super().RequestCode()
-		super().SaveAnswer()

@@ -1,7 +1,7 @@
 from src.CodeGenerator import CodeGenerator
 
 class GenerateCodeAndTests(CodeGenerator):
-	def __init__(self, model, text, folderName):
+	def __init__(self, model, text, folderName, isActivePrompting):
 		super().__init__(folderName)
   
 		super().BindModel(model)
@@ -10,11 +10,10 @@ class GenerateCodeAndTests(CodeGenerator):
 		super().BindOutputFile("GenerateCodeAndTests.java")
 		super().IncludeTests()
   
+		if isActivePrompting:
+			super().EnableActivePrompting()
+  
 		if folderName is not None:
 			super().SaveInfo()
   
 		super().LoadConfig()
-
-	def Generate(self):
-		super().RequestCode()
-		super().SaveAnswer()
