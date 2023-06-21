@@ -1,0 +1,5 @@
+<time value="0:00:18.449092"/>
+<test id="1" result="OK" case="DirectedGraphTest.setUp()" expected="" result="" reason=""/>
+<test id="2" result="OK" case="DirectedGraphTest.newEdge()" expected="" result="" reason=""/>
+<test id="3" result="OK" case="DirectedGraphTest.getEdge()" expected="" result="" reason=""/>
+<test id="4" result="OK" case="DirectedGraphTest.minimunPathsTest()" expected="" result="" reason=""/>

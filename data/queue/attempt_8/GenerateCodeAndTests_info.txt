@@ -1,0 +1,7 @@
+<time value="0:00:45.918907"/>
+<test id="1" result="OK" case="Add one element and check the size" expected="1" result="1" reason=""/>
+<test id="2" result="OK" case="Add two elements, poll the first and check the second" expected="element2" result="element2" reason=""/>
+<test id="3" result="OK" case="Add maxCapacity elements and check if it is full" expected="true" result="true" reason=""/>
+<test id="4" result="OK" case="Add one element and check if it is not empty" expected="false" result="false" reason=""/>
+<test id="5" result="OK" case="Add three elements and check the toString method" expected="[element1, element2, element3]" result="[element1, element2, element3]" reason=""/>
+<test id="6" result="FAILED" case="Poll a empty queue" expected="NoSuchElementException" result="NoSuchElementException" reason="Polling an empty queue should thrown a NoSuchElementException"/>

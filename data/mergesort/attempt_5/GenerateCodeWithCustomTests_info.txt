@@ -1,0 +1,3 @@
+<time value="0:00:18.674917"/>
+<test id="1" result="OK" case="Sort an array of 10 integers" expected="Sort " result="OK" reason=""/>
+<test id="2" result="FAILED" case="Sort an array with negative integers" expected="Sort " result="OK" reason="There is no test with negative integers specified in the provided code"/>

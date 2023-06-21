@@ -1,0 +1,6 @@
+<time value="0:03:26.131156"/>
+<test id="1" result="OK" case="Test adding elements to the queue" expected="true" result="priorityQueue.size() == 2" reason=""/>
+<test id="2" result="OK" case="Test retrieving lowest priority item" expected="3" result="priorityQueue.peek()" reason=""/>
+<test id="3" result="OK" case="Test deleting lowest priority item" expected="3" result="priorityQueue.poll()" reason=""/>
+<test id="4" result="OK" case="Test checking if container is empty" expected="true" result="priorityQueue.isEmpty()" reason=""/>
+<test id="5" result="OK" case="Test checking if container is full" expected="false" result="priorityQueue.isFull()" reason=""/>

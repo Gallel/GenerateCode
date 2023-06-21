@@ -1,0 +1,8 @@
+<time value="0:01:46.961513"/>
+<test id="1" result="OK" case="Test add method with integer elements and check if they are in order" expected="1, 2, 3, 4, 5" result="1, 2, 3, 4, 5" reason=""/>
+<test id="2" result="OK" case="Test add method with string elements and check if they are in order" expected="apple, banana, cherry, grape, kiwi" result="apple, banana, cherry, grape, kiwi" reason=""/>
+<test id="3" result="OK" case="Test delete method with integer elements and check if they are deleted correctly" expected="2, 3, 4" result="2, 3, 4" reason=""/>
+<test id="4" result="OK" case="Test delete method with string elements and check if they are deleted correctly" expected="banana, cherry, kiwi" result="banana, cherry, kiwi" reason=""/>
+<test id="5" result="OK" case="Test get method with integer elements and check if they are retrieved correctly" expected="4" result="4" reason=""/>
+<test id="6" result="OK" case="Test get method with string elements and check if they are retrieved correctly" expected="cherry" result="cherry" reason=""/>
+<test id="7" result="OK" case="Test if there is a specific comparator" expected="false" result="false" reason=""/>

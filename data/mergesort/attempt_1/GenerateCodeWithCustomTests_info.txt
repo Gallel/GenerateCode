@@ -1,0 +1,7 @@
+<time value="0:00:31.019033"/>
+<test id="1" result="OK" case="Sorts an array of integers" expected="Sorted array" result="Sorted array" reason=""/>
+<test id="2" result="OK" case="Sorts an array of strings" expected="Sorted array" result="Sorted array" reason=""/>
+<test id="3" result="OK" case="Sorts an array of negative integers" expected="Sorted array" result="Sorted array" reason=""/>
+<test id="4" result="OK" case="Sorts an array of odd length" expected="Sorted array" result="Sorted array" reason=""/>
+<test id="5" result="OK" case="Sorts an array of even length" expected="Sorted array" result="Sorted array" reason=""/>
+<test id="6" result="FAILED" case="Sorts an empty array" expected="Empty array" result="Empty array" reason="ArrayIndexOutOfBoundsException"/>

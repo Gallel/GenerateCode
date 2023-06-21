@@ -1,0 +1,7 @@
+<time value="0:00:56.742121"/>
+<test id="1" result="OK" case="Add elements to the queue and check its size" expected="The queue should have a size of 3" result="The queue has a size of 3" reason=""/>
+<test id="2" result="OK" case="Retrieve the first item added to the queue" expected="The first item added to the queue should be 54" result="The first item added to the queue is 54" reason=""/>
+<test id="3" result="OK" case="Delete the first item in the queue" expected="The first item in the queue should be deleted and the queue should have a size of 1" result="The first item in the queue is deleted and the queue has a size of 1" reason=""/>
+<test id="4" result="OK" case="Delete all items in the queue and check if the queue is empty" expected="The queue should be empty" result="The queue is empty" reason=""/>
+<test id="5" result="OK" case="Add elements to the queue until it is full and try to add one more element causing a FullContainerException" expected="The queue should be full and a FullContainerException should be thrown" result="The queue is full and a FullContainerException is thrown" reason=""/>
+<test id="6" result="FAILED" case="Try to delete an element from an empty queue causing an EmptyContainerException" expected="An EmptyContainerException should be thrown" result="A NoSuchElementException is thrown instead of an EmptyContainerException" reason="The wrong exception is thrown"/>

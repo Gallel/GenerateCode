@@ -1,0 +1,5 @@
+<time value="0:00:23.644328"/>
+<test id="1" result="OK" case="Sorting an array of integers in ascending order" expected="[1, 2, 3, 4, 5, 6]" result="[1, 2, 3, 4, 5, 6]" reason=""/>
+<test id="2" result="OK" case="Sorting an array of integers in descending order" expected="[6, 5, 4, 3, 2, 1]" result="[6, 5, 4, 3, 2, 1]" reason=""/>
+<test id="3" result="OK" case="Sorting an array of strings" expected="[\"apple\", \"banana\", \"cherry\", \"date\", \"orange\"]" result="[\"apple\", \"banana\", \"cherry\", \"date\", \"orange\"]" reason=""/>
+<test id="4" result="OK" case="Sorting an array of objects" expected="[(1, blue), (2, green), (3, orange), (4, purple), (5, red), (6, yellow)]" result="[(1, blue), (2, green), (3, orange), (4, purple), (5, red), (6, yellow)]" reason=""/>

@@ -1,0 +1,18 @@
+<time value="0:00:30.997338"/>
+<test id="1" result="OK" case="Class implementation" expected="Class should be implemented" result="Class correctly implemented" reason=""/>
+<test id="2" result="OK" case="Constructor" expected="Constructor should be implemented" result="Constructor correctly implemented" reason=""/>
+<test id="3" result="OK" case="createVertex" expected="createVertex method should be implemented" result="createVertex method correctly implemented" reason=""/>
+<test id="4" result="OK" case="deleteEdge" expected="deleteEdge method should be implemented" result="deleteEdge method correctly implemented" reason=""/>
+<test id="5" result="OK" case="deleteVertex" expected="deleteVertex method should be implemented" result="deleteVertex method correctly implemented" reason=""/>
+<test id="6" result="OK" case="adjacencyList" expected="adjacencyList method should be implemented" result="adjacencyList method correctly implemented" reason=""/>
+<test id="7" result="OK" case="edgedWithDestA" expected="edgedWithDestA method should be implemented" result="edgedWithDestA method correctly implemented" reason=""/>
+<test id="8" result="OK" case="edges" expected="edges method should be implemented" result="edges method correctly implemented" reason=""/>
+<test id="9" result="OK" case="edgesWithSource" expected="edgesWithSource method should be implemented" result="edgesWithSource method correctly implemented" reason=""/>
+<test id="10" result="OK" case="getEdge" expected="getEdge method should be implemented" result="getEdge method correctly implemented" reason=""/>
+<test id="11" result="OK" case="getVertex" expected="getVertex method should be implemented" result="getVertex method correctly implemented" reason=""/>
+<test id="12" result="OK" case="newDictionaryVertexs" expected="newDictionaryVertexs method should be implemented" result="newDictionaryVertexs method correctly implemented" reason=""/>
+<test id="13" result="OK" case="newEdge" expected="newEdge method should be implemented" result="newEdge method correctly implemented" reason=""/>
+<test id="14" result="OK" case="newVertex" expected="newVertex method should be implemented" result="newVertex method correctly implemented" reason=""/>
+<test id="15" result="OK" case="numVertexs" expected="numVertexs method should be implemented" result="numVertexs method correctly implemented" reason=""/>
+<test id="16" result="OK" case="toString" expected="toString method should be implemented" result="toString method correctly implemented" reason=""/>
+<test id="17" result="OK" case="vertexs" expected="vertexs method should be implemented" result="vertexs method correctly implemented" reason=""/>

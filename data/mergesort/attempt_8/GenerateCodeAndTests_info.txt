@@ -1,0 +1,6 @@
+<time value="0:00:38.792692"/>
+<test id="1" result="OK" case="Sorting an array of integers in ascending order" expected="[1, 2, 3, 4, 5]" result="[1, 2, 3, 4, 5]" reason=""/>
+<test id="2" result="OK" case="Sorting an array of integers in descending order" expected="[5, 4, 3, 2, 1]" result="[1, 2, 3, 4, 5]" reason=""/>
+<test id="3" result="OK" case="Sorting an array of strings in lexicographical order" expected="[apple, banana, grape, orange, peach]" result="[apple, banana, grape, orange, peach]" reason=""/>
+<test id="4" result="OK" case="Sorting an array of custom objects by a property in ascending order" expected="[{color=blue, size=10}, {color=green, size=20}, {color=red, size=30}]" result="[{color=blue, size=10}, {color=green, size=20}, {color=red, size=30}]" reason=""/>
+<test id="5" result="OK" case="Sorting an array of custom objects by a property in descending order" expected="[{color=red, size=30}, {color=green, size=20}, {color=blue, size=10}]" result="[{color=red, size=30}, {color=green, size=20}, {color=blue, size=10}]" reason=""/>

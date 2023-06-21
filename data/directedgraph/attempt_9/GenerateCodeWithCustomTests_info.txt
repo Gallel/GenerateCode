@@ -1,0 +1,2 @@
+<time value="0:00:20.665771"/>
+<test id="1" result="OK" case="Test minimumPathsTest" expected="6.0, Double.POSITIVE_INFINITY, 4.0, 5.0, Double.POSITIVE_INFINITY, 5.0, Double.POSITIVE_INFINITY, 0.0" result="6.0, Double.POSITIVE_INFINITY, 4.0, 5.0, Double.POSITIVE_INFINITY, 5.0, Double.POSITIVE_INFINITY, 0.0" reason=""/>

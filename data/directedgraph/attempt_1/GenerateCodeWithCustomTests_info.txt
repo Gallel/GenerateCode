@@ -1,0 +1,18 @@
+<time value="0:00:33.511888"/>
+<test id="1" result="OK" case="Implement DirectedGraphImpl class" expected="true" result="true" reason=""/>
+<test id="2" result="OK" case="Constructor should be implemented" expected="true" result="true" reason=""/>
+<test id="3" result="OK" case="adjacencyList method should be implemented" expected="true" result="true" reason=""/>
+<test id="4" result="OK" case="createVertex method should be protected" expected="true" result="true" reason=""/>
+<test id="5" result="OK" case="deleteEdge method should be implemented" expected="true" result="true" reason=""/>
+<test id="6" result="OK" case="deleteVertex method should be implemented" expected="true" result="true" reason=""/>
+<test id="7" result="OK" case="edgedWithDestA method should be implemented" expected="true" result="true" reason=""/>
+<test id="8" result="OK" case="edges method should be implemented" expected="true" result="true" reason=""/>
+<test id="9" result="OK" case="edgesWithSource method should be implemented" expected="true" result="true" reason=""/>
+<test id="10" result="OK" case="getEdge method should be implemented" expected="true" result="true" reason=""/>
+<test id="11" result="OK" case="getVertex method should be implemented" expected="true" result="true" reason=""/>
+<test id="12" result="OK" case="newDictionaryVertexs method should be implemented and returned type should be 'Dictionary'" expected="true" result="true" reason=""/>
+<test id="13" result="OK" case="newEdge method should be implemented" expected="true" result="true" reason=""/>
+<test id="14" result="OK" case="newVertex method should be implemented" expected="true" result="true" reason=""/>
+<test id="15" result="OK" case="numVertexs method should be implemented" expected="true" result="true" reason=""/>
+<test id="16" result="OK" case="toString method should be implemented" expected="true" result="true" reason=""/>
+<test id="17" result="OK" case="vertexs method should be implemented" expected="true" result="true" reason=""/>

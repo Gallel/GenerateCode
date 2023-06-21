@@ -1,0 +1,17 @@
+<time value="0:00:45.994749"/>
+<test id="1" result="OK" case="test the constructor HashTable()" expected="size=0" result="OK" reason=""/>
+<test id="2" result="OK" case="test the method put()" expected="size=1" result="OK" reason=""/>
+<test id="3" result="OK" case="test the method put()" expected="size=2" result="OK" reason=""/>
+<test id="4" result="OK" case="test the method put()" expected="size=2" result="OK" reason=""/>
+<test id="5" result="OK" case="test the method containsKey()" expected="true" result="OK" reason=""/>
+<test id="6" result="OK" case="test the method containsKey()" expected="false" result="OK" reason=""/>
+<test id="7" result="OK" case="test the method get()" expected="name: Elmo\n" result="OK" reason=""/>
+<test id="8" result="OK" case="test the method get()" expected="null" result="OK" reason=""/>
+<test id="9" result="OK" case="test the method delete()" expected="name: Elmo\nsize=1" result="OK" reason=""/>
+<test id="10" result="OK" case="test the method delete()" expected="not possible" result="OK" reason=""/>
+<test id="11" result="OK" case="test the method size()" expected="0" result="OK" reason=""/>
+<test id="12" result="OK" case="test the method isEmpty()" expected="true" result="OK" reason=""/>
+<test id="13" result="OK" case="test the method keys()" expected="empty" result="OK" reason=""/>
+<test id="14" result="OK" case="test the method keys()" expected="KERM1955" result="OK" reason=""/>
+<test id="15" result="OK" case="test the method values()" expected="empty" result="OK" reason=""/>
+<test id="16" result="OK" case="test the method values()" expected="Kermit the Frog\n" result="OK" reason=""/>

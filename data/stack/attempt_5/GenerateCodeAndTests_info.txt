@@ -1,0 +1,12 @@
+<time value="0:00:51.989020"/>
+<test id="1" result="OK" case="Create container with default capacity and check if it is empty" expected="true" result="(new StackArrayImpl()).isEmpty()" reason=""/>
+<test id="2" result="FAILED" case="Create container with default capacity and check if it is full" expected="false" result="(new StackArrayImpl()).isFull()" reason="The container is empty"/>
+<test id="3" result="OK" case="Create container with capacity 2 and check if it is empty" expected="true" result="(new StackArrayImpl(2)).isEmpty()" reason=""/>
+<test id="4" result="OK" case="Create container with capacity 2 and add one element. Then, check if it is empty" expected="false" result="{StackArrayImpl<Integer> s = new StackArrayImpl<>(2); s.push(1); s.isEmpty();}" reason=""/>
+<test id="5" result="OK" case="Create container with capacity 2 and add two elements. Then, check if it is full" expected="true" result="{StackArrayImpl<Integer> s = new StackArrayImpl<>(2); s.push(1); s.push(2); s.isFull();}" reason=""/>
+<test id="6" result="FAILED" case="Create container with capacity 2 and add one element. Then, add another element and check if it is full" expected="true" result="{StackArrayImpl<Integer> s = new StackArrayImpl<>(2); s.push(1); s.push(2); s.isFull();}" reason="The container is not full (it has capacity for one more element)"/>
+<test id="7" result="OK" case="Create empty container. Then, add an element and get its value" expected="1" result="{StackArrayImpl<Integer> s = new StackArrayImpl<>(); s.push(1); s.peek();}" reason=""/>
+<test id="8" result="OK" case="Create container with capacity 2 and add two elements. Then, retrieve the last element added and remove it" expected="2" result="{StackArrayImpl<Integer> s = new StackArrayImpl<>(2); s.push(1); s.push(2); s.pop();}" reason=""/>
+<test id="9" result="OK" case="Create container with capacity 2 and add two elements. Then, try to add a third element" expected="null" result="{StackArrayImpl<Integer> s = new StackArrayImpl<>(2); s.push(1); s.push(2); s.push(3);}" reason=""/>
+<test id="10" result="OK" case="Create empty container. Then, add two elements and get the number of elements in it" expected="2" result="{StackArrayImpl<Integer> s = new StackArrayImpl<>(); s.push(1); s.push(2); s.size();}" reason=""/>
+<test id="11" result="OK" case="Create empty container. Then, add two elements and check its string representation" expected="[1, 2]" result="{StackArrayImpl<Integer> s = new StackArrayImpl<>(); s.push(1); s.push(2); s.toString();}" reason=""/>

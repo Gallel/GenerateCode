@@ -1,0 +1,8 @@
+<time value="0:00:55.960708"/>
+<test id="1" result="OK" case="create queue and add elements" expected="[1, 2, 3]" result="[1, 2, 3]" reason=""/>
+<test id="2" result="OK" case="create queue with limited capacity" expected="[1, 2, 3]" result="[1, 2, 3]" reason=""/>
+<test id="3" result="OK" case="check if queue is empty" expected="true" result="true" reason=""/>
+<test id="4" result="FAILED" case="check if queue is full after exceeding maximum capacity" expected="true" result="false" reason=""/>
+<test id="5" result="OK" case="peek the first element of the queue" expected="1" result="1" reason=""/>
+<test id="6" result="OK" case="poll the first element of the queue" expected="1" result="1" reason=""/>
+<test id="7" result="OK" case="check the size of the queue" expected="2" result="2" reason=""/>

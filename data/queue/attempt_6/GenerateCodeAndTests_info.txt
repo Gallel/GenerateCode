@@ -1,0 +1,10 @@
+<time value="0:00:54.217484"/>
+<test id="1" result="OK" case="Testing add() method" expected="true" result="true" reason=""/>
+<test id="2" result="OK" case="Testing isFull() method using a queue of capacity 3" expected="false" result="false" reason=""/>
+<test id="3" result="OK" case="Testing isFull() method using a queue of capacity 3" expected="true" result="true" reason=""/>
+<test id="4" result="OK" case="Testing peek() method with a queue of 2 elements" expected="1" result="1" reason=""/>
+<test id="5" result="OK" case="Testing poll() method with a queue of 2 elements" expected="1" result="1" reason=""/>
+<test id="6" result="OK" case="Testing size() method with an empty queue" expected="0" result="0" reason=""/>
+<test id="7" result="OK" case="Testing toString() method with a queue of 3 elements" expected="[1, 2, 3]" result="[1, 2, 3]" reason=""/>
+<test id="8" result="OK" case="Testing values() method with a queue of 2 elements" expected="true" result="true" reason=""/>
+<test id="9" result="FAILED" case="Testing poll() method with an empty queue" expected="null" result="Exception thrown" reason="java.lang.NullPointerException"/>

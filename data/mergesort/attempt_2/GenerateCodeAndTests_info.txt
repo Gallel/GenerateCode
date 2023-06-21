@@ -1,0 +1,6 @@
+<time value="0:00:29.939468"/>
+<test id="1" result="OK" case="sort an array of integers" expected="array sorted in ascending order" result="array sorted in ascending order" reason=""/>
+<test id="2" result="FAILED" case="sort an array of strings" expected="array sorted in alphabetical order" result="array not properly sorted" reason="The implementation does not support sorting of non-comparable elements."/>
+<test id="3" result="OK" case="sort an array with repeated elements" expected="array sorted with repeated elements in correct order" result="array sorted with repeated elements in correct order" reason=""/>
+<test id="4" result="OK" case="sort an array with negative elements" expected="array sorted in ascending order with negative elements" result="array sorted in ascending order with negative elements" reason=""/>
+<test id="5" result="OK" case="sort an array with only one element" expected="array remains the same" result="array remains the same" reason=""/>

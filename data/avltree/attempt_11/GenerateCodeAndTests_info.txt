@@ -1,0 +1,7 @@
+<time value="0:00:58.287939"/>
+<test id="1" result="OK" case="Create a tree using a comparator and add two elements. Check if the size of the tree is two." expected="The size of the tree is two." result="The size of the tree is two." reason=""/>
+<test id="2" result="OK" case="Create a tree without a comparator and add two elements. Check if the size of the tree is two." expected="The size of the tree is two." result="The size of the tree is two." reason=""/>
+<test id="3" result="OK" case="Create a tree using a comparator and add 5 elements. Check if the in-order traversal of the tree is correct." expected="The in-order traversal of the tree is [0, 1, 2, 3, 4]." result="The in-order traversal of the tree is [0, 1, 2, 3, 4]." reason=""/>
+<test id="4" result="OK" case="Create a tree without a comparator and add 5 elements. Check if the in-order traversal of the tree is correct." expected="The in-order traversal of the tree is [0, 1, 2, 3, 4]." result="The in-order traversal of the tree is [0, 1, 2, 3, 4]." reason=""/>
+<test id="5" result="OK" case="Create a tree using a comparator and add 5 elements. Delete two elements and check if the size of the tree is three." expected="The size of the tree is three." result="The size of the tree is three." reason=""/>
+<test id="6" result="OK" case="Create a tree without a comparator and add 5 elements. Delete two elements and check if the size of the tree is three." expected="The size of the tree is three." result="The size of the tree is three." reason=""/>

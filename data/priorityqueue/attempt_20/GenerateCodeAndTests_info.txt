@@ -1,0 +1,20 @@
+<time value="0:01:40.337524"/>
+<test id="1" result="OK" case="Test empty constructor" expected="PriorityQueue with default maximum capacity" result="PriorityQueue instantiated successfully with default maximum capacity" reason=""/>
+<test id="2" result="OK" case="Test constructor with given capacity" expected="PriorityQueue with given maximum capacity" result="PriorityQueue instantiated successfully with given maximum capacity" reason=""/>
+<test id="3" result="OK" case="Test constructor with given capacity and comparator" expected="PriorityQueue with given maximum capacity and comparator" result="PriorityQueue instantiated successfully with given maximum capacity and comparator" reason=""/>
+<test id="4" result="OK" case="Test constructor with comparator" expected="PriorityQueue with default maximum capacity and comparator" result="PriorityQueue instantiated successfully with default maximum capacity and comparator" reason=""/>
+<test id="5" result="OK" case="Test add method" expected="Item added to PriorityQueue" result="Item added to PriorityQueue successfully" reason=""/>
+<test id="6" result="OK" case="Test clone method" expected="PriorityQueue clone created" result="PriorityQueue clone created successfully" reason=""/>
+<test id="7" result="OK" case="Test compare method" expected="Items compared successfully" result="Items compared successfully!" reason=""/>
+<test id="8" result="OK" case="Test deleteLastPosition method" expected="Last position deleted successfully" result="Last position deleted successfully!" reason=""/>
+<test id="9" result="OK" case="Test isEmpty method" expected="PriorityQueue is empty" result="PriorityQueue is empty as expected" reason=""/>
+<test id="10" result="OK" case="Test isFull method" expected="PriorityQueue is not full" result="PriorityQueue is not full as expected" reason=""/>
+<test id="11" result="OK" case="Test nextLastPosition method" expected="Next last position found successfully" result="Next last position found successfully!" reason=""/>
+<test id="12" result="OK" case="Test peek method" expected="Returned lowest priority item" result="Returned lowest priority item as expected" reason=""/>
+<test id="13" result="OK" case="Test poll method" expected="Removed lowest priority item" result="Removed lowest priority item as expected" reason=""/>
+<test id="14" result="OK" case="Test positions method" expected="Positions traversed" result="Positions traversed successfully" reason=""/>
+<test id="15" result="OK" case="Test siftDown method" expected="Item sifted down successfully" result="Item sifted down successfully!" reason=""/>
+<test id="16" result="OK" case="Test siftUp method" expected="Item sifted up successfully" result="Item sifted up successfully!" reason=""/>
+<test id="17" result="OK" case="Test size method" expected="Returned the correct size of PriorityQueue" result="Returned the correct size of PriorityQueue!" reason=""/>
+<test id="18" result="OK" case="Test toString method" expected="Returned the correct string representation of PriorityQueue" result="Returned the correct string representation of PriorityQueue!" reason=""/>
+<test id="19" result="OK" case="Test values method" expected="Returned an iterator of PriorityQueue items" result="Returned an iterator of PriorityQueue items!" reason=""/>

@@ -1,0 +1,6 @@
+<time value="0:00:58.060582"/>
+<test id="1" result="OK" case="add and delete nodes from a tree with invalid input" expected="Check node balance and deletion" result="OK" reason=""/>
+<test id="2" result="OK" case="check isBalanced()" expected="true" result="true" reason=""/>
+<test id="3" result="OK" case="test AVL Tree constructor without parameters and add nodes" expected="Check that the tree is added to the right position" result="OK" reason=""/>
+<test id="4" result="OK" case="test AVL Tree constructor with parameters and add nodes" expected="Check the order of the tree with a Comparator" result="OK" reason=""/>
+<test id="5" result="OK" case="test delete non-existing node from an empty tree" expected="Check return value from delete()" result="null" reason=""/>

@@ -1,0 +1,6 @@
+<time value="0:00:11.225423"/>
+<test id="1" result="OK" case="Creating an instance of HeapSort with default constructor" expected="HeapSort object created" result="HeapSort object created" reason=""/>
+<test id="2" result="OK" case="Creating an instance of HeapSort with parameterized constructor" expected="HeapSort object created with given vector" result="HeapSort object created with given vector" reason=""/>
+<test id="3" result="OK" case="Sorting an array using sort(int n) method" expected="Array sorted in non-decreasing order" result="Array sorted in non-decreasing order" reason=""/>
+<test id="4" result="OK" case="Sorting an array using sort(E[] vector, int n) method" expected="Array sorted in non-decreasing order" result="Array sorted in non-decreasing order" reason=""/>
+<test id="5" result="OK" case="Sorting an empty array using sort(E[] vector, int n) method" expected="Empty array sorted" result="Empty array sorted" reason=""/>

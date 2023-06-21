@@ -1,0 +1,4 @@
+<time value="0:00:52.218243"/>
+<test id="1" result="OK" case="Verify that the put method correctly add an element to the hash table" expected="4" result="4" reason=""/>
+<test id="2" result="OK" case="Verify that the keys method returns an iterator that iterates through all keys of the hash table" expected="KERM1955 ELM1980 PIG1974" result="KERM1955 ELM1980 PIG1974" reason=""/>
+<test id="3" result="OK" case="Verify that the values method returns an iterator that iterates through all values of the hash table" expected="Kermit the Frog Elmo Miss Piggy" result="Kermit the Frog Elmo Miss Piggy" reason=""/>

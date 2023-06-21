@@ -1,0 +1,9 @@
+<time value="0:00:59.767116"/>
+<test id="1" result="OK" case="Create a queue and add elements until it's full; check size()" expected="100" result="100" reason=""/>
+<test id="2" result="OK" case="Create a queue and add elements; poll all of them and check if isEmpty()" expected="true" result="true" reason=""/>
+<test id="3" result="OK" case="Create a queue and add elements; check if peek() and poll() return the same elements" expected="[1, 2, 3, 4, 5]" result="[1, 2, 3, 4, 5]" reason=""/>
+<test id="4" result="OK" case="Create a queue and add elements; get Iterator and check if hasNext() and next() perform as expected" expected="[1, 2, 3, 4, 5]" result="[1, 2, 3, 4, 5]" reason=""/>
+<test id="5" result="OK" case="Create a small queue, add one element, check if isFull()" expected="false" result="false" reason=""/>
+<test id="6" result="OK" case="Create a small queue, add one element, poll it, check if isEmpty()" expected="true" result="true" reason=""/>
+<test id="7" result="OK" case="Create a small queue, add one element, poll it, check if poll() returns null" expected="null" result="null" reason=""/>
+<test id="8" result="OK" case="Create a small queue, check if peek() returns null" expected="null" result="null" reason=""/>

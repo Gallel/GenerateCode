@@ -1,0 +1,4 @@
+<time value="0:00:35.185818"/>
+<test id="1" result="OK" case="Creating an empty HashTable, then checking if it is empty" expected="true" result="(new HashTable()).isEmpty()" reason=""/>
+<test id="2" result="FAILED" case="Creating a HashTable with a size of 3, then checking its size" expected="3" result="(new HashTable(3)).size()" reason="The expected result is not correct"/>
+<test id="3" result="OK" case="Creating a HashTable with a size of 0, then adding a key-value pair and checking it is not empty" expected="false" result="{HashTable<Integer, String> t = new HashTable<>(0); t.put(1, \"one\"); !t.isEmpty();}" reason=""/>

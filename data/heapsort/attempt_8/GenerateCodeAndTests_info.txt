@@ -1,0 +1,9 @@
+<time value="0:00:17.057999"/>
+<test id="1" result="OK" case="Testing sort() method with integer array" expected="Sorted array of integers" result="Sorted array of integers" reason=""/>
+<test id="2" result="OK" case="Testing sort() method with string array" expected="Sorted array of strings" result="Sorted array of strings" reason=""/>
+<test id="3" result="OK" case="Testing sort() method with object array" expected="Sorted array of objects" result="Sorted array of objects" reason=""/>
+<test id="4" result="OK" case="Testing sort() method with single element array" expected="Array with single element" result="Array with single element" reason=""/>
+<test id="5" result="OK" case="Testing sort() method with empty array" expected="Empty array" result="Empty array" reason=""/>
+<test id="6" result="OK" case="Testing sort() method with already sorted array" expected="Sorted array" result="Sorted array" reason=""/>
+<test id="7" result="OK" case="Testing sort() method with reverse sorted array" expected="Sorted array" result="Sorted array" reason=""/>
+<test id="8" result="OK" case="Testing sort() method with null array" expected="NullPointerException" result="NullPointerException" reason=""/>

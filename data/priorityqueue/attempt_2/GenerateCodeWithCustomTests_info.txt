@@ -1,0 +1,7 @@
+<time value="0:00:22.125967"/>
+<test id="1" result="OK" case="Test empty queue" expected="true" result="true" reason=""/>
+<test id="2" result="OK" case="Test add elements" expected="" result="" reason=""/>
+<test id="3" result="OK" case="Test add elements and full container" expected="" result="" reason=""/>
+<test id="4" result="OK" case="Test poll elements" expected="" result="" reason=""/>
+<test id="5" result="OK" case="Test poll elements on empty queue" expected="EmptyContainerException" result="EmptyContainerException" reason=""/>
+<test id="6" result="OK" case="Test add elements on full queue" expected="FullContainerException" result="FullContainerException" reason=""/>

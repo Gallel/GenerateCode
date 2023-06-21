@@ -1,0 +1,8 @@
+<time value="0:02:51.310667"/>
+<test id="1" result="OK" case="Elements can be inserted and retrieved" expected="value" result="value" reason=""/>
+<test id="1" result="OK" case="An inserted element can be deleted" expected="null" result="null" reason=""/>
+<test id="1" result="OK" case="An element can be inserted and then deleted" expected="null" result="null" reason=""/>
+<test id="1" result="OK" case="isEmpty returns true when the structure is empty" expected="true" result="true" reason=""/>
+<test id="1" result="OK" case="size returns zero when the structure is empty" expected="0" result="0" reason=""/>
+<test id="1" result="OK" case="The size of the structure increases when an element is inserted" expected="5" result="5" reason=""/>
+<test id="1" result="OK" case="The size of the structure decreases when an element is deleted" expected="3" result="3" reason=""/>

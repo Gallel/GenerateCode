@@ -1,0 +1,18 @@
+<time value="0:00:48.150920"/>
+<test id="1" result="OK" case="Declares DirectedGraphImpl class with correct attributes" expected="class DirectedGraphImpl<E,L> extends Object implements DirectedGraph<E,L>" result="class DirectedGraphImpl<E,L> extends Object implements DirectedGraph<E,L>" reason=""/>
+<test id="2" result="OK" case="Creates an empty constructor for DirectedGraphImpl class" expected="public DirectedGraphImpl()" result="public DirectedGraphImpl()" reason=""/>
+<test id="3" result="OK" case="Implements adjacencyList method with correct attributes" expected="public Iterator<Vertex<E>> adjacencyList(Vertex<E> vertex)" result="public Iterator<Vertex<E>> adjacencyList(Vertex<E> vertex)" reason=""/>
+<test id="4" result="OK" case="Implements createVertex method with correct attributes" expected="protected edu.uoc.ds.adt.nonlinear.graphs.VertexImpl<E,L> createVertex(E value)" result="protected edu.uoc.ds.adt.nonlinear.graphs.VertexImpl<E,L> createVertex(E value)" reason=""/>
+<test id="5" result="OK" case="Implements deleteEdge method with correct attributes" expected="public void deleteEdge(Edge<L,E> edge)" result="public void deleteEdge(Edge<L,E> edge)" reason=""/>
+<test id="6" result="OK" case="Implements deleteVertex method with correct attributes" expected="public void deleteVertex(Vertex<E> vertex)" result="public void deleteVertex(Vertex<E> vertex)" reason=""/>
+<test id="7" result="OK" case="Implements edgedWithDestA method with correct attributes" expected="public Iterator<Edge<L,E>> edgedWithDestA(Vertex<E> vertex)" result="public Iterator<Edge<L,E>> edgedWithDestA(Vertex<E> vertex)" reason=""/>
+<test id="8" result="OK" case="Implements edges method with correct attributes" expected="public Iterator<Edge<L,E>> edges()" result="public Iterator<Edge<L,E>> edges()" reason=""/>
+<test id="9" result="OK" case="Implements edgesWithSource method with correct attributes" expected="public Iterator<Edge<L,E>> edgesWithSource(Vertex<E> vertex)" result="public Iterator<Edge<L,E>> edgesWithSource(Vertex<E> vertex)" reason=""/>
+<test id="10" result="OK" case="Implements getEdge method with correct attributes" expected="public DirectedEdge<L,E> getEdge(Vertex<E> src, Vertex<E> dest)" result="public DirectedEdge<L,E> getEdge(Vertex<E> src, Vertex<E> dest)" reason=""/>
+<test id="11" result="OK" case="Implements getVertex method with correct attributes" expected="public Vertex<E> getVertex(E elem)" result="public Vertex<E> getVertex(E elem)" reason=""/>
+<test id="12" result="OK" case="Implements newDictionaryVertexs method with correct attributes" expected="protected Dictionary<E,Vertex<E>> newDictionaryVertexs()" result="protected Dictionary<E,Vertex<E>> newDictionaryVertexs()" reason=""/>
+<test id="13" result="OK" case="Implements newEdge method with correct attributes" expected="public DirectedEdge<L,E> newEdge(Vertex<E> src, Vertex<E> dest)" result="public DirectedEdge<L,E> newEdge(Vertex<E> src, Vertex<E> dest)" reason=""/>
+<test id="14" result="OK" case="Implements newVertex method with correct attributes" expected="public Vertex<E> newVertex(E valor)" result="public Vertex<E> newVertex(E valor)" reason=""/>
+<test id="15" result="OK" case="Implements numVertexs method with correct attributes" expected="public int numVertexs()" result="public int numVertexs()" reason=""/>
+<test id="16" result="OK" case="Implements toString method with correct attributes" expected="public String toString()" result="public String toString()" reason=""/>
+<test id="17" result="OK" case="Implements vertexs method with correct attributes" expected="public Iterator<Vertex<E>> vertexs()" result="public Iterator<Vertex<E>> vertexs()" reason=""/>

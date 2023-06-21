@@ -1,0 +1,11 @@
+<time value="0:00:47.381033"/>
+<test id="1" result="OK" case="Test isEmpty() method when a hash table has no elements" expected="true" result="true" reason=""/>
+<test id="2" result="OK" case="Test size() method when a hash table has no elements" expected="0" result="0" reason=""/>
+<test id="3" result="OK" case="Test put() method with a new element in a hash table" expected="[{KERM1955=Kermit the Frog}, {ELM1980=Elmo}, {PIG1974=Miss Piggy}, {FOO0000=Foo}]"
+result="[KERM1955, ELM1980, PIG1974, FOO0000]" reason=""/>
+<test id="4" result="OK" case="Test size() method after putting a new element in a hash table" expected="4" result="4" reason=""/>
+<test id="5" result="OK" case="Test get() method with an existing key in a hash table" expected="Elmo" result="Elmo" reason=""/>
+<test id="6" result="OK" case="Test get() method with an unexisting key in a hash table" expected="null" result="null" reason=""/>
+<test id="7" result="OK" case="Test delete() method with an existing key in a hash table" expected="Miss Piggy" result="Miss Piggy" reason=""/>
+<test id="8" result="OK" case="Test delete() method with an unexisting key in a hash table" expected="null" result="null" reason=""/>
+<test id="9" result="OK" case="Test size() method after deleting an element in a hash table" expected="3" result="3" reason=""/>

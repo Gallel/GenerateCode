@@ -1,0 +1,6 @@
+<time value="0:00:49.542259"/>
+<test id="1" result="OK" case="Verifies that an element is correctly added to the queue" expected="3" result="3" reason=""/>
+<test id="2" result="OK" case="Verifies that the first added element is returned when peek() is called" expected="54" result="54" reason=""/>
+<test id="3" result="OK" case="Verifies that the first added element is removed from the queue when poll() is called" expected="54" result="54" reason=""/>
+<test id="4" result="OK" case="Verifies that the queue is empty after removing all elements from it" expected="true" result="true" reason=""/>
+<test id="5" result="FAILED" case="Verifies that attempting to add an element to a full queue throws a FullContainerException" expected="FullContainerException" result="Exception not thrown" reason="The code does not throw the expected exception when trying to add an element to a full queue"/>

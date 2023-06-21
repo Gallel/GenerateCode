@@ -1,0 +1,5 @@
+<time value="0:00:10.068662"/>
+<test id="1" result="OK" case="Creating an instance of HeapSort with default constructor" expected="HeapSort instance created without errors" result="HeapSort instance created without errors" reason=""/>
+<test id="2" result="OK" case="Creating an instance of HeapSort with input array" expected="HeapSort instance created without errors" result="HeapSort instance created without errors" reason=""/>
+<test id="3" result="OK" case="Sorting an array with integer input" expected="Array sorted without errors" result="Array sorted without errors" reason=""/>
+<test id="4" result="OK" case="Sorting an array with array and integer input" expected="Array sorted without errors" result="Array sorted without errors" reason=""/>

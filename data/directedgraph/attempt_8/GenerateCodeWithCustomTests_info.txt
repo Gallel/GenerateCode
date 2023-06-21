@@ -1,0 +1,17 @@
+<time value="0:00:21.389448"/>
+<test id="1" result="OK" case="Creating instance of DirectedGraphImpl" expected="ClassDirectedGraphImpl" result="ClassDirectedGraphImpl" reason=""/>
+<test id="2" result="OK" case="Testing implementation of adjacencyList return" expected="null" result="null" reason=""/>
+<test id="3" result="OK" case="Testing implementation of createVertex return" expected="null" result="null" reason=""/>
+<test id="4" result="OK" case="Testing implementation of deleteEdge" expected="" result="" reason=""/>
+<test id="5" result="OK" case="Testing implementation of deleteVertex" expected="" result="" reason=""/>
+<test id="6" result="OK" case="Testing implementation of edgedWithDestA return" expected="null" result="null" reason=""/>
+<test id="7" result="OK" case="Testing implementation of edges return" expected="null" result="null" reason=""/>
+<test id="8" result="OK" case="Testing implementation of edgesWithSource return" expected="null" result="null" reason=""/>
+<test id="9" result="OK" case="Testing implementation of getEdge return" expected="null" result="null" reason=""/>
+<test id="10" result="OK" case="Testing implementation of getVertex return" expected="null" result="null" reason=""/>
+<test id="11" result="OK" case="Testing implementation of newDictionaryVertexs return" expected="null" result="null" reason=""/>
+<test id="12" result="OK" case="Testing implementation of newEdge return" expected="null" result="null" reason=""/>
+<test id="13" result="OK" case="Testing implementation of newVertex return" expected="null" result="null" reason=""/>
+<test id="14" result="OK" case="Testing implementation of numVertexs return" expected="0" result="0" reason=""/>
+<test id="15" result="OK" case="Testing implementation of toString return" expected="null" result="null" reason=""/>
+<test id="16" result="OK" case="Testing implementation of vertexs return" expected="null" result="null" reason=""/>

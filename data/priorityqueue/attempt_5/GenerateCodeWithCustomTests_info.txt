@@ -1,0 +1,8 @@
+<time value="0:03:58.504197"/>
+<test id="1" result="OK" case="Test empty priority queue" expected="true" result="true" reason=""/>
+<test id="2" result="OK" case="Test add elements to priority queue" expected="true" result="true" reason=""/>
+<test id="3" result="OK" case="Test add elements to full priority queue" expected="class edu.uoc.ds.exceptions.FullContainerException" result="class edu.uoc.ds.exceptions.FullContainerException" reason=""/>
+<test id="4" result="OK" case="Test poll elements from priority queue" expected="true" result="true" reason=""/>
+<test id="5" result="OK" case="Test isEmpty on non-empty priority queue" expected="false" result="false" reason=""/>
+<test id="6" result="OK" case="Test size of priority queue" expected="3" result="3" reason=""/>
+<test id="7" result="OK" case="Test isFull on non-full priority queue" expected="false" result="false" reason=""/>

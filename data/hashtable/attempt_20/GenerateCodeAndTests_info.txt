@@ -1,0 +1,6 @@
+<time value="0:00:48.691173"/>
+<test id="1" result="OK" case="Create hash table with default constructor and check if it's empty" expected="true" result="(new HashTable<Integer, String>()).isEmpty()" reason=""/>
+<test id="2" result="OK" case="Create hash table with custom size and check if it's empty" expected="true" result="(new HashTable<Integer, String>(100)).isEmpty()" reason=""/>
+<test id="3" result="OK" case="Add an item to hash table and check if it contains the key" expected="true" result="{HashTable<Integer, String> ht = new HashTable<Integer, String>(); ht.put(1, \"A\"); ht.containsKey(1);}" reason=""/>
+<test id="4" result="OK" case="Add and delete an item from hash table and check if it contains the key" expected="false" result="{HashTable<Integer, String> ht = new HashTable<Integer, String>(); ht.put(1, \"A\"); ht.delete(1); ht.containsKey(1);}" reason=""/>
+<test id="5" result="OK" case="Add multiple items to hash table and check if iterator returns expected values" expected="[1, 2, 3]" result="{HashTable<Integer, String> ht = new HashTable<Integer, String>(); ht.put(1, \"A\"); ht.put(2, \"B\"); ht.put(3, \"C\"); Iterator<Integer> it = ht.keys(); int[] arr = {it.next(), it.next(), it.next()}; arr;}" reason=""/>

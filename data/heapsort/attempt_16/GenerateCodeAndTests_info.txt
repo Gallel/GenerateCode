@@ -1,0 +1,5 @@
+<time value="0:00:09.029476"/>
+<test id="1" result="OK" case="Creating a HeapSort object with no parameter" expected="HeapSort object with no parameter is created" result="HeapSort object with no parameter is created" reason=""/>
+<test id="2" result="OK" case="Creating a HeapSort object with an array parameter" expected="HeapSort object with an array parameter is created" result="HeapSort object with an array parameter is created" reason=""/>
+<test id="3" result="OK" case="Sorting an integer sequence with HeapSort" expected="Sorted integer sequence is returned" result="Sorted integer sequence is returned" reason=""/>
+<test id="4" result="OK" case="Sorting a string sequence with HeapSort" expected="Sorted string sequence is returned" result="Sorted string sequence is returned" reason=""/>

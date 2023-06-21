@@ -1,0 +1,17 @@
+<time value="0:00:32.097269"/>
+<test id="1" result="OK" case="The constructor is called without errors." expected="No errors." result="No errors." reason=""/>
+<test id="2" result="OK" case="The method 'createVertex' is declared correctly." expected="No errors." result="No errors." reason=""/>
+<test id="3" result="OK" case="The method 'deleteEdge' is declared correctly." expected="No errors." result="No errors." reason=""/>
+<test id="4" result="OK" case="The method 'deleteVertex' is declared correctly." expected="No errors." result="No errors." reason=""/>
+<test id="5" result="OK" case="The method 'newEdge' is declared correctly." expected="No errors." result="No errors." reason=""/>
+<test id="6" result="OK" case="The method 'newVertex' is declared correctly." expected="No errors." result="No errors." reason=""/>
+<test id="7" result="OK" case="The method 'getEdge' is declared correctly." expected="No errors." result="No errors." reason=""/>
+<test id="8" result="OK" case="The method 'edges' is declared correctly." expected="No errors." result="No errors." reason=""/>
+<test id="9" result="OK" case="The method 'edgesWithSource' is declared correctly." expected="No errors." result="No errors." reason=""/>
+<test id="10" result="OK" case="The method 'edgedWithDestA' is declared correctly." expected="No errors." result="No errors." reason=""/>
+<test id="11" result="OK" case="The method 'numVertexs' is declared correctly." expected="No errors." result="No errors." reason=""/>
+<test id="12" result="OK" case="The method 'getVertex' is declared correctly." expected="No errors." result="No errors." reason=""/>
+<test id="13" result="OK" case="The method 'vertexs' is declared correctly." expected="No errors." result="No errors." reason=""/>
+<test id="14" result="OK" case="The method 'newDictionaryVertexs' is declared correctly." expected="No errors." result="No errors." reason=""/>
+<test id="15" result="OK" case="The method 'adjacencyList' is declared correctly." expected="No errors." result="No errors." reason=""/>
+<test id="16" result="OK" case="The method 'toString' is declared correctly." expected="No errors." result="No errors." reason=""/>

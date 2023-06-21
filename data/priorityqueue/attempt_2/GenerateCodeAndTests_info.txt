@@ -1,0 +1,6 @@
+<time value="0:00:39.684340"/>
+<test id="1" result="OK" case="Add a single element and poll it" expected="1" result="1" reason=""/>
+<test id="2" result="OK" case="Add multiple elements, poll and check size" expected="2" result="2" reason=""/>
+<test id="3" result="OK" case="Add null element, peek to check it and poll it" expected="null" result="null" reason=""/>
+<test id="4" result="OK" case="Add and remove from an empty queue" expected="null" result="null" reason=""/>
+<test id="5" result="OK" case="Add elements, use an iterator and remove them" expected="[]" result="[]" reason=""/>

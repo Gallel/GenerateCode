@@ -1,0 +1,5 @@
+<time value="0:05:07.594774"/>
+<test id="1" result="OK" case="Add an element to an empty queue and retrieve its size" expected="1" result="(new QueueArrayImpl<Integer>().add(1), new QueueArrayImpl<Integer>().size())" reason=""/>
+<test id="2" result="OK" case="Add an element to an empty queue and retrieves it with peek method" expected="1" result="(new QueueArrayImpl<Integer>().add(1), new QueueArrayImpl<Integer>().peek())" reason=""/>
+<test id="3" result="OK" case="Add two elements to a queue and retrieve them with poll method" expected="[1, 2]" result="(new QueueArrayImpl<Integer>(){{add(1); add(2);}}.toString())" reason=""/>
+<test id="4" result="OK" case="Add an element to a full queue and retrieve it with poll method" expected="1" result="(new QueueArrayImpl<>(1){{add(1);}}.poll())" reason=""/>

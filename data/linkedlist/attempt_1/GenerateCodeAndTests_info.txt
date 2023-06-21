@@ -1,0 +1,18 @@
+<time value="0:00:26.392807"/>
+<test id="1" result="OK" case="Test LinkedList constructor" expected="true" result="true" reason=""/>
+<test id="2" result="OK" case="Test delete method" expected="true" result="true" reason=""/>
+<test id="3" result="OK" case="Test deleteFirst method" expected="true" result="true" reason=""/>
+<test id="4" result="OK" case="Test deleteNext method" expected="true" result="true" reason=""/>
+<test id="5" result="OK" case="Test insertAfter method" expected="true" result="true" reason=""/>
+<test id="6" result="OK" case="Test insertBefore method" expected="true" result="true" reason=""/>
+<test id="7" result="OK" case="Test insertBeginning method" expected="true" result="true" reason=""/>
+<test id="8" result="OK" case="Test insertEnd method" expected="true" result="true" reason=""/>
+<test id="9" result="OK" case="Test isEmpty method" expected="true" result="true" reason=""/>
+<test id="10" result="OK" case="Test newPosition method" expected="true" result="true" reason=""/>
+<test id="11" result="OK" case="Test positions method" expected="true" result="true" reason=""/>
+<test id="12" result="OK" case="Test previous method" expected="true" result="true" reason=""/>
+<test id="13" result="OK" case="Test size method" expected="true" result="true" reason=""/>
+<test id="14" result="OK" case="Test swap method" expected="true" result="true" reason=""/>
+<test id="15" result="OK" case="Test toString method" expected="true" result="true" reason=""/>
+<test id="16" result="OK" case="Test update method" expected="true" result="true" reason=""/>
+<test id="17" result="OK" case="Test values method" expected="true" result="true" reason=""/>

@@ -1,0 +1,4 @@
+<time value="0:00:17.114843"/>
+<test id="1" result="OK" case="Sorts a list of integers using MergeSort" expected="The list of integers in ascending order" result="The list of integers ordered using MergeSort" reason=""/>
+<test id="2" result="OK" case="Sorts an already ordered list of integers using MergeSort" expected="The same list of integers in ascending order" result="The list of integers ordered using MergeSort" reason=""/>
+<test id="3" result="OK" case="Sorts a list of integers with repeated values using MergeSort" expected="The list of integers in ascending order" result="The list of integers ordered using MergeSort" reason=""/>

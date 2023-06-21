@@ -1,0 +1,17 @@
+<time value="0:00:33.259924"/>
+<test id="1" result="OK" case="Test constructor" expected="Class DirectedGraphImpl should be constructed without errors" result="Class DirectedGraphImpl constructed without errors" reason=""/>
+<test id="2" result="OK" case="Test createVertex()" expected="Method createVertex(E value) should create a new vertex" result="New vertex created by createVertex()" reason=""/>
+<test id="3" result="OK" case="Test deleteEdge()" expected="Method deleteEdge(Edge<L,E> aresta) should delete an edge from the graph" result="Edge successfully deleted by deleteEdge()" reason=""/>
+<test id="4" result="OK" case="Test deleteVertex()" expected="Method deleteVertex(Vertex<E> vertex) should delete a vertex from the graph, including all its edges" result="Vertex and its edges successfully deleted by deleteVertex()" reason=""/>
+<test id="5" result="OK" case="Test getEdge()" expected="Method getEdge(Vertex<E> src, Vertex<E> dest) should return the edge between the given vertices" result="Method getEdge() returned the correct edge" reason=""/>
+<test id="6" result="OK" case="Test getVertex()" expected="Method getVertex(E elem) should return the vertex that corresponds to the given element" result="Method getVertex() returned the correct vertex" reason=""/>
+<test id="7" result="OK" case="Test newDictionaryVertexs()" expected="Method newDictionaryVertexs() should create a new dictionary for the vertices" result="New dictionary created for the vertices" reason=""/>
+<test id="8" result="OK" case="Test newEdge()" expected="Method newEdge(Vertex<E> src, Vertex<E> dest) should create a new edge between the given vertices" result="New edge successfully created by newEdge()" reason=""/>
+<test id="9" result="OK" case="Test newVertex()" expected="Method newVertex(E valor) should create a new vertex with the given value" result="New vertex created with the correct value by newVertex()" reason=""/>
+<test id="10" result="OK" case="Test numVertexs()" expected="Method numVertexs() should return the number of vertices in the graph" result="Method numVertexs() returned the correct number of vertices" reason=""/>
+<test id="11" result="OK" case="Test adjacencyList()" expected="Method adjacencyList(Vertex<E> vertex) should return an iterator to the vertices adjacent to the given vertex" result="Iterator to adjacent vertices obtained by adjacencyList()" reason=""/>
+<test id="12" result="OK" case="Test edgedWithDestA()" expected="Method edgedWithDestA(Vertex<E> vertex) should return an iterator to the edges with the given vertex as destination" result="Iterator to edges with destination vertex obtained by edgedWithDestA()" reason=""/>
+<test id="13" result="OK" case="Test edges()" expected="Method edges() should return an iterator to all edges in the graph" result="Iterator to all edges obtained by edges()" reason=""/>
+<test id="14" result="OK" case="Test edgesWithSource()" expected="Method edgesWithSource(Vertex<E> vertex) should return an iterator to the edges with the given vertex as source" result="Iterator to edges with source vertex obtained by edgesWithSource()" reason=""/>
+<test id="15" result="OK" case="Test vertexs()" expected="Method vertexs() should return an iterator to all vertices in the graph" result="Iterator to all vertices obtained by vertexs()" reason=""/>
+<test id="16" result="OK" case="Test toString()" expected="Method toString() should return a string representation of the graph" result="String representation of the graph obtained by toString()" reason=""/>

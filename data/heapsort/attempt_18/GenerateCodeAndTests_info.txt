@@ -1,0 +1,3 @@
+<time value="0:00:07.607330"/>
+<test id="1" result="OK" case="Sorting an array of integers" expected="[1, 2, 3, 4, 5]" result="[1, 2, 3, 4, 5]" reason=""/>
+<test id="2" result="FAILED" case="Sorting an array of strings" expected="['apple', 'banana', 'pear']" result="['apple', 'banana', 'pear']" reason="The input should be sorted alphabetically."/>

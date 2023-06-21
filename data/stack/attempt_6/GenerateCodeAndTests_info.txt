@@ -1,0 +1,8 @@
+<time value="0:00:25.782835"/>
+<test id="1" result="OK" case="Testing push() and peek() methods" expected="3" result="stack.peek()" reason="The item peeked should be the last one inserted"/>
+<test id="2" result="OK" case="Testing pop() method" expected="3" result="stack.pop()" reason="The item popped should be the last one inserted"/>
+<test id="3" result="OK" case="Testing isEmpty() method with empty Stack" expected="true" result="stack.isEmpty()"/>
+<test id="4" result="OK" case="Testing size() method with filled Stack" expected="3" result="stack.size()"/>
+<test id="5" result="OK" case="Testing isFull() method with filled Stack" expected="false" result="stack.isFull()"/>
+<test id="6" result="OK" case="Testing toString() method with empty Stack" expected="[]" result="stack.toString()"/>
+<test id="7" result="OK" case="Testing values() method with filled Stack" expected="2" result="stack.values().next()" reason="The first item retrieved should be the last one inserted"/>

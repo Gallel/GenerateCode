@@ -1,0 +1,12 @@
+<time value="0:00:33.805285"/>
+<test id="1" result="OK" case="Testing isEmpty with empty stack" expected="true" result="(new StackArrayImpl()).isEmpty()" reason=""/>
+<test id="2" result="OK" case="Testing isEmpty with non-empty stack" expected="false" result="{ StackArrayImpl<Integer> stack = new StackArrayImpl<>(); stack.push(1); !stack.isEmpty(); }" reason=""/>
+<test id="3" result="OK" case="Testing isFull with empty stack" expected="false" result="(new StackArrayImpl()).isFull()" reason=""/>
+<test id="4" result="OK" case="Testing isFull with non-full stack" expected="false" result="{ StackArrayImpl<Integer> stack = new StackArrayImpl<>(3); stack.push(1); stack.isFull(); }" reason=""/>
+<test id="5" result="OK" case="Testing isFull with full stack" expected="true" result="{ StackArrayImpl<Integer> stack = new StackArrayImpl<>(1); stack.push(1); stack.isFull(); }" reason=""/>
+<test id="6" result="OK" case="Testing push and pop" expected="2" result="{ StackArrayImpl<Integer> stack = new StackArrayImpl<>(); stack.push(1); stack.push(2); stack.pop(); stack.peek(); }" reason=""/>
+<test id="7" result="OK" case="Testing push on full stack" expected="1" result="{ StackArrayImpl<Integer> stack = new StackArrayImpl<>(1); stack.push(1); stack.push(2); stack.size(); }" reason=""/>
+<test id="8" result="OK" case="Testing size with empty stack" expected="0" result="(new StackArrayImpl()).size()" reason=""/>
+<test id="9" result="OK" case="Testing size with non-empty stack" expected="2" result="{ StackArrayImpl<Integer> stack = new StackArrayImpl<>(); stack.push(1); stack.push(2); stack.size(); }" reason=""/>
+<test id="10" result="OK" case="Testing values with empty stack" expected="[]" result="{ StackArrayImpl<Integer> stack = new StackArrayImpl<>(); Iterator<Integer> it = stack.values(); List<Integer> res = new ArrayList<>(); while (it.hasNext()) { res.add(it.next()); } res.toString(); }" reason=""/>
+<test id="11" result="OK" case="Testing values with non-empty stack" expected="[1, 2]" result="{ StackArrayImpl<Integer> stack = new StackArrayImpl<>(); stack.push(1); stack.push(2); Iterator<Integer> it = stack.values(); List<Integer> res = new ArrayList<>(); while (it.hasNext()) { res.add(it.next()); } res.toString(); }" reason=""/>

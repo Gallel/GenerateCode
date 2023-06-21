@@ -1,0 +1,18 @@
+<time value="0:00:29.058300"/>
+<test id="1" result="OK" case="Testing empty constructor" expected="true" result="(new DirectedGraphImpl<>().numVertexs() == 0)" reason="" />
+<test id="2" result="OK" case="Testing create vertex and get vertex" expected="value" result="(new DirectedGraphImpl<String, Integer>().newVertex("value").equals(new DirectedGraphImpl<String, Integer>().getVertex("value")))" reason="" />
+<test id="3" result="OK" case="Testing adjacencyList" expected="null" result="(new DirectedGraphImpl<String, Integer>().adjacencyList(new DirectedGraphImpl<String, Integer>().newVertex("value"))) == null" reason="" />
+<test id="4" result="OK" case="Testing delete vertex" expected="true" result="{
+        DirectedGraphImpl<String, Integer> graph = new DirectedGraphImpl<>();
+        Vertex<String> vertex = graph.newVertex("value");
+        graph.deleteVertex(vertex);
+        return graph.numVertexs() == 0;
+    }" reason="" />
+<test id="5" result="OK" case="Testing delete edge" expected="true" result="{
+        DirectedGraphImpl<String, Integer> graph = new DirectedGraphImpl<>();
+        Vertex<String> vertex1 = graph.newVertex("value1");
+        Vertex<String> vertex2 = graph.newVertex("value2");
+        DirectedEdge<Integer, String> edge = graph.newEdge(vertex1, vertex2);
+        graph.deleteEdge(edge);
+        return !graph.edges().hasNext();
+    }" reason="" />

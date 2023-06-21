@@ -1,0 +1,9 @@
+<time value="0:00:47.382685"/>
+<test id="1" result="OK" case="Sort vector with even number of elements" expected="1 2 3 4 5 6 7 8" result="1 2 3 4 5 6 7 8" reason=""/>
+<test id="2" result="OK" case="Sort vector with odd number of elements" expected="1 2 3 4 5 6 7" result="1 2 3 4 5 6 7" reason=""/>
+<test id="3" result="OK" case="Sort vector with repeated elements" expected="1 1 3 4 4 6 7 8" result="1 1 3 4 4 6 7 8" reason=""/>
+<test id="4" result="OK" case="Sort vector with elements in descending order" expected="1 2 3 4 5 6 7 8" result="1 2 3 4 5 6 7 8" reason=""/>
+<test id="5" result="OK" case="Sort vector with elements in ascending order" expected="1 2 3 4 5 6 7 8" result="1 2 3 4 5 6 7 8" reason=""/>
+<test id="6" result="OK" case="Sort vector with only one element" expected="1" result="1" reason=""/>
+<test id="7" result="OK" case="Sort vector of strings" expected="alpha beta delta gamma" result="alpha beta delta gamma" reason=""/>
+<test id="8" result="FAILED" case="Sort null vector" expected="null" result="(null)" reason="NullPointerException"/>

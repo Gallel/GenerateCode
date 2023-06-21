@@ -1,0 +1,4 @@
+<time value="0:00:39.874462"/>
+<test id="1" result="OK" case="Test put method inserting a new element" expected="4" result="4" reason=""/>
+<test id="2" result="OK" case="Test keys method" expected="KERM1955, ELM1980, PIG1974" result="KERM1955, ELM1980, PIG1974" reason=""/>
+<test id="3" result="OK" case="Test values method" expected="Kermit the Frog, Elmo, Miss Piggy" result="Kermit the Frog, Elmo, Miss Piggy" reason=""/>

@@ -1,0 +1,4 @@
+<time value="0:00:09.819857"/>
+<test id="1" result="OK" case="Sorts a list of integers" expected="[1, 2, 3, 4, 5]" result="[1, 2, 3, 4, 5]" reason=""/>
+<test id="2" result="OK" case="Sorts a list of strings" expected="['apple', 'banana', 'cherry', 'mango']" result="['apple', 'banana', 'cherry', 'mango']" reason=""/>
+<test id="3" result="FAILED" case="Throws NullPointerException if vector parameter is null" expected="NullPointerException" result="Exception caught: NullPointerException" reason="Did not handle NullPointerException correctly"/>

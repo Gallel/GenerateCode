@@ -1,0 +1,22 @@
+<time value="0:02:52.185271"/>
+<test id="1" result="OK" case="insertTest" expected="true" result="true" reason=""/>
+<test id="2" result="OK" case="insertTest" expected="1" result="1" reason=""/>
+<test id="3" result="OK" case="insertTest" expected="2" result="2" reason=""/>
+<test id="4" result="OK" case="insertTest" expected="3" result="3" reason=""/>
+<test id="5" result="OK" case="insertTest" expected="4" result="4" reason=""/>
+<test id="6" result="OK" case="insertAfterTest" expected="true" result="true" reason=""/>
+<test id="7" result="OK" case="insertAfterTest" expected="1" result="1" reason=""/>
+<test id="8" result="OK" case="insertAfterTest" expected="2" result="2" reason=""/>
+<test id="9" result="OK" case="insertAfterTest" expected="3" result="3" reason=""/>
+<test id="10" result="OK" case="insertAfterTest" expected="4" result="4" reason=""/>
+<test id="11" result="OK" case="deleteTest" expected="1" result="1" reason=""/>
+<test id="12" result="OK" case="deleteTest" expected="4" result="4" reason=""/>
+<test id="13" result="OK" case="deleteTest" expected="3" result="3" reason=""/>
+<test id="14" result="OK" case="deleteTest" expected="5" result="5" reason=""/>
+<test id="15" result="OK" case="deleteTest" expected="2" result="2" reason=""/>
+<test id="16" result="OK" case="deleteAndEmptyExceptionTest" expected="true" result="true" reason=""/>
+<test id="17" result="OK" case="insertBeginningTest" expected="true" result="true" reason=""/>
+<test id="18" result="OK" case="insertBeginningTest" expected="4" result="4" reason=""/>
+<test id="19" result="OK" case="insertBeginningTest" expected="3" result="3" reason=""/>
+<test id="20" result="OK" case="insertBeginningTest" expected="2" result="2" reason=""/>
+<test id="21" result="OK" case="insertBeginningTest" expected="1" result="1" reason=""/>

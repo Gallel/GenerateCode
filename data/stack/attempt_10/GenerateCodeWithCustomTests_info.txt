@@ -1,0 +1,15 @@
+<time value="0:00:44.430614"/>
+<test id="1" result="OK" case="StackArrayImpl() empty stack, calls to size and isEmpty" expected="true, 0" result="true, 0" reason=""/>
+<test id="2" result="OK" case="StackArrayImpl(5) empty stack, calls to size and isEmpty" expected="true, 0" result="true, 0" reason=""/>
+<test id="3" result="OK" case="StackArrayImpl() push one element, calls to size and isEmpty" expected="false, 1" result="false, 1" reason=""/>
+<test id="4" result="OK" case="StackArrayImpl(5) push one element, calls to size and isEmpty" expected="false, 1" result="false, 1" reason=""/>
+<test id="5" result="OK" case="StackArrayImpl() add 4 elements, calls to size, pushes right after capacity." expected="1000, 4, null" result="1000, 4, null" reason=""/>
+<test id="6" result="OK" case="StackArrayImpl(4) add 4 elements, calls to size, pushes right after capacity." expected="4, 4, null" result="4, 4, null" reason=""/>
+<test id="7" result="OK" case="StackArrayImpl() add 2 elements, peek their content" expected="12,12" result="12,12" reason=""/>
+<test id="8" result="OK" case="StackArrayImpl() add 2 elements, remove the last one and confirm it" expected="12, 1, 5, 0" result="12, 1, 5, 0" reason=""/>
+<test id="9" result="OK" case="StackArrayImpl() add 2 elements, remove both" expected="12, 5, 0, null" result="12, 5, 0, null" reason=""/>
+<test id="10" result="OK" case="StackArrayImpl() empties the container and tries to remove a non-existent element" expected="true, 0" result="true, 0" reason=""/>
+<test id="11" result="OK" case="StackArrayImpl(1) add 1 element and tries to add another one" expected="1" result="1" reason=""/>
+<test id="12" result="OK" case="StackArrayImpl(1) add an element and check if it is full" expected="true" result="true" reason=""/>
+<test id="13" result="OK" case="StackArrayImpl(1) add an element and tries to add another one" expected="FullContainerException" result="FullContainerException" reason=""/>
+<test id="14" result="OK" case="StackArrayImpl() toString returns the list of elements" expected="[5, 12]" result="[5, 12]" reason=""/>

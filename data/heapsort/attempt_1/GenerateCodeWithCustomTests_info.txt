@@ -1,0 +1,6 @@
+<time value="0:00:11.044499"/>
+<test id="1" result="OK" case="It sorts an array of integers in ascending order" expected="An array of integers sorted in ascending order" result="An array of integers sorted in ascending order" reason=""/>
+<test id="2" result="OK" case="It sorts an empty array" expected="An empty array" result="An empty array" reason=""/>
+<test id="3" result="OK" case="It sorts an array of one element" expected="An array with one element" result="An array with one element" reason=""/>
+<test id="4" result="OK" case="It sorts an array with repeated elements" expected="An array with repeated elements sorted in ascending order" result="An array with repeated elements sorted in ascending order" reason=""/>
+<test id="5" result="OK" case="It sorts an array of negative integers" expected="An array of negative integers sorted in ascending order" result="An array of negative integers sorted in ascending order" reason=""/>

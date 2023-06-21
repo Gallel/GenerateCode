@@ -1,0 +1,8 @@
+<time value="0:00:58.045314"/>
+<test id="1" result="OK" case="create queue and check if it is empty" expected="true" result="true" reason=""/>
+<test id="2" result="OK" case="add elements and check if the item with the lowest priority is retrieved correctly with peek" expected="7" result="7" reason=""/>
+<test id="3" result="OK" case="add elements, test if the size increases and the item with the lowest priority is retrieved correctly with peek" expected="9" result="9" reason=""/>
+<test id="4" result="OK" case="add elements until the queue becomes full and check if it is recognized as full" expected="true" result="true" reason=""/>
+<test id="5" result="OK" case="add elements until the queue becomes full and check if throwing exception on adding another element" expected="edu.uoc.ds.exceptions.FullContainerException" result="edu.uoc.ds.exceptions.FullContainerException" reason=""/>
+<test id="6" result="OK" case="add elements and check if the item with the lowest priority is deleted correctly with poll" expected="7" result="7" reason=""/>
+<test id="7" result="OK" case="add and remove elements until the queue is emptied and check if isEmpty method returns true and an exception is thrown when poll method is called" expected="true, edu.uoc.ds.exceptions.EmptyContainerException" result="true, edu.uoc.ds.exceptions.EmptyContainerException" reason=""/>

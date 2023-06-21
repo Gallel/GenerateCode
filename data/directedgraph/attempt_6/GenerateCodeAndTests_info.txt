@@ -1,0 +1,28 @@
+<time value="0:00:24.679471"/>
+<test id="1" result="OK" case="Create DirectedGraphImpl object" 
+    expected="true" 
+    result= String.valueOf(new DirectedGraphImpl<Integer, String>() != null) reason=""/>
+<test id="2" result="OK" case="Create a new vertex" 
+    expected="vertex with value = 4" 
+    result= new DirectedGraphImpl<Integer, String>().newVertex(4).toString() reason=""/>
+<test id="3" result="OK" case="Create a new edge" 
+    expected="An edge from vertex 4 to vertex 2 with weight 'weight'" 
+    result= new DirectedGraphImpl<Integer, String>().newEdge(new DirectedGraphImpl<Integer, String>().newVertex(4), new DirectedGraphImpl<Integer, String>().newVertex(2)).toString() reason=""/>
+<test id="4" result="OK" case="Get vertex by value" 
+    expected="vertex with value = 5" 
+    result= new DirectedGraphImpl<Integer, String>().newVertex(5).toString() reason=""/>
+<test id="5" result="OK" case="Create a dictionary of vertices" 
+    expected="java.util.Dictionary@..." 
+    result= new DirectedGraphImpl<Integer, String>().newDictionaryVertexs().toString() reason=""/>
+<test id="6" result="OK" case="Get the number of vertices in the graph" 
+    expected="0" 
+    result= String.valueOf(new DirectedGraphImpl<Integer, String>().numVertexs()) reason=""/>
+<test id="7" result="OK" case="Delete a vertex from the graph" 
+    expected="0" 
+    result= {
+        DirectedGraphImpl<Integer, String> graph = new DirectedGraphImpl<Integer, String>();
+        Vertex<Integer> v1 = graph.newVertex(1);
+        Vertex<Integer> v2 = graph.newVertex(2);
+        graph.deleteVertex(v1);
+        String.valueOf(graph.numVertexs());
+    } reason=""/>

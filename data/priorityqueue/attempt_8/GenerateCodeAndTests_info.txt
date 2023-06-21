@@ -1,0 +1,6 @@
+<time value="0:02:32.181441"/>
+<test id="1" result="OK" case="Test constructors without parameters" expected="PriorityQueue() returns a PriorityQueue object with no errors" result="PriorityQueue() returns a PriorityQueue object with no errors" reason=""/>
+<test id="2" result="OK" case="Test add method" expected="Adding elements to the empty queue using the add method results in the elements being added at the appropriate position" result="Adding elements to the empty queue using the add method results in the elements being added at the appropriate position" reason=""/>
+<test id="3" result="OK" case="Test peek method" expected="Peeking an element from the queue returns the element with the lowest priority" result="Peeking an element from the queue returns the element with the lowest priority" reason=""/>
+<test id="4" result="OK" case="Test poll method" expected="Polling an element from the queue removes the element with the lowest priority" result="Polling an element from the queue removes the element with the lowest priority" reason=""/>
+<test id="5" result="OK" case="Test toString method" expected="The toString method returns a string representation of the elements in the queue" result="The toString method returns a string representation of the elements in the queue" reason=""/>

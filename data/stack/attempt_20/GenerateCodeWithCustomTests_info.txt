@@ -1,0 +1,6 @@
+<time value="0:00:24.453530"/>
+<test id="1" result="OK" case="Tests the container's push method by adding an element." expected="3" result="3" reason=""/>
+<test id="2" result="OK" case="Tests the container's peek method by retrieving the last element added to the stack." expected="12" result="12" reason=""/>
+<test id="3" result="OK" case="Tests the container's pop method by deleting and retrieving the top item on the stack." expected="12" result="12" reason=""/>
+<test id="4" result="OK" case="Tests if an exception is thrown when trying to pop from an empty stack." expected="EmptyContainerException" result="EmptyContainerException" reason=""/>
+<test id="5" result="OK" case="Tests if an exception is thrown when trying to push to a full stack." expected="FullContainerException" result="FullContainerException" reason=""/>

@@ -1,0 +1,5 @@
+<time value="0:00:22.481567"/>
+<test id="1" result="OK" case="Empty PriorityQueue" expected="true" result="true" reason=""/>
+<test id="2" result="OK" case="Polling from an empty PriorityQueue raises EmptyContainerException" expected="EmptyContainerException" result="EmptyContainerException" reason=""/>
+<test id="3" result="OK" case="Adding elements to PriorityQueue and polling them in the correct order" expected="" result="" reason=""/>
+<test id="4" result="OK" case="Adding elements to a full PriorityQueue raises FullContainerException" expected="FullContainerException" result="FullContainerException" reason=""/>

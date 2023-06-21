@@ -1,0 +1,13 @@
+<time value="0:00:52.897916"/>
+<test id="1" result="OK" case="create empty queue" expected="true" result="true" reason=""/>
+<test id="2" result="OK" case="add element to queue" expected="2" result="2" reason=""/>
+<test id="3" result="OK" case="add element until it is full" expected="true" result="true" reason=""/>
+<test id="4" result="OK" case="check if queue is full" expected="true" result="true" reason=""/>
+<test id="5" result="OK" case="peek element from queue" expected="2" result="2" reason=""/>
+<test id="6" result="OK" case="poll element from queue" expected="2" result="2" reason=""/>
+<test id="7" result="OK" case="check if queue is empty after polling" expected="true" result="true" reason=""/>
+<test id="8" result="OK" case="add element after polling" expected="true" result="true" reason=""/>
+<test id="9" result="OK" case="create queue with specific capacity" expected="true" result="true" reason=""/>
+<test id="10" result="OK" case="get size of queue" expected="2" result="2" reason=""/>
+<test id="11" result="OK" case="get values of queue" expected="true" result="true" reason=""/>
+<test id="12" result="OK" case="get values of empty queue" expected="false" result="false" reason=""/>

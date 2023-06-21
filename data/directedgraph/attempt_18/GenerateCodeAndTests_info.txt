@@ -1,0 +1,15 @@
+<time value="0:00:35.467558"/>
+<test id="1" result="OK" case="Create an instance of DirectedGraphImpl" expected="Class DirectedGraphImpl to be instantiated" result="Class DirectedGraphImpl instantiated!" reason=""/>
+<test id="2" result="OK" case="Create a new vertex and add it to the graph" expected="1 vertex in the graph" result="1 vertex in the graph" reason=""/>
+<test id="3" result="OK" case="Create multiple vertices and add them to the graph" expected="3 vertices in the graph" result="3 vertices in the graph" reason=""/>
+<test id="4" result="OK" case="Create a new edge and add it to the graph" expected="1 edge in the graph" result="1 edge in the graph" reason=""/>
+<test id="5" result="OK" case="Create multiple edges and add them to the graph" expected="3 edges in the graph" result="3 edges in the graph" reason=""/>
+<test id="6" result="OK" case="Delete a vertex from the graph" expected="2 vertices in the graph" result="2 vertices in the graph" reason=""/>
+<test id="7" result="OK" case="Delete an edge from the graph" expected="2 edges in the graph" result="2 edges in the graph" reason=""/>
+<test id="8" result="OK" case="Get a vertex from the graph" expected="The vertex with element 'element_2'" result="The vertex with element 'element_2'" reason=""/>
+<test id="9" result="OK" case="Get an edge from the graph" expected="The edge from vertex element_1 to vertex element_2" result="The edge from vertex element_1 to vertex element_2" reason=""/>
+<test id="10" result="OK" case="Get adjacent vertices to a vertex" expected="Adjacent vertices to vertex element_1 are: element_2" result="Adjacent vertices to vertex element_1 are: element_2" reason=""/>
+<test id="11" result="OK" case="Get edges with a given source vertex" expected="Edges with source vertex element_1 are: [edge from vertex element_1 to vertex element_2]" result="Edges with source vertex element_1 are: [edge from vertex element_1 to vertex element_2]" reason=""/>
+<test id="12" result="OK" case="Get edges with a given destination vertex" expected="Edges with destination vertex element_2 are: [edge from vertex element_1 to vertex element_2]" result="Edges with destination vertex element_2 are: [edge from vertex element_1 to vertex element_2]" reason=""/>
+<test id="13" result="OK" case="Get all edges" expected="All edges are: [edge from vertex element_1 to vertex element_2, edge from vertex element_2 to vertex element_3, edge from vertex element_3 to vertex element_1]" result="All edges are: [edge from vertex element_1 to vertex element_2, edge from vertex element_2 to vertex element_3, edge from vertex element_3 to vertex element_1]" reason=""/>
+<test id="14" result="OK" case="Get all vertices" expected="All vertices are: [element_1, element_2, element_3]" result="All vertices are: [element_1, element_2, element_3]" reason=""/>

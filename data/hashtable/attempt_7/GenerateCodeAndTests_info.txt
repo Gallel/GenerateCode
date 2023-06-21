@@ -1,0 +1,5 @@
+<time value="0:00:40.261206"/>
+<test id="1" result="OK" case="Testing put, get and containsKey methods" expected="value" result="value" reason=""/>
+<test id="2" result="OK" case="Testing delete method" expected="null" result="null" reason=""/>
+<test id="3" result="OK" case="Testing isEmpty method" expected="true" result="true" reason=""/>
+<test id="4" result="OK" case="Testing size method" expected="2" result="2" reason=""/>

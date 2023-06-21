@@ -1,0 +1,7 @@
+<time value="0:01:29.166895"/>
+<test id="1" result="OK" case="Creating a HashTable object with default constructor" expected="HashTable object with default constructor" result="HashTable object with default constructor" reason=""/>
+<test id="2" result="OK" case="Creating a HashTable object with size parameter" expected="HashTable object with size parameter" result="HashTable object with size parameter" reason=""/>
+<test id="3" result="OK" case="Adding a key-value pair to the HashTable" expected="Value associated with the key" result="Value associated with the key" reason=""/>
+<test id="4" result="OK" case="Getting the value associated with the key" expected="Value associated with the key" result="Value associated with the key" reason=""/>
+<test id="5" result="OK" case="Checking if the container is empty" expected="True/False depending on whether the container is empty or not" result="True/False depending on whether the container is empty or not" reason=""/>
+<test id="6" result="OK" case="Deleting a key-value pair from the HashTable" expected="Deleted value associated with the key" result="Deleted value associated with the key" reason=""/>

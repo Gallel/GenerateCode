@@ -1,0 +1,6 @@
+<time value="0:00:27.816929"/>
+<test id="1" result="OK" case="Pushes an item to the stack" expected="3" result="3" reason=""/>
+<test id="2" result="OK" case="Returns the last item added to the stack without removing it" expected="12" result="12" reason=""/>
+<test id="3" result="OK" case="Removes the top of the stack item" expected="12" result="12" reason=""/>
+<test id="4" result="OK" case="Throws EmptyContainerException if trying to pop an empty stack" expected="EmptyContainerException" result="EmptyContainerException" reason=""/>
+<test id="5" result="OK" case="Throws FullContainerException if trying to push on a full stack" expected="FullContainerException" result="FullContainerException" reason=""/>

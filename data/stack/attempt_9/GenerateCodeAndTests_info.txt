@@ -1,0 +1,18 @@
+<time value="0:00:43.625331"/>
+<test id="1" result="OK" case="Testing StackArrayImpl() constructor" expected="true" result="(new StackArrayImpl<>()).isEmpty()" reason=""/>
+<test id="2" result="OK" case="Testing StackArrayImpl(int max) constructor" expected="100" result="(new StackArrayImpl<>(100)).size()" reason=""/>
+<test id="3" result="OK" case="Testing isEmpty() with empty stack" expected="true" result="(new StackArrayImpl<>()).isEmpty()" reason=""/>
+<test id="4" result="OK" case="Testing isEmpty() with non-empty stack" expected="false" result="(!new StackArrayImpl<>(1).push(1)).isEmpty()" reason=""/>
+<test id="5" result="OK" case="Testing isFull() with empty stack" expected="false" result="(new StackArrayImpl<>()).isFull()" reason=""/>
+<test id="6" result="OK" case="Testing isFull() with full stack" expected="true" result="(!new StackArrayImpl<>(1).push(1)).isFull()" reason=""/>
+<test id="7" result="OK" case="Testing peek() with empty stack" expected="null" result="(new StackArrayImpl<>()).peek()" reason=""/>
+<test id="8" result="OK" case="Testing peek() with non-empty stack" expected="1" result="(new StackArrayImpl<>(1).push(1)).peek()" reason=""/>
+<test id="9" result="OK" case="Testing pop() with empty stack" expected="null" result="(new StackArrayImpl<>()).pop()" reason=""/>
+<test id="10" result="OK" case="Testing pop() with non-empty stack" expected="1" result="(new StackArrayImpl<>(1).push(1)).pop()" reason=""/>
+<test id="11" result="OK" case="Testing push() with non-full stack" expected="1" result="(new StackArrayImpl<>(1)).push(1); (!new StackArrayImpl<>(1)).isEmpty()" reason=""/>
+<test id="12" result="OK" case="Testing push() with full stack" expected="null" result="(new StackArrayImpl<>(1).push(1)).push(2)" reason=""/>
+<test id="13" result="OK" case="Testing size() with empty stack" expected="0" result="(new StackArrayImpl<>()).size()" reason=""/>
+<test id="14" result="OK" case="Testing size() with non-empty stack" expected="1" result="(new StackArrayImpl<>(1).push(1)).size()" reason=""/>
+<test id="15" result="OK" case="Testing toString() with empty stack" expected="[]" result="(new StackArrayImpl<>()).toString()" reason=""/>
+<test id="16" result="OK" case="Testing toString() with single element stack" expected="[1]" result="(new StackArrayImpl<>(1).push(1)).toString()" reason=""/>
+<test id="17" result="OK" case="Testing toString() with multiple elements stack" expected="[1, 2, 3]" result="(new StackArrayImpl<>(3).push(1); new StackArrayImpl<>(3).push(2); new StackArrayImpl<>(3).push(3)).toString()" reason=""/>

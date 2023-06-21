@@ -1,0 +1,8 @@
+<time value="0:00:58.951670"/>
+<test id="1" result="OK" case="Creation of queue and adding an element" expected="The queue should have one element with value 54" result="The queue has one element with value 54" reason=""/>
+<test id="2" result="OK" case="Adding elements to the queue" expected="The queue should have three elements" result="The queue has three elements" reason=""/>
+<test id="3" result="OK" case="Peeking the first element in the queue" expected="The element obtained should be 54" result="The element obtained is 54" reason=""/>
+<test id="4" result="OK" case="Popping the first element in the queue" expected="The element obtained should be 54 and the queue should have one element left" result="The element obtained is 54 and the queue has one element left" reason=""/>
+<test id="5" result="OK" case="Trying to pop more elements than the ones in the queue" expected="The EmptyContainerException should be thrown" result="The EmptyContainerException was thrown" reason=""/>
+<test id="6" result="OK" case="Adding more elements until the queue is full" expected="The queue should be full" result="The queue is full" reason=""/>
+<test id="7" result="OK" case="Trying to add an element to a full queue" expected="The FullContainerException should be thrown" result="The FullContainerException was thrown" reason=""/>

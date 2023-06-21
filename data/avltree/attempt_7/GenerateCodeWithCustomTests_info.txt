@@ -1,0 +1,3 @@
+<time value="0:00:27.977160"/>
+<test id="1" result="OK" case="Test add() method" expected="Tree with level order: {100, 50, 300, 10, 75, 500} after adding elements {50, 10, 100, 75, 300} and then 500" result="Tree with level order: {100, 50, 300, 10, 75, 500} after adding elements {50, 10, 100, 75, 300} and then 500" reason=""/>
+<test id="2" result="OK" case="Test delete() method" expected="Tree with level order: {100, 50, 300, 75} after adding elements {50, 10, 100, 75, 300} and deleting element 10" result="Tree with level order: {100, 50, 300, 75} after adding elements {50, 10, 100, 75, 300} and deleting element 10" reason=""/>

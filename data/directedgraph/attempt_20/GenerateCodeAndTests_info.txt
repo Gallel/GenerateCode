@@ -1,0 +1,3 @@
+<time value="0:00:18.950725"/>
+<test id="1" result="OK" case="Testing newVertex method with String type" expected="The graph should contain a vertex with value 'hello'." result="The graph contains a vertex with value 'hello'." reason=""/>
+<test id="2" result="OK" case="Testing deleteVertex method" expected="The graph should not contain the vertex with value 'hola'." result="The graph does not contain the vertex with value 'hola'." reason=""/>

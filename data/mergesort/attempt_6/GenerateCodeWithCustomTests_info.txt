@@ -1,0 +1,5 @@
+<time value="0:00:29.133415"/>
+<test id="1" result="OK" case="Sorts an array of integers in ascending order" expected="An array of integers sorted in ascending order" result="An array of integers sorted in ascending order" reason=""/>
+<test id="2" result="OK" case="Sorts an array of strings in lexicographic order" expected="An array of strings sorted in lexicographic order" result="An array of strings sorted in lexicographic order" reason=""/>
+<test id="3" result="FAILED" case="Sorts an empty array" expected="An empty array" result="An empty array" reason="The test did not run any sort operation"/>
+<test id="4" result="OK" case="Sorts an array of one element" expected="An array with one element" result="An array with one element" reason=""/>

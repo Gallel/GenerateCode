@@ -1,0 +1,4 @@
+<time value="0:00:27.028919"/>
+<test id="1" result="OK" case="Sorts a vector of integers in ascending order" expected="The vector sorted in ascending order" result="The vector sorted in ascending order" reason=""/>
+<test id="2" result="FAILED" case="Sorts a vector of strings in descending order" expected="The vector sorted in descending order" result="The vector sorted in descending order with some elements out of place" reason="Issue with the compareTo method implementation in the merge method"/>
+<test id="3" result="OK" case="Sorts a vector of doubles with repeated elements" expected="The vector sorted in ascending order with repeated elements in their original position" result="The vector sorted in ascending order with repeated elements in their original position" reason=""/>

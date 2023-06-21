@@ -1,0 +1,4 @@
+<time value="0:00:48.204759"/>
+<test id="1" result="OK" case="Test the add method to insert values into the AVL tree" expected="The tree should contain the inserted values in the correct order" result="The tree now contains the values in the expected order." reason=""/>
+<test id="2" result="OK" case="Test the delete method to remove a value from the AVL tree" expected="The tree should not contain the removed value anymore" result="The tree correctly removed the value." reason=""/>
+<test id="3" result="OK" case="Test the get method to retrieve a value from the AVL tree" expected="The method should correctly return the found value" result="The method correctly found the value." reason=""/>

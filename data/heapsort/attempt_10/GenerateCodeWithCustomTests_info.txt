@@ -1,0 +1,4 @@
+<time value="0:00:10.889346"/>
+<test id="1" result="OK" case="Sorts an array of integers" expected="All elements of the array sorted in ascending order" result="All elements of the array sorted in ascending order" reason=""/>
+<test id="2" result="OK" case="Sorts an array of doubles" expected="All elements of the array sorted in descending order" result="All elements of the array sorted in descending order" reason=""/>
+<test id="3" result="OK" case="Sorts an array of strings" expected="All elements of the array sorted in lexicographical order" result="All elements of the array sorted in lexicographical order" reason=""/>

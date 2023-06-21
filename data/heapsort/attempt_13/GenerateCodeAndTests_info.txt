@@ -1,0 +1,4 @@
+<time value="0:00:08.645008"/>
+<test id="1" result="OK" case="Sorting an array of integers in ascending order using HeapSort" expected="The array sorted in ascending order" result="The array sorted in ascending order" reason=""/>
+<test id="2" result="OK" case="Sorting an array of integers in descending order using HeapSort" expected="The array sorted in descending order" result="The array sorted in descending order" reason=""/>
+<test id="3" result="OK" case="Sorting an array of strings in alphabetical order using HeapSort" expected="The array sorted in alphabetical order" result="The array sorted in alphabetical order" reason=""/>

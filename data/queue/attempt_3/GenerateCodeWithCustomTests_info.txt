@@ -1,0 +1,7 @@
+<time value="0:00:52.436932"/>
+<test id="1" result="OK" case="Add an element and check the size" expected="The size of the queue is 3" result="The size of the queue is 3" reason=""/>
+<test id="2" result="OK" case="Peek one element and check the queue size" expected="The size of the queue is 2" result="The size of the queue is 2" reason=""/>
+<test id="3" result="OK" case="Poll one element and check the queue size" expected="The size of the queue is 1" result="The size of the queue is 1" reason=""/>
+<test id="4" result="OK" case="Check if container is empty after removing all elements" expected="The container is empty" result="The container is empty" reason=""/>
+<test id="5" result="OK" case="Fill container and check if it is full" expected="The container is full" result="The container is full" reason=""/>
+<test id="6" result="FAILED" case="Try to add an element to a full container" expected="A FullContainerException is thrown" result="An EmptyContainerException is thrown" reason="The wrong exception is being thrown in the test."/>

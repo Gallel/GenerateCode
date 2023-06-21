@@ -1,0 +1,14 @@
+<time value="0:00:31.244262"/>
+<test id="1" result="OK" case="Check class definition" expected="class edu.uoc.ds.adt.nonlinear.graphs.DirectedGraphImpl" result="class edu.uoc.ds.adt.nonlinear.graphs.DirectedGraphImpl" reason=""/>
+<test id="2" result="OK" case="Create instance of the graph" expected="Object of class DirectedGraphImpl" result="Object of class DirectedGraphImpl" reason=""/>
+<test id="3" result="OK" case="Add vertices to the graph" expected="Number of vertices in the graph is 2" result="Number of vertices in the graph is 2" reason=""/>
+<test id="4" result="OK" case="Add edges to the graph" expected="Number of edges in the graph is 2" result="Number of edges in the graph is 2" reason=""/>
+<test id="5" result="OK" case="Remove vertex from the graph" expected="Number of vertices in the graph is 1" result="Number of vertices in the graph is 1" reason=""/>
+<test id="6" result="OK" case="Remove edge from the graph" expected="Number of edges in the graph is 1" result="Number of edges in the graph is 1" reason=""/>
+<test id="7" result="OK" case="Find vertex in the graph" expected="Vertex with value 'A' is found in the graph" result="Vertex with value 'A' is found in the graph" reason=""/>
+<test id="8" result="OK" case="Iterate over vertices in the graph" expected="Iterated over all vertices in the graph" result="Iterated over all vertices in the graph" reason=""/>
+<test id="9" result="OK" case="Iterate over edges in the graph" expected="Iterated over all edges in the graph" result="Iterated over all edges in the graph" reason=""/>
+<test id="10" result="OK" case="Iterate over edges with source vertex A" expected="Iterated over edges with source vertex A" result="Iterated over edges with source vertex A" reason=""/>
+<test id="11" result="OK" case="Iterate over edges with destination vertex B" expected="Iterated over edges with destination vertex B" result="Iterated over edges with destination vertex B" reason=""/>
+<test id="12" result="OK" case="Create and add new vertex to the graph" expected="Number of vertices in the graph is 2" result="Number of vertices in the graph is 2" reason=""/>
+<test id="13" result="OK" case="Create and add new edge to the graph" expected="Number of edges in the graph is 3" result="Number of edges in the graph is 3" reason=""/>

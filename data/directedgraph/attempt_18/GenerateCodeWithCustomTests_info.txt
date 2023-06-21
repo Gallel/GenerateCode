@@ -1,0 +1,11 @@
+<time value="0:00:19.262994"/>
+<test id="1" result="OK" case="Creating a new DirectedGraphImpl object" expected="true" result="true" reason=""/>
+<test id="2" result="OK" case="Creating a new Vertex with value 'value'" expected="value" result="value" reason=""/>
+<test id="3" result="OK" case="Creating a new Edge with source and destination vertices" expected="true" result="true" reason=""/>
+<test id="4" result="OK" case="Getting a vertex that exists with value 'value'" expected="true" result="true" reason=""/>
+<test id="5" result="OK" case="Getting an edge that exists with source and destination vertices" expected="true" result="true" reason=""/>
+<test id="6" result="OK" case="Deleting a vertex that exists" expected="false" result="false" reason=""/>
+<test id="7" result="OK" case="Deleting an edge that exists" expected="false" result="false" reason=""/>
+<test id="8" result="OK" case="Getting a list of edges with a destination vertex that exists" expected="true" result="true" reason=""/>
+<test id="9" result="OK" case="Getting a list of edges with a source vertex that exists" expected="true" result="true" reason=""/>
+<test id="10" result="OK" case="Getting the number of vertices in the graph" expected="0" result="0" reason=""/>

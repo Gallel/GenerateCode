@@ -1,0 +1,5 @@
+<time value="0:00:09.292492"/>
+<test id="1" result="OK" case="Creating a HeapSort object" expected="HeapSort object created" result="HeapSort object created" reason=""/>
+<test id="2" result="OK" case="Creating a HeapSort object with a vector" expected="HeapSort object created with a vector" result="HeapSort object created with a vector" reason=""/>
+<test id="3" result="OK" case="Sorting with an int n" expected="Sequence sorted with an int n" result="Sequence sorted with an int n" reason=""/>
+<test id="4" result="OK" case="Sorting with a vector and int n" expected="Vector sorted with an int n" result="Vector sorted with an int n" reason=""/>

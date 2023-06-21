@@ -1,0 +1,12 @@
+<time value="0:00:58.572571"/>
+<test id="1" result="OK" case="insertTest" expected="the list correctly inserts elements at the end of the list" result=""/>
+<test id="2" result="FAILED" case="insertTest" expected="the list correctly inserts elements at the end of the list" result="Element 1 is not inserted correctly"/>
+<test id="3" result="OK" case="insertAfterTest" expected="the list correctly inserts elements after a given position" result=""/>
+<test id="4" result="FAILED" case="insertAfterTest" expected="the list correctly inserts elements after a given position" result="Positions are not being returned in the expected order"/>
+<test id="5" result="OK" case="deleteTest" expected="the list correctly deletes elements based on a given position" result=""/>
+<test id="6" result="FAILED" case="deleteTest" expected="the list correctly deletes elements based on a given position" result="There are remaining elements in the list after deletion"/>
+<test id="7" result="OK" case="deleteTestAndInvalidPositionException" expected="the list throws InvalidPositionException when trying to delete the next position, given that it does not exist" result=""/>
+<test id="8" result="OK" case="deleteAndEmptyExceptionTest" expected="the list deletes elements correctly and throws EmptyContainerException when trying to delete elements from an empty list" result=""/>
+<test id="9" result="OK" case="insertBeginningTest" expected="the list correctly adds elements to the beginning of the list" result=""/>
+<test id="10" result="OK" case="deleteNextTest" expected="the list correctly deletes the element after a given position" result=""/>
+<test id="11" result="OK" case="testPositions" expected="the list returns positions in the correct order" result=""/>

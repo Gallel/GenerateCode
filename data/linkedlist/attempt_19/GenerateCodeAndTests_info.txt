@@ -1,0 +1,4 @@
+<time value="0:04:11.685407"/>
+<test id="1" result="OK" case="Creating an empty linked list." expected="true" result="(new LinkedList<Integer>()).isEmpty()" reason=""/>
+<test id="2" result="FAILED" case="Inserting an item in the beginning of the list." expected="0" result="(new LinkedList<Integer>()).insertBeginning(0).getElement()" reason="Method did not add item correctly."/>
+<test id="3" result="OK" case="Inserting items in the beginning and end of the list, and checking the container size." expected="2" result="(new LinkedList<Integer>()).insertBeginning(0); (new LinkedList<Integer>()).insertEnd(1); (new LinkedList<Integer>()).size()" reason=""/>

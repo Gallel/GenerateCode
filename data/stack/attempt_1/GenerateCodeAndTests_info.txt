@@ -1,0 +1,13 @@
+<time value="0:00:44.289101"/>
+<test id="1" result="OK" case="Test isEmpty when stack is empty" expected="true" result="(new StackArrayImpl<Integer>()).isEmpty()" reason=""/>
+<test id="2" result="OK" case="Test isEmpty when stack is not empty" expected="false" result="new StackArrayImpl<Integer>().push(5); new StackArrayImpl<Integer>().isEmpty()" reason=""/>
+<test id="3" result="OK" case="Test isFull when stack is not full" expected="false" result="new StackArrayImpl<Integer>().push(5); new StackArrayImpl<Integer>().isFull()" reason=""/>
+<test id="4" result="OK" case="Test isFull when stack is full" expected="true" result="StackArrayImpl<Integer> stack = new StackArrayImpl<Integer>(1); stack.push(5); stack.isFull()" reason=""/>
+<test id="5" result="OK" case="Test peek when stack is empty" expected="null" result="new StackArrayImpl<Integer>().peek()" reason=""/>
+<test id="6" result="OK" case="Test peek when stack is not empty" expected="5" result="StackArrayImpl<Integer> stack = new StackArrayImpl<Integer>(); stack.push(5); stack.peek()" reason=""/>
+<test id="7" result="OK" case="Test pop when stack is empty" expected="null" result="new StackArrayImpl<Integer>().pop()" reason=""/>
+<test id="8" result="OK" case="Test pop when stack is not empty" expected="5" result="StackArrayImpl<Integer> stack = new StackArrayImpl<Integer>(); stack.push(5); stack.pop()" reason=""/>
+<test id="9" result="OK" case="Test push when stack is not full" expected="1" result="StackArrayImpl<Integer> stack = new StackArrayImpl<Integer>(); stack.push(1); stack.size()" reason=""/>
+<test id="10" result="OK" case="Test push when stack is full" expected="1" result="StackArrayImpl<Integer> stack = new StackArrayImpl<Integer>(1); stack.push(5); stack.push(1); stack.size()" reason=""/>
+<test id="11" result="OK" case="Test size when stack is empty" expected="0" result="new StackArrayImpl<Integer>().size()" reason=""/>
+<test id="12" result="OK" case="Test size when stack is not empty" expected="1" result="StackArrayImpl<Integer> stack = new StackArrayImpl<Integer>(); stack.push(5); stack.size()" reason=""/>

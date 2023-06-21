@@ -1,0 +1,3 @@
+<time value="0:00:52.651897"/>
+<test id="1" result="OK" case="Test if it correctly add and balances nodes in the AVL tree" expected="The traversal lists should match with the expected ones" result="The traversal lists match with the expected ones" reason=""/>
+<test id="2" result="OK" case="Test if it correctly delete and balances nodes in the AVL tree" expected="The traversal lists should match with the expected ones" result="The traversal lists match with the expected ones" reason=""/>

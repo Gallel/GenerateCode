@@ -1,0 +1,9 @@
+<time value="0:01:44.517352"/>
+<test id="1" result="OK" case="Creating an AVL tree without parameters and adding some elements" expected="All elements added correctly" result="All elements added correctly" reason=""/>
+<test id="2" result="OK" case="Creating an AVL tree with a provided comparator and adding some elements" expected="All elements added correctly" result="All elements added correctly" reason=""/>
+<test id="3" result="OK" case="Deleting an element from an AVL tree" expected="Element deleted correctly" result="Element deleted correctly" reason=""/>
+<test id="4" result="OK" case="Getting an element from an AVL tree" expected="Element retrieved correctly" result="Element retrieved correctly" reason=""/>
+<test id="5" result="OK" case="Checking if there is a comparator in an AVL tree" expected="There is no comparator" result="There is no comparator" reason=""/>
+<test id="6" result="OK" case="Checking if there is a comparator in an AVL tree with a provided comparator" expected="There is a comparator" result="There is a comparator" reason=""/>
+<test id="7" result="OK" case="Balancing an AVL tree after an insertion" expected="Tree is height balanced" result="Tree is height balanced" reason=""/>
+<test id="8" result="OK" case="Balancing an AVL tree after a deletion" expected="Tree is height balanced" result="Tree is height balanced" reason=""/>

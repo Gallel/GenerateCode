@@ -1,0 +1,14 @@
+<time value="0:00:34.593117"/>
+<test id="1" result="OK" case="Create an instance of PriorityQueue without parameters" expected="0" result="0" reason=""/>
+<test id="2" result="OK" case="Create an instance of PriorityQueue with a capacity of 10" expected="0" result="0" reason=""/>
+<test id="3" result="OK" case="Create an instance of PriorityQueue with a capacity of 20 and a Comparator" expected="0" result="0" reason=""/>
+<test id="4" result="OK" case="Create an instance of PriorityQueue with a Comparator" expected="0" result="0" reason=""/>
+<test id="5" result="OK" case="Add an element to the PriorityQueue" expected="true" result="true" reason=""/>
+<test id="6" result="OK" case="Clone an instance of PriorityQueue" expected="0" result="0" reason=""/>
+<test id="7" result="OK" case="Check if the PriorityQueue is empty" expected="true" result="true" reason=""/>
+<test id="8" result="OK" case="Check if the PriorityQueue is full" expected="false" result="false" reason=""/>
+<test id="9" result="OK" case="Retrieve the lowest priority item in the PriorityQueue" expected="null" result="null" reason=""/>
+<test id="10" result="OK" case="Delete the lowest priority item in the PriorityQueue" expected="null" result="null" reason=""/>
+<test id="11" result="OK" case="Check if the PriorityQueue is empty after deleting all the items" expected="true" result="true" reason=""/>
+<test id="12" result="OK" case="Check if the PriorityQueue is full after adding the maximum amount of items" expected="false" result="false" reason=""/>
+<test id="13" result="OK" case="Retrieve the number of items in the PriorityQueue" expected="0" result="0" reason=""/>

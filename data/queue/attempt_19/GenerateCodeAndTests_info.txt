@@ -1,0 +1,6 @@
+<time value="0:00:49.225273"/>
+<test id="1" result="OK" case="Test add() method" expected="1" result="1" reason=""/>
+<test id="2" result="OK" case="Test isEmpty() method with an empty queue" expected="true" result="true" reason=""/>
+<test id="3" result="OK" case="Test isFull() method with an empty queue" expected="false" result="false" reason=""/>
+<test id="4" result="OK" case="Test peek() method with an empty queue" expected="NoSuchElementException" result="NoSuchElementException" reason=""/>
+<test id="5" result="OK" case="Test add() and poll() methods with two elements" expected="[2]" result="[2]" reason=""/>

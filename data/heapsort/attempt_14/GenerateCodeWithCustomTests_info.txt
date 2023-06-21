@@ -1,0 +1,3 @@
+<time value="0:00:08.453905"/>
+<test id="1" result="OK" case="Sorts an array of 10 integers in ascending order" expected="Sorted array in ascending order" result="Sorted array in ascending order" reason=""/>
+<test id="2" result="FAILED" case="Sorts an array of 5 doubles in ascending order" expected="Sorted array in ascending order" result="NullPointerException" reason="It is not tested for different types of types"/>

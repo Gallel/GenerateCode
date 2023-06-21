@@ -1,0 +1,3 @@
+<time value="0:01:43.463724"/>
+<test id="1" result="OK" case="Test if the AVLTree add method works with a DD1 pattern." expected="Traverses the AVLTree and checks if expected and obtained values match." result="Results match expectation." reason=""/>
+<test id="2" result="OK" case="Test if the AVLTree delete method works with a DD2 pattern." expected="Traverses the AVLTree, deleting an element and checks if expected and obtained values match." result="Results match expectation." reason=""/>

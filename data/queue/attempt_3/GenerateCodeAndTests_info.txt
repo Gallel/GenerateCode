@@ -1,0 +1,6 @@
+<time value="0:05:07.448279"/>
+<test id="1" result="OK" case="Creates a queue with maximum capacity of 3, adds 2 elements and retrieves the first element added with peek()" expected="The first element added" result="The first element added" reason=""/>
+<test id="2" result="OK" case="Creates a queue with maximum capacity of 2, adds 2 elements and poll them both" expected="Both elements polled" result="Both elements polled" reason=""/>
+<test id="3" result="OK" case="Creates a queue with maximum capacity of 1, adds an element, poll it, add another element, and poll it" expected="Both elements added and polled" result="Both elements added and polled" reason=""/>
+<test id="4" result="FAILED" case="Creates a queue with maximum capacity of 0" expected="IllegalStateException with message 'Cannot add element: container is full'" result="(no message received)" reason="The queue should not be created"/>
+<test id="5" result="FAILED" case="Polls from an empty queue" expected="NoSuchElementException with message 'Cannot poll: container is empty'" result="(no message received)" reason="The exception was not thrown"/>

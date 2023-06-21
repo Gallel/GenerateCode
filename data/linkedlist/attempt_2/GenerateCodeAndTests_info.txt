@@ -1,0 +1,6 @@
+<time value="0:05:11.683819"/>
+<test id="1" result="OK" case="Creating empty linked list" expected="0" result="0" reason=""/>
+<test id="2" result="OK" case="Adding elements to the list and checking size" expected="3" result="3" reason=""/>
+<test id="3" result="OK" case="Removing an element from the list and checking size" expected="2" result="2" reason=""/>
+<test id="4" result="OK" case="Setting an element in the list" expected="element1-modified" result="element1-modified" reason=""/>
+<test id="5" result="OK" case="Iterating over the list" expected="element1, element2, element3" result="element1, element2, element3" reason=""/>

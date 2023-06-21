@@ -1,0 +1,13 @@
+<time value="0:00:32.446100"/>
+<test id="1" result="OK" case="Test adjacency list" expected="true" result="true" reason=""/>
+<test id="2" result="OK" case="Test delete vertex and edge" expected="true" result="true" reason=""/>
+<test id="3" result="OK" case="Test get edge and vertex" expected="true" result="true" reason=""/>
+<test id="4" result="OK" case="Test new vertex and edge" expected="true" result="true" reason=""/>
+<test id="5" result="OK" case="Test number of vertices" expected="8" result="8" reason=""/>
+<test id="6" result="OK" case="Test to string method" expected="true" result="true" reason=""/>
+<test id="7" result="OK" case="Test iterator to vertices" expected="true" result="true" reason=""/>
+<test id="8" result="OK" case="Test iterator to adjacent vertices" expected="true" result="true" reason=""/>
+<test id="9" result="OK" case="Test iterator to edges" expected="true" result="true" reason=""/>
+<test id="10" result="OK" case="Test iterator to edges with source" expected="true" result="true" reason=""/>
+<test id="11" result="OK" case="Test iterator to edges with destination" expected="true" result="true" reason=""/>
+<test id="12" result="OK" case="Test minimal path algorithm" expected="true" result="true" reason=""/>

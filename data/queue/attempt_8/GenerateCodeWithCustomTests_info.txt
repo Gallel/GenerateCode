@@ -1,0 +1,8 @@
+<time value="0:00:52.457889"/>
+<test id="1" result="OK" case="Verify add(E elem) method" expected="Method should add an item to the queue" result="Method added an item to the queue" reason=""/>
+<test id="2" result="OK" case="Verify peek() method" expected="Method should retrieve the first item in the queue without deleting it" result="Method retrieved the first item in the queue without deleting it" reason=""/>
+<test id="3" result="OK" case="Verify poll() method" expected="Method should retrieve and delete the first item in the queue" result="Method retrieved and deleted the first item in the queue" reason=""/>
+<test id="4" result="OK" case="Verify isEmpty() method" expected="Method should return true if the queue is empty and false otherwise" result="Method returned true when called on an empty queue" reason=""/>
+<test id="5" result="FAILED" case="Verify isFull() method" expected="Method should return true if the queue is full and false otherwise" result="Method returned false when called on a full queue" reason="The isFull() method is not correctly implemented"/>
+<test id="6" result="OK" case="Verify size() method" expected="Method should return the number of items in the queue" result="Method returned the correct number of items in the queue" reason=""/>
+<test id="7" result="OK" case="Verify values() method" expected="Method should return an iterator over the items in the queue" result="Method returned an iterator over the items in the queue" reason=""/>

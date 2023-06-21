@@ -1,0 +1,6 @@
+<time value="0:00:54.823533"/>
+<test id="1" result="OK" case="Tests that priority queue is empty when it is initialized" expected="true" result="true" reason=""/>
+<test id="2" result="OK" case="Tests that it is not possible to delete an element from the empty priority queue" expected="an EmptyContainerException" result="an EmptyContainerException" reason=""/>
+<test id="3" result="OK" case="Tests adding several elements to the priority queue" expected="Elements added correctly to the priority queue, and the order is correct" result="Elements added correctly to the priority queue, and the order is correct" reason=""/>
+<test id="4" result="OK" case="Tests adding elements to a full priority queue" expected="a FullContainerException" result="a FullContainerException" reason=""/>
+<test id="5" result="OK" case="Tests deleting multiple elements while maintaining the priority order" expected="Elements to be deleted are deleted in the correct order and those that are not deleted continue to maintain their position" result="Elements to be deleted are deleted in the correct order and those that are not deleted continue to maintain their position" reason=""/>

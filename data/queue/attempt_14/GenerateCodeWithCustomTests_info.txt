@@ -1,0 +1,6 @@
+<time value="0:00:50.197397"/>
+<test id="1" result="OK" case="Tests if an element is added to the queue and size is incremented" expected="3" result="3" reason=""/>
+<test id="2" result="OK" case="Tests if peek returns the first element of the queue and size is not modified" expected="2, 54, 2" result="2, 54, 2" reason=""/>
+<test id="3" result="OK" case="Tests if poll returns the first element of the queue and size is decreased" expected="54, 1" result="54, 1" reason=""/>
+<test id="4" result="OK" case="Tests if the queue is emptied and throws an EmptyContainerException when an element is polled from an empty queue" expected="true, EmptyContainerException thrown" result="true, EmptyContainerException thrown" reason=""/>
+<test id="5" result="OK" case="Tests if the queue is full and throws a FullContainerException when an element is added to a full queue" expected="true, FullContainerException thrown" result="true, FullContainerException thrown" reason=""/>

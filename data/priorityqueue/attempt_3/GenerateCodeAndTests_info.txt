@@ -1,0 +1,6 @@
+<time value="0:00:22.546240"/>
+<test id="1" result="OK" case="Test empty constructor" expected="true" result="(new PriorityQueue<String>()).isEmpty()" reason=""/>
+<test id="2" result="OK" case="Test add and peek methods" expected="3" result="(new PriorityQueue<Integer>()).add(5); (new PriorityQueue<Integer>()).add(3); (new PriorityQueue<Integer>()).add(7); (new PriorityQueue<Integer>()).peek()" reason=""/>
+<test id="3" result="OK" case="Test poll method" expected="7" result="(new PriorityQueue<Integer>()).add(5); (new PriorityQueue<Integer>()).add(3); (new PriorityQueue<Integer>()).add(7); (new PriorityQueue<Integer>()).poll()" reason=""/>
+<test id="4" result="OK" case="Test size method and add method" expected="2" result="(new PriorityQueue<Integer>()).add(5); (new PriorityQueue<Integer>()).add(3); (new PriorityQueue<Integer>()).add(7); (new PriorityQueue<Integer>()).add(4); (new PriorityQueue<Integer>()).add(6); (new PriorityQueue<Integer>()).size()" reason=""/>
+<test id="5" result="OK" case="Test clone method" expected="false" result="(new PriorityQueue<Integer>()).add(5); (new PriorityQueue<Integer>()).add(3); (new PriorityQueue<Integer>()).add(7); (new PriorityQueue<Integer>()).clone() == (new PriorityQueue<Integer>())" reason=""/>

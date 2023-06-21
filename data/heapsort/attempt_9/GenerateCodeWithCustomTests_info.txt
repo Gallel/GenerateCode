@@ -1,0 +1,4 @@
+<time value="0:00:08.310041"/>
+<test id="1" result="OK" case="Sorts an array of integers" expected="The array is sorted in ascending order" result="The array is sorted in ascending order" reason=""/>
+<test id="2" result="FAILED" case="Does not sort an empty array" expected="An empty array remains unchanged" result="An empty array remains unchanged" reason="The method must have a body that handles the case of empty arrays"/>
+<test id="3" result="OK" case="Sorts an array of strings" expected="The array is sorted in alphabetical order" result="The array is sorted in alphabetical order" reason=""/>

@@ -1,0 +1,11 @@
+<time value="0:00:18.108981"/>
+<test id="1" result="OK" case="Creating an empty HeapSort object" expected="HeapSort object created" result="HeapSort object created" reason=""/>
+<test id="2" result="OK" case="Creating a HeapSort object with an array" expected="HeapSort object created with array" result="HeapSort object created with array" reason=""/>
+<test id="3" result="OK" case="Sorting an integer array with HeapSort" expected="Array sorted" result="Array sorted" reason=""/>
+<test id="4" result="OK" case="Sorting a string array with HeapSort" expected="Array sorted" result="Array sorted" reason=""/>
+<test id="5" result="OK" case="Sorting an empty array with HeapSort" expected="Empty array sorted" result="Empty array sorted" reason=""/>
+<test id="6" result="OK" case="Sorting an array with only one element with HeapSort" expected="Array sorted" result="Array sorted" reason=""/>
+<test id="7" result="OK" case="Sorting an array with repeated elements with HeapSort" expected="Array sorted" result="Array sorted" reason=""/>
+<test id="8" result="OK" case="Sorting a negative integer array with HeapSort" expected="Array sorted" result="Array sorted" reason=""/>
+<test id="9" result="OK" case="Sorting a randomized array with HeapSort" expected="Array sorted" result="Array sorted" reason=""/>
+<test id="10" result="OK" case="Sorting a null array with HeapSort" expected="NullPointerException" result="NullPointerException" reason=""/>

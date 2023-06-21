@@ -1,0 +1,6 @@
+<time value="0:04:42.783682"/>
+<test id="1" result="OK" case="Creating an instance of an empty linked list" expected="true" result="(new LinkedList<Integer>()).isEmpty()" reason=""/>
+<test id="2" result="OK" case="Adding a single element to the beginning of a linked list" expected="1" result="new LinkedList<Integer>().insertBeginning(1).size()" reason=""/>
+<test id="3" result="OK" case="Adding two elements to a linked list, one to the beginning, and one to the end" expected="2" result="new LinkedList<Integer>().insertBeginning(1).insertEnd(2).size()" reason=""/>
+<test id="4" result="OK" case="Deleting the first element of a linked list" expected="1" result="new LinkedList<Integer>().insertBeginning(1).insertEnd(2).deleteFirst().size()" reason=""/>
+<test id="5" result="OK" case="Updating an element of a linked list" expected="2" result="new LinkedList<Integer>().insertBeginning(1).insertEnd(2).update(new LinkedList<Integer>().insertBeginning(1).positions().next(), 2).values().next()" reason=""/>

@@ -1,0 +1,5 @@
+<time value="0:00:54.564001"/>
+<test id="1" result="OK" case="testing put() and get() methods" expected="value" result="(table.get(key)).toString()" reason=""/>
+<test id="2" result="OK" case="testing delete() method" expected="null" result="(table.delete(key)).toString()" reason=""/>
+<test id="3" result="OK" case="testing containsKey() method" expected="true" result="(table.containsKey(key)).toString()" reason=""/>
+<test id="4" result="OK" case="testing size() and isEmpty() methods" expected="false" result="(table.size() != 0) && (!table.isEmpty())" reason=""/>

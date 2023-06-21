@@ -1,0 +1,9 @@
+<time value="0:01:41.370969"/>
+<test id="1" result="OK" case="Creating an empty AVL tree without Comparator" expected="true" result="(new AVLTree<Integer>()).isEmpty()" reason=""/>
+<test id="2" result="OK" case="Creating an empty AVL tree with Comparator" expected="true" result="(new AVLTree<Integer>((o1, o2) -> o1 - o2)).isEmpty()" reason=""/>
+<test id="3" result="OK" case="Adding one element to the tree" expected="1" result="{ AVLTree<Integer> tree = new AVLTree<>(); tree.add(1); return tree.size(); }()" reason=""/>
+<test id="4" result="OK" case="Adding multiple elements to the tree" expected="5" result="{ AVLTree<Integer> tree = new AVLTree<>(); tree.add(2); tree.add(4); tree.add(1); tree.add(5); tree.add(3); return tree.size(); }()" reason=""/>
+<test id="5" result="OK" case="Deleting an element from the tree" expected="null" result="{ AVLTree<Integer> tree = new AVLTree<>(); tree.add(1); tree.delete(1); return tree.get(1); }()" reason=""/>
+<test id="6" result="OK" case="Retrieving an element from the tree" expected="3" result="{ AVLTree<Integer> tree = new AVLTree<>(); tree.add(5); tree.add(3); tree.add(2); tree.add(4); return tree.get(3); }()" reason=""/>
+<test id="7" result="OK" case="Checking if there is a comparator" expected="true" result="{ AVLTree<Integer> tree = new AVLTree<>((o1, o2) -> o1 - o2); return tree.thereIsComparator(); }()" reason=""/>
+<test id="8" result="OK" case="Checking if there is no comparator" expected="false" result="{ AVLTree<Integer> tree = new AVLTree<>(); return tree.thereIsComparator(); }()" reason=""/>

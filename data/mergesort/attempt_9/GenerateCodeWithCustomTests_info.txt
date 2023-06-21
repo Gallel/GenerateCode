@@ -1,0 +1,7 @@
+<time value="0:00:30.348265"/>
+<test id="1" result="OK" case="Sort an unsorted array of integers" expected="The array sorted in ascending order" result="The array sorted in ascending order" reason=""/>
+<test id="2" result="OK" case="Sort a sorted array of integers" expected="The array sorted in ascending order" result="The array sorted in ascending order" reason=""/>
+<test id="3" result="OK" case="Sort an array of integers in descending order" expected="The array sorted in ascending order" result="The array sorted in ascending order" reason=""/>
+<test id="4" result="OK" case="Sort an array with repeated elements" expected="The array sorted in ascending order" result="The array sorted in ascending order" reason=""/>
+<test id="5" result="OK" case="Sort an array of length 1" expected="The array unchanged" result="The array unchanged" reason=""/>
+<test id="6" result="OK" case="Sort an array of length 0" expected="The array unchanged" result="The array unchanged" reason=""/>

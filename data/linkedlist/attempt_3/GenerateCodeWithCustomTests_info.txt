@@ -1,0 +1,11 @@
+<time value="0:03:01.355950"/>
+<test id="1" result="OK" case="Empty list test" expected="true" result="true" reason=""/>
+<test id="2" result="OK" case="Insertion and size test" expected="4" result="4" reason=""/>
+<test id="3" result="OK" case="Insertion after test" expected="[1, 5, 2, 3, 4]" result="[1, 5, 2, 3, 4]" reason=""/>
+<test id="4" result="OK" case="Deletion test" expected="[2, 3]" result="[2, 3]" reason=""/>
+<test id="5" result="OK" case="Deletion and invalid position test" expected="true" result="true" reason=""/>
+<test id="6" result="OK" case="Deletion and empty container exception test" expected="true" result="true" reason=""/>
+<test id="7" result="OK" case="Insertion at the beginning test" expected="[4, 3, 2, 1]" result="[4, 3, 2, 1]" reason=""/>
+<test id="8" result="OK" case="Deletion next test" expected="[1, 4]" result="[1, 4]" reason=""/>
+<test id="9" result="OK" case=" getPosition test" expected="3" result="3" reason=""/>
+<test id="10" result="OK" case="Positions test" expected="[1, 5, 2, 3, 4]" result="[1, 5, 2, 3, 4]" reason=""/>

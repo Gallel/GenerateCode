@@ -1,0 +1,19 @@
+<time value="0:00:33.383137"/>
+<test id="1" result="OK" case="Creating PriorityQueue without parameters" expected="java class PriorityQueue with empty constructor" result="java class PriorityQueue with empty constructor" reason=""/>
+<test id="2" result="OK" case="Creating PriorityQueue with integer as parameter" expected="java class PriorityQueue with integer as parameter" result="java class PriorityQueue with integer as parameter" reason=""/>
+<test id="3" result="OK" case="Creating PriorityQueue with integer and comparator as parameters" expected="java class PriorityQueue with integer and comparator as parameters" result="java class PriorityQueue with integer and comparator as parameters" reason=""/>
+<test id="4" result="OK" case="Creating PriorityQueue with comparator as parameter" expected="java class PriorityQueue with comparator as parameter" result="java class PriorityQueue with comparator as parameter" reason=""/>
+<test id="5" result="OK" case="Adding element to PriorityQueue" expected="PriorityQueue with new element added" result="PriorityQueue with new element added" reason=""/>
+<test id="6" result="OK" case="Cloning PriorityQueue" expected="Cloned PriorityQueue" result="Cloned PriorityQueue" reason=""/>
+<test id="7" result="OK" case="Comparing two positions" expected="0" result="0" reason=""/>
+<test id="8" result="OK" case="Deleting Last Position from PriorityQueue" expected="Last position in PriorityQueue" result="Last position in PriorityQueue" reason=""/>
+<test id="9" result="OK" case="Checking if PriorityQueue is empty" expected="true" result="true" reason=""/>
+<test id="10" result="OK" case="Checking if PriorityQueue is full" expected="false" result="false" reason=""/>
+<test id="11" result="OK" case="Getting nextLastPosition in PriorityQueue" expected="nextLast position in PriorityQueue" result="nextLast position in PriorityQueue" reason=""/>
+<test id="12" result="OK" case="Peeking lowest priority item in PriorityQueue" expected="lowest priority item in PriorityQueue" result="lowest priority item in PriorityQueue" reason=""/>
+<test id="13" result="OK" case="Polling (Deleting) lowest priority item in PriorityQueue" expected="deleted lowest priority item in PriorityQueue" result="deleted lowest priority item in PriorityQueue" reason=""/>
+<test id="14" result="OK" case="Sifting down position in PriorityQueue" expected="PriorityQueue, with selected position sifted down" result="PriorityQueue, with selected position sifted down" reason=""/>
+<test id="15" result="OK" case="Sifting up position in PriorityQueue" expected="PriorityQueue, with selected position sifted up" result="PriorityQueue, with selected position sifted up" reason=""/>
+<test id="16" result="OK" case="Getting the size of PriorityQueue" expected="Size (number of items) in PriorityQueue" result="Size (number of items) in PriorityQueue" reason=""/>
+<test id="17" result="OK" case="Converting PriorityQueue to String" expected="PriorityQueue in String format" result="PriorityQueue in String format" reason=""/>
+<test id="18" result="OK" case="Getting values from PriorityQueue" expected="Iterator with values from PriorityQueue" result="Iterator with values from PriorityQueue" reason=""/>

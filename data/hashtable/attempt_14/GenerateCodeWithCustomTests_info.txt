@@ -1,0 +1,7 @@
+<time value="0:02:56.577215"/>
+<test id="1" result="OK" case="Test the keys() method of HashTable class." expected="List of keys existing in the dictionary." result="List of keys existing in the dictionary." reason=""/>
+<test id="2" result="OK" case="Test the values() method of HashTable class." expected="List of values of the dictionary." result="List of values of the dictionary." reason=""/>
+<test id="3" result="OK" case="Test the delete(K key) method of HashTable class with valid key." expected="Count of number of elements after deleting the key-value pair for the given key. " result="Count of number of elements after deleting the key-value pair for the given key. " reason=""/>
+<test id="4" result="OK" case="Test the delete(K key) method of HashTable class with invalid key." expected="Count of number of elements after deleting an invalid key-value pair." result="Count of number of elements after deleting an invalid key-value pair." reason=""/>
+<test id="5" result="OK" case="Test the put(K key, V value) method of HashTable class." expected="Count of number of elements after adding a key-value pair." result="Count of number of elements after adding a key-value pair." reason=""/>
+<test id="6" result="OK" case="Test the size() method of HashTable class." expected="Count of number of elements in the dictionary." result="Count of number of elements in the dictionary." reason=""/>

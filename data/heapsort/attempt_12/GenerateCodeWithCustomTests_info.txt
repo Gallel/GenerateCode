@@ -1,0 +1,6 @@
+<time value="0:00:12.802177"/>
+<test id="1" result="OK" case="Sorts an array of integers using HeapSort algorithm" expected="Each element of the array in increasing order" result="Each element of the array in increasing order" reason=""/>
+<test id="2" result="OK" case="Sorts an empty array of integers using HeapSort algorithm" expected="Empty array" result="Empty array" reason=""/>
+<test id="3" result="OK" case="Sorts a partially sorted array of integers using HeapSort algorithm" expected="Each element of the array in increasing order" result="Each element of the array in increasing order" reason=""/>
+<test id="4" result="OK" case="Sorts an already sorted array of integers using HeapSort algorithm" expected="Each element of the array in increasing order" result="Each element of the array in increasing order" reason=""/>
+<test id="5" result="OK" case="Sorts a large array of integers using HeapSort algorithm" expected="Each element of the array in increasing order" result="Each element of the array in increasing order" reason=""/>

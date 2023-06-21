@@ -1,0 +1,11 @@
+<time value="0:01:27.138389"/>
+<test id="1" result="OK" case="Insert items at the end of the list" expected="4" result="4" reason=""/>
+<test id="2" result="OK" case="Insert items after a position in the list" expected="5" result="5" reason=""/>
+<test id="3" result="OK" case="Delete items from the list" expected="true, 3, 2, false" result="true, 3, 2, false" reason=""/>
+<test id="4" result="OK" case="Delete the first position in the list and check for an exception" expected="1, 2, 3, 4" result="1, 2, 3, 4" reason=""/>
+<test id="5" result="OK" case="Insert items at the beginning of the list and check the order" expected="4, 3, 2, 1" result="4, 3, 2, 1" reason=""/>
+<test id="6" result="OK" case="Delete the next position in the list" expected="2, 4" result="2, 4" reason=""/>
+<test id="7" result="OK" case="Check if the list is empty and retrieve its size" expected="true, 0" result="true, 0" reason=""/>
+<test id="8" result="OK" case="Retrieve items in the container" expected="true" result="true" reason=""/>
+<test id="9" result="OK" case="Check if an exception is thrown when trying to delete a non-existent next position" expected="InvalidPositionException" result="InvalidPositionException" reason=""/>
+<test id="10" result="OK" case="Check if an exception is thrown when trying to delete the first position of an empty list" expected="EmptyContainerException" result="EmptyContainerException" reason=""/>

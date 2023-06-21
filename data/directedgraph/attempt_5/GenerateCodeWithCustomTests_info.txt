@@ -1,0 +1,18 @@
+<time value="0:01:51.723430"/>
+<test id="1" result="OK" case="Creating a directed graph implementation with Integer and String types" expected="DirectedGraphImpl<Integer,String> object" result="DirectedGraphImpl<Integer,String> object" reason=""/>
+<test id="2" result="OK" case="Creating a new vertex with Integer value" expected="Vertex<Integer> object" result="Vertex<Integer> object" reason=""/>
+<test id="3" result="OK" case="Getting a vertex with Integer element that exists in the graph" expected="Vertex<Integer> object" result="Vertex<Integer> object" reason=""/>
+<test id="4" result="OK" case="Getting a vertex with Integer element that does not exist in the graph" expected="null" result="null" reason=""/>
+<test id="5" result="OK" case="Creating a new edge with two vertices and Integer value" expected="DirectedEdge<Integer,Integer> object" result="DirectedEdge<Integer,Integer> object" reason=""/>
+<test id="6" result="OK" case="Getting the edge between two existing vertices in the graph" expected="DirectedEdge<Integer,Integer> object" result="DirectedEdge<Integer,Integer> object" reason=""/>
+<test id="7" result="OK" case="Getting the edge between two vertices where the source vertex exists but the destination vertex does not" expected="null" result="null" reason=""/>
+<test id="8" result="OK" case="Getting the edge between two vertices where the destination vertex exists but the source vertex does not" expected="null" result="null" reason=""/>
+<test id="9" result="OK" case="Deleting an edge from the graph" expected="Graph without that edge" result="Graph without that edge" reason=""/>
+<test id="10" result="OK" case="Deleting a vertex that does not have edges from the graph" expected="Graph without that vertex" result="Graph without that vertex" reason=""/>
+<test id="11" result="OK" case="Deleting a vertex that has edges from the graph" expected="Graph without that vertex and its edges" result="Graph without that vertex and its edges" reason=""/>
+<test id="12" result="OK" case="Getting the number of vertex from the graph" expected="Number of vertex in the graph" result="Number of vertex in the graph" reason=""/>
+<test id="13" result="OK" case="Obtaining an iterator to the adjacency list of a vertex" expected="Iterator<Vertex<E>> object" result="Iterator<Vertex<E>> object" reason=""/>
+<test id="14" result="OK" case="Obtaining an iterator to the edges originating from a certain vertex" expected="Iterator<Edge<L,E>> object" result="Iterator<Edge<L,E>> object" reason=""/>
+<test id="15" result="OK" case="Obtaining an iterator to the edges destined to a certain vertex" expected="Iterator<Edge<L,E>> object" result="Iterator<Edge<L,E>> object" reason=""/>
+<test id="16" result="OK" case="Obtaining an iterator to all edges from the graph" expected="Iterator<Edge<L,E>> object" result="Iterator<Edge<L,E>> object" reason=""/>
+<test id="17" result="OK" case="Obtaining an iterator to all vertices of the graph" expected="Iterator<Vertex<E>> object" result="Iterator<Vertex<E>> object" reason=""/>

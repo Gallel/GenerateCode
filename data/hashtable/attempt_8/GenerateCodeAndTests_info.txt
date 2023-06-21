@@ -1,0 +1,6 @@
+<time value="0:01:25.538115"/>
+<test id="1" result="OK" case="Creating HashTable object with default constructor" expected="0" result="(new HashTable()).size()" reason=""/>
+<test id="2" result="OK" case="Creating HashTable object with size parameter" expected="10" result="(new HashTable(10)).size()" reason=""/>
+<test id="3" result="OK" case="Adding item to HashTable" expected="value1" result="{HashTable<Integer, String> table = new HashTable<>(); table.put(1, 'value1'); table.get(1);}" reason=""/>
+<test id="4" result="OK" case="Getting an item from HashTable" expected="value2" result="{HashTable<Integer, String> table = new HashTable<>(); table.put(1, 'value1'); table.put(2, 'value2'); table.get(2);}" reason=""/>
+<test id="5" result="OK" case="Deleting an item from HashTable" expected="null" result="{HashTable<Integer, String> table = new HashTable<>(); table.put(1, 'value1'); table.delete(1); table.get(1);}" reason=""/>

@@ -1,0 +1,7 @@
+<time value="0:00:41.879806"/>
+<test id="1" result="OK" case="Sorting an array of integers with MergeSort" expected="[1, 2, 3, 4, 5]" result="[1, 2, 3, 4, 5]" reason=""/>
+<test id="2" result="OK" case="Sorting an array of strings with MergeSort" expected="[-5, one, three, two, zero]" result="[-5, one, three, two, zero]" reason=""/>
+<test id="3" result="OK" case="Sorting an array of objects with MergeSort" expected="[{age=10, name=John}, {age=25, name=Lucas}, {age=35, name=Sarah}, {age=50, name=Zoe}]" result="[{age=10, name=John}, {age=25, name=Lucas}, {age=35, name=Sarah}, {age=50, name=Zoe}]" reason=""/>
+<test id="4" result="OK" case="Sorting an array with duplicates with MergeSort" expected="[1, 2, 3, 3, 4, 5]" result="[1, 2, 3, 3, 4, 5]" reason=""/>
+<test id="5" result="OK" case="Sorting an already sorted array with MergeSort" expected="[1, 2, 3, 4, 5]" result="[1, 2, 3, 4, 5]" reason=""/>
+<test id="6" result="OK" case="Sorting a reverse ordered array with MergeSort" expected="[1, 2, 3, 4, 5]" result="[1, 2, 3, 4, 5]" reason=""/>

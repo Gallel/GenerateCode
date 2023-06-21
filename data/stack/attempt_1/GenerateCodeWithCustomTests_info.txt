@@ -1,0 +1,15 @@
+<time value="0:00:38.001062"/>
+<test id="1" result="OK" case="Test the isEmpty method when the stack is empty" expected="true" result="(stack.isEmpty())" reason=""/>
+<test id="2" result="OK" case="Test the isEmpty method when the stack is not empty" expected="false" result="(!stack.isEmpty())" reason=""/>
+<test id="3" result="OK" case="Test the isFull method when the stack is not full" expected="false" result="(!((StackArrayImpl) stack).isFull())" reason=""/>
+<test id="4" result="OK" case="Test the isFull method when the stack is full" expected="true" result="((StackArrayImpl) stack).isFull()" reason=""/>
+<test id="5" result="OK" case="Test the peek method when the stack is empty" expected="null" result="(stack.peek())" reason=""/>
+<test id="6" result="OK" case="Test the peek method when the stack is not empty" expected="12" result="(stack.peek())" reason=""/>
+<test id="7" result="OK" case="Test the pop method when the stack is empty" expected="null" result="(stack.pop())" reason=""/>
+<test id="8" result="OK" case="Test the pop method when the stack is not empty" expected="12" result="(stack.pop())" reason=""/>
+<test id="9" result="OK" case="Test the push method when the stack is not full" expected="3" result="({stack.push(20); stack.size();})" reason=""/>
+<test id="10" result="OK" case="Test the push method when the stack is full" expected="Cannot push more elements" result="{try{stack.push(999);}catch(FullContainerException e){return \"Cannot push more elements\";}return \"Push successful\";}" reason=""/>
+<test id="11" result="OK" case="Test the size method when the stack is empty" expected="0" result="(stack.size())" reason=""/>
+<test id="12" result="OK" case="Test the size method when the stack is not empty" expected="2" result="(stack.size())" reason=""/>
+<test id="13" result="OK" case="Test the toString method" expected="Stack [ 5 12 ]" result="(stack.toString())" reason=""/>
+<test id="14" result="OK" case="Test the values method" expected="5 12" result="{String result = \"\"; for (Integer i : stack.values()) result += i + \" \"; result.trim();}" reason=""/>

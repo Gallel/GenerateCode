@@ -1,0 +1,4 @@
+<time value="0:02:48.228298"/>
+<test id="1" result="OK" case="Test 'putTest' added a new element correctly" expected="4" result="4" reason=""/>
+<test id="2" result="OK" case="Test 'keysTest' retrieved all keys correctly" expected="true" result="true" reason=""/>
+<test id="3" result="OK" case="Test 'valuesTest' retrieved all values correctly" expected="true" result="true" reason=""/>

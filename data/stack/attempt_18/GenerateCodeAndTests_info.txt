@@ -1,0 +1,47 @@
+<time value="0:00:41.877919"/>
+<test id="1" result="OK" case="Creating a default stack and checking its properties" expected="true true null 0 []" result="(StackArrayImpl stack = new StackArrayImpl();
+                                         boolean b1 = stack.isEmpty();
+                                         boolean b2 = stack.isFull();
+                                         E top = stack.peek();
+                                         int size = stack.size();
+                                         String contents = stack.toString();
+                                         System.out.println(b1 + " " + b2 + " " + top + " " + size + " " + contents);)" reason=""/>
+<test id="2" result="OK" case="Creating a stack with maximum capacity of 2 and adding two items" expected="false true 2 2 [ A B ]" result="(StackArrayImpl<String> stack = new StackArrayImpl<>(2);
+                                         stack.push("A");
+                                         stack.push("B");
+                                         boolean b1 = stack.isEmpty();
+                                         boolean b2 = stack.isFull();
+                                         E top = stack.peek();
+                                         int size = stack.size();
+                                         String contents = stack.toString();
+                                         System.out.println(b1 + " " + b2 + " " + size + " " + top + " " + contents);)" reason=""/>
+<test id="3" result="OK" case="Creating a stack with maximum capacity of 3, adding three items, and retrieving and deleting them" expected="false true 3 A 3 [ A B C ] C" result="(StackArrayImpl<String> stack = new StackArrayImpl<>(3);
+                                         stack.push("A");
+                                         stack.push("B");
+                                         stack.push("C");
+                                         boolean b1 = stack.isEmpty();
+                                         boolean b2 = stack.isFull();
+                                         E top = stack.peek();
+                                         int size = stack.size();
+                                         String contents = stack.toString();
+                                         System.out.println(b1 + " " + b2 + " " + size + " " + top + " " + contents);
+                                         top = stack.pop();
+                                         contents = stack.toString();
+                                         System.out.println(size + " " + contents + " " + top);)" reason=""/>
+<test id="4" result="OK" case="Creating a stack with maximum capacity of 1, adding one item and trying to add an extra one" expected="false true A" result="(StackArrayImpl<String> stack = new StackArrayImpl<>(1);
+                                         stack.push("A");
+                                         stack.push("B");
+                                         E top = stack.peek();
+                                         boolean b1 = stack.isEmpty();
+                                         boolean b2 = stack.isFull();
+                                         String contents = stack.toString();
+                                         System.out.println(b1 + " " + b2 + " " + top);
+                                         )" reason=""/>
+<test id="5" result="OK" case="Creating a stack with maximum capacity of 0 and adding one item" expected="true true null 0 []" result="(StackArrayImpl<String> stack = new StackArrayImpl<>(0);
+                                         stack.push("A");
+                                         boolean b1 = stack.isEmpty();
+                                         boolean b2 = stack.isFull();
+                                         E top = stack.peek();
+                                         int size = stack.size();
+                                         String contents = stack.toString();
+                                         System.out.println(b1 + " " + b2 + " " + top + " " + size + " " + contents);)" reason=""/>

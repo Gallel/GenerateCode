@@ -1,0 +1,9 @@
+<time value="0:00:19.532955"/>
+<test id="1" result="OK" case="Sorts an array with ten integers in ascending order" expected="1,2,3,4,5,7,8,9,10,12" result="1,2,3,4,5,7,8,9,10,12" reason=""/>
+<test id="2" result="OK" case="Sorts an array with one integer" expected="5" result="5" reason=""/>
+<test id="3" result="OK" case="Sorts an array with five integers in descending order" expected="1,2,3,4,5" result="1,2,3,4,5" reason=""/>
+<test id="4" result="OK" case="Sorts an array with ten integers when some of them have the same value" expected="1,2,2,4,5,7,8,9,10,12" result="1,2,2,4,5,7,8,9,10,12" reason=""/>
+<test id="5" result="OK" case="Sorts an array of strings" expected="Alice,Bob,Charlie,David,Emma,Frank" result="Alice,Bob,Charlie,David,Emma,Frank" reason=""/>
+<test id="6" result="OK" case="Sorts an empty array" expected="" result="" reason=""/>
+<test id="7" result="OK" case="If n is greater than the length of the array, the method sorts the array until the last element" expected="1,2,3,4,5,7,8,9,10,12" result="1,2,3,4,5,7,8,9,10,12" reason=""/>
+<test id="8" result="OK" case="If n is zero or negative, the method returns the unsorted array" expected="12,2,8,5,1,10,4,3,9,7" result="12,2,8,5,1,10,4,3,9,7" reason=""/>

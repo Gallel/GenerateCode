@@ -1,0 +1,6 @@
+<time value="0:00:51.709278"/>
+<test id="1" result="OK" case="Tests the behavior when adding elements to the queue" expected="The queue should have 3 elements after adding one more" result="The queue has 3 elements after adding one more" reason=""/>
+<test id="2" result="OK" case="Tests the peek method in the queue" expected="The element retrieved by peek should be the first one added" result="The element retrieved by peek is the first one added" reason=""/>
+<test id="3" result="OK" case="Tests the poll method in the queue" expected="The element retrieved by poll should be the first one added, and the size must be reduced by one" result="The element retrieved by poll is the first one added, the size is reduced by one" reason=""/>
+<test id="4" result="OK" case="Tests the behavior of the queue when emptying all the elements" expected="The queue should be empty after polling all elements" result="The queue is empty after polling all elements" reason=""/>
+<test id="5" result="OK" case="Tests the behavior of the queue when it is full" expected="The queue should throw a FullContainerException when trying to add an element to a full queue" result="The queue throws a FullContainerException when trying to add an element to a full queue" reason=""/>

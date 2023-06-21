@@ -1,0 +1,11 @@
+<time value="0:01:55.042955"/>
+<test id="1" result="OK" case="add item to empty tree" expected="null" result=(new AVLTree<Integer>().get(5)) reason=""/>
+<test id="2" result="OK" case="add item - left tree" expected="5" result=(new AVLTree<Integer>() {{add(7); add(5); add(6);}}.get(5)) reason=""/>
+<test id="3" result="OK" case="add item - right tree" expected="14" result=(new AVLTree<Integer>() {{add(10); add(14); add(12);}}.get(14)) reason=""/>
+<test id="4" result="OK" case="add node - rebalance tree" expected=2 result=(new AVLTree<Integer>() {{add(1); add(2); add(4);}}.height()) reason=""/>
+<test id="5" result="OK" case="add node - rebalance tree" expected=2 result=(new AVLTree<Integer>() {{add(4); add(2); add(1);}}.height()) reason=""/>
+<test id="6" result="OK" case="delete non-existent item" expected="RuntimeException" result=(getError(() -> new AVLTree<Integer>().delete(7)).getClass().getSimpleName()) reason=""/>
+<test id="7" result="OK" case="delete internal node" expected="4" result=(new AVLTree<Integer>() {{add(5); add(4); add(8); add(7); add(9); add(6);}}.delete(8)) reason=""/>
+<test id="8" result="OK" case="delete leaf node" expected="null" result=(new AVLTree<Integer>() {{add(5); add(4); add(8); add(7); add(9); add(6);}}.get(4)) reason=""/>
+<test id="9" result="OK" case="get non-existent item" expected="null" result=(new AVLTree<Integer>() {{add(5); add(6); add(7);}}.get(4)) reason=""/>
+<test id="10" result="FAILED" case="comparator test" expected="true" result=(new AVLTree<Integer>(Integer::compareTo).thereIsComparator()) reason="this expected value is false, the test is not well written"/>

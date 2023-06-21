@@ -1,0 +1,14 @@
+<time value="0:00:55.719690"/>
+<test id="1" result="OK" case="isEmpty test" expected="true" result="true" reason="" />
+<test id="2" result="OK" case="insertEnd test" expected="1" result="1" reason="" />
+<test id="3" result="OK" case="insertEnd and size test" expected="4" result="4" reason="" />
+<test id="4" result="OK" case="insertBefore test" expected="1" result="1" reason="" />
+<test id="5" result="OK" case="insertAfter test" expected="2" result="2" reason="" />
+<test id="6" result="OK" case="insertBeginning tests" expected="4" result="4" reason="" />
+<test id="7" result="OK" case="delete invalid position exception test" expected="throws: InvalidPositionException" result="throws: InvalidPositionException " reason="" />
+<test id="8" result="OK" case="deleteFirst test" expected="2,1" result="2,1" reason="" />
+<test id="9" result="OK" case="delete test" expected="1,3,5" result="1,3,5" reason="" />
+<test id="10" result="OK" case="deleteAndEmptyExceptionTest test" expected="throws: EmptyContainerException" result="throws: EmptyContainerException" reason="" />
+<test id="11" result="OK" case="insertBeginning test and values test" expected="4,3,2,1" result="4,3,2,1" reason="" />
+<test id="12" result="OK" case="deleteNext test" expected="2,4,5,3,1" result="2,4,5,3,1" reason="" />
+<test id="13" result="OK" case="testPositions test" expected="true" result="true" reason="" />

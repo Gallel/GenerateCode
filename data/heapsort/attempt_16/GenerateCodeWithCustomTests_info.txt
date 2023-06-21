@@ -1,0 +1,3 @@
+<time value="0:00:06.332972"/>
+<test id="1" result="OK" case="Sort an array of integers in ascending order" expected="Sorted array" result="Sorted array" reason=""/>
+<test id="2" result="FAILED" case="Sort an array with repeated integers" expected="Sorted array with repeated integers" result="Sorted array with repeated integers" reason="The test should expect the array with repeated integers to be sorted in ascending order too"/>

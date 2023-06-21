@@ -1,0 +1,114 @@
+<time value="0:00:47.421765"/>
+<test id="1" result="OK" case="Test empty queue" expected="True and EmptyContainerException" result="True and EmptyContainerException" reason="">
+<![CDATA[
+        // Arrange
+        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
+        
+        // Act and Assert
+        Assert.assertTrue(priorityQueue.isEmpty());
+        Assert.assertThrows(EmptyContainerException.class, () -> priorityQueue.poll());
+        ]]>
+</test>
+<test id="2" result="OK" case="Test add elements to queue" expected="Queue elements should be added properly using peek(), size(), and values()" result="Elements added properly" reason="">
+<![CDATA[
+        // Arrange
+        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(10, (o1, o2) -> o2.compareTo(o1));
+        
+        // Act
+        priorityQueue.add(7);
+        priorityQueue.add(3);
+        priorityQueue.add(5);
+        priorityQueue.add(1);
+        priorityQueue.add(9);
+        priorityQueue.add(0);
+        priorityQueue.add(8);
+        priorityQueue.add(6);
+        priorityQueue.add(4);
+        priorityQueue.add(2);
+        
+        // Assert
+        Assert.assertEquals(9, priorityQueue.peek().intValue());
+        Assert.assertEquals(10, priorityQueue.size());
+        Iterator<Integer> it = priorityQueue.values();
+        Assert.assertEquals(9, it.next().intValue());
+        Assert.assertEquals(8, it.next().intValue());
+        Assert.assertEquals(7, it.next().intValue());
+        Assert.assertEquals(6, it.next().intValue());
+        Assert.assertEquals(5, it.next().intValue());
+        Assert.assertEquals(4, it.next().intValue());
+        Assert.assertEquals(3, it.next().intValue());
+        Assert.assertEquals(2, it.next().intValue());
+        Assert.assertEquals(1, it.next().intValue());
+        Assert.assertEquals(0, it.next().intValue());
+        Assert.assertEquals(10, priorityQueue.size());
+        ]]>
+</test>
+<test id="3" result="OK" case="Test add elements to full queue" expected="FullContainerException should be thrown" result="FullContainerException thrown" reason="">
+<![CDATA[
+        // Arrange
+        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(10, (o1, o2) -> o2.compareTo(o1));
+
+        // Act
+        priorityQueue.add(7);
+        priorityQueue.add(3);
+        priorityQueue.add(5);
+        priorityQueue.add(1);
+        priorityQueue.add(9);
+        priorityQueue.add(0);
+        priorityQueue.add(8);
+        priorityQueue.add(6);
+        priorityQueue.add(4);
+        priorityQueue.add(2);
+        
+        // Assert
+        Assert.assertThrows(FullContainerException.class, () -> priorityQueue.add(200));
+        ]]>
+</test>
+<test id="4" result="OK" case="Test pull elements from queue" expected="Queue elements should be pulled properly using poll(), peek(), and size()" result="Elements pulled properly" reason="">
+<![CDATA[
+        // Arrange
+        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(10, (o1, o2) -> o2.compareTo(o1));
+        priorityQueue.add(7);
+        priorityQueue.add(3);
+        priorityQueue.add(5);
+        priorityQueue.add(1);
+        priorityQueue.add(9);
+        priorityQueue.add(0);
+        priorityQueue.add(8);
+        priorityQueue.add(6);
+        priorityQueue.add(4);
+        priorityQueue.add(2);
+
+        // Act and Assert
+        Assert.assertEquals(9, priorityQueue.poll().intValue());
+        Assert.assertEquals(9, priorityQueue.size());
+        
+        Assert.assertEquals(8, priorityQueue.poll().intValue());
+        Assert.assertEquals(8, priorityQueue.size());
+
+        Assert.assertEquals(7, priorityQueue.poll().intValue());
+        Assert.assertEquals(7, priorityQueue.size());
+
+        Assert.assertEquals(6, priorityQueue.poll().intValue());
+        Assert.assertEquals(6, priorityQueue.size());
+
+        Assert.assertEquals(5, priorityQueue.poll().intValue());
+        Assert.assertEquals(5, priorityQueue.size());
+
+        Assert.assertEquals(4, priorityQueue.poll().intValue());
+        Assert.assertEquals(4, priorityQueue.size());
+
+        Assert.assertEquals(3, priorityQueue.poll().intValue());
+        Assert.assertEquals(3, priorityQueue.size());
+
+        Assert.assertEquals(2, priorityQueue.poll().intValue());
+        Assert.assertEquals(2, priorityQueue.size());
+
+        Assert.assertEquals(1, priorityQueue.poll().intValue());
+        Assert.assertEquals(1, priorityQueue.size());
+
+        Assert.assertEquals(0, priorityQueue.poll().intValue());
+        Assert.assertEquals(0, priorityQueue.size());
+        Assert.assertTrue(priorityQueue.isEmpty());
+        ]]>
+</test>

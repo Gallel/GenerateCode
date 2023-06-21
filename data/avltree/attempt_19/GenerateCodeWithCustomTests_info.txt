@@ -1,0 +1,3 @@
+<time value="0:00:27.596334"/>
+<test id="1" result="OK" case="Test a successful addition to the AVL tree" expected="The traversal should be [100, 50, 300, 10, 75, 500]" result="[100,50,300,10,75,500]" reason="" />
+<test id="2" result="OK" case="Test delete node with single child" expected="The traversal should be [100, 50, 300, 75]" result="[100,50,300,75]" reason="" />

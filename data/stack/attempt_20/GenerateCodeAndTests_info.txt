@@ -1,0 +1,7 @@
+<time value="0:00:30.290085"/>
+<test id="1" result="OK" case="Testing isEmpty method on an empty stack" expected="true" result="(new StackArrayImpl<Integer>()).isEmpty()" reason=""/>
+<test id="2" result="OK" case="Testing isFull method on a stack with less than maximum capacity" expected="false" result="(new StackArrayImpl<Integer>()).isFull()" reason=""/>
+<test id="3" result="OK" case="Testing size method on a stack with 3 elements" expected="3" result="{StackArrayImpl<Integer> s = new StackArrayImpl<>(); s.push(1); s.push(2); s.push(3); return s.size();}" reason=""/>
+<test id="4" result="OK" case="Testing push and peek methods on a stack" expected="2" result="{StackArrayImpl<Integer> s = new StackArrayImpl<>(); s.push(1); s.push(2); return s.peek();}" reason=""/>
+<test id="5" result="OK" case="Testing pop method on a non-empty stack" expected="2" result="{StackArrayImpl<Integer> s = new StackArrayImpl<>(); s.push(1); s.push(2); return s.pop();}" reason=""/>
+<test id="6" result="FAILED" case="Testing pop method on an empty stack" expected="An EmptyStackException to be thrown" result="{StackArrayImpl<Integer> s = new StackArrayImpl<>(); return s.pop();}" reason="An EmptyStackException was not thrown"/>

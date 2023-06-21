@@ -1,0 +1,6 @@
+<time value="0:00:41.555374"/>
+<test id="1" result="OK" case="Adding an element to an empty tree" expected="1" result="1" reason="" />
+<test id="2" result="OK" case="Adding elements to a non-empty tree, checking correct order and height" expected="true" result="true" reason="" />
+<test id="3" result="OK" case="Deleting elements, checking correct deletion and re-balancing" expected="true" result="true" reason="" />
+<test id="4" result="OK" case="Retrieving a non-existent element" expected="null" result="null" reason="" />
+<test id="5" result="OK" case="Checking for the existence of a comparator in the tree" expected="false" result="false" reason="" />

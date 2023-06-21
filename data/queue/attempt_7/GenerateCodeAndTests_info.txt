@@ -1,0 +1,9 @@
+<time value="0:00:39.381569"/>
+<test id="1" result="OK" case="Test add method" expected="5" result="5" reason=""/>
+<test id="2" result="OK" case="Test isEmpty method" expected="true" result="true" reason=""/>
+<test id="3" result="OK" case="Test isFull method" expected="true" result="true" reason=""/>
+<test id="4" result="OK" case="Test peek method" expected="5" result="5" reason=""/>
+<test id="5" result="OK" case="Test poll method" expected="5" result="5" reason=""/>
+<test id="6" result="OK" case="Test size method" expected="0" result="0" reason=""/>
+<test id="7" result="OK" case="Test values method" expected="[5]" result="[5]" reason=""/>
+<test id="8" result="FAILED" case="Test add method on full queue" expected="RuntimeException" result="NullPointerException" reason="Queue is full exception not defined"/>

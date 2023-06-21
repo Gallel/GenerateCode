@@ -1,0 +1,6 @@
+<time value="0:00:27.046453"/>
+<test id="1" result="OK" case="Testing isEmpty() on empty list" expected="true" result="(new LinkedList<String>()).isEmpty()" reason=""/>
+<test id="2" result="OK" case="Testing insertEnd() and size()" expected="1" result="{LinkedList<String> l = new LinkedList<String>(); l.insertEnd(&quot;test&quot;); l.size()}" reason=""/>
+<test id="3" result="OK" case="Testing insertBeginning() and size()" expected="1" result="{LinkedList<String> l = new LinkedList<String>(); l.insertBeginning(&quot;test&quot;); l.size()}" reason=""/>
+<test id="4" result="OK" case="Testing insertBefore(), insertAfter(), and size()" expected="2" result="{LinkedList<String> l = new LinkedList<String>(); Position<String> p = l.insertBeginning(&quot;test1&quot;); l.insertAfter(p, &quot;test2&quot;); l.insertBefore(p, &quot;test3&quot;); l.size()}" reason=""/>
+<test id="5" result="OK" case="Testing deleteFirst() on list with one item" expected="null" result="{LinkedList<String> l = new LinkedList<String>(); l.insertEnd(&quot;test&quot;); l.deleteFirst(); l.deleteFirst();}" reason=""/>

@@ -1,0 +1,9 @@
+<time value="0:02:01.707323"/>
+<test id="1" result="OK" case="insertTest" expected="4" result="4" reason=""/>
+<test id="2" result="FAILED" case="insertAfterTest" expected="true" result="false" reason="Position comparison is incorrect"/>
+<test id="3" result="OK" case="deleteTest" expected="null" result="null" reason=""/>
+<test id="4" result="OK" case="deleteTestAndInvalidPositionException" expected="true" result="true" reason=""/>
+<test id="5" result="OK" case="deleteAndEmptyExceptionTest" expected="true" result="true" reason=""/>
+<test id="6" result="OK" case="insertBeginningTest" expected="true" result="true" reason=""/>
+<test id="7" result="OK" case="deleteNextTest" expected="true" result="true" reason=""/>
+<test id="8" result="OK" case="testPositions" expected="true" result="true" reason=""/>

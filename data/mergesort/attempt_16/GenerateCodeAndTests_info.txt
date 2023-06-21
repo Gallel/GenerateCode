@@ -1,0 +1,4 @@
+<time value="0:00:17.893757"/>
+<test id="1" result="OK" case="Sorts an array of integers" expected="1, 2, 3, 4, 5" result="1, 2, 3, 4, 5" reason=""/>
+<test id="2" result="OK" case="Sorts an array of strings" expected="apple, banana, cherry, date" result="apple, banana, cherry, date" reason=""/>
+<test id="3" result="OK" case="Sorts an array of custom objects" expected="A, B, C, D, E" result="A, B, C, D, E" reason=""/>

@@ -1,0 +1,5 @@
+<time value="0:00:24.212270"/>
+<test id="1" result="OK" case="Create a hashtable and check if isEmpty() returns true" expected="true" result="(new HashTable<Integer, String>()).isEmpty()" reason=""/>
+<test id="2" result="OK" case="Add an item to the hashtable and check if containsKey() returns true" expected="true" result="{HashTable<Integer, String> hashtable = new HashTable<Integer, String>(); hashtable.put(1, &quot;Value1&quot;); hashtable.containsKey(1);}" reason=""/>
+<test id="3" result="OK" case="Check the size of the hashtable" expected="2" result="{HashTable<Integer, String> hashtable = new HashTable<Integer, String>(); hashtable.put(1, &quot;Value1&quot;); hashtable.put(2, &quot;Value2&quot;); hashtable.size();}" reason=""/>
+<test id="4" result="OK" case="Delete an item in the hashtable and check if it contains the key" expected="false" result="{HashTable<Integer, String> hashtable = new HashTable<Integer, String>(); hashtable.put(1, &quot;Value1&quot;); hashtable.delete(1); hashtable.containsKey(1);}" reason=""/>

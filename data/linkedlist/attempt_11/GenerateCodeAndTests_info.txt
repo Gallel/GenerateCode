@@ -1,0 +1,5 @@
+<time value="0:01:16.375350"/>
+<test id="1" result="OK" case="Testing insertBeginning() method." expected="New size of list: 1" result="New size of list: 1" reason=""/>
+<test id="2" result="OK" case="Testing isEmpty() method." expected="true" result="true" reason=""/>
+<test id="3" result="OK" case="Testing insertEnd() method." expected="New size of list: 2" result="New size of list: 2" reason=""/>
+<test id="4" result="OK" case="Testing size() method." expected="2" result="2" reason=""/>

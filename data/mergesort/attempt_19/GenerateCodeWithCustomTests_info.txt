@@ -1,0 +1,3 @@
+<time value="0:00:16.722382"/>
+<test id="1" result="OK" case="Tests if the sorting algorithm works with an array of integers." expected="The array should be sorted in ascending order." result="The array is sorted in ascending order." reason=""/>
+<test id="2" result="FAILED" case="Tests if the sorting algorithm works with an empty array." expected="The array should remain unchanged." result="There was a NullPointerException when trying to sort the array." reason="NullPointerException"/>

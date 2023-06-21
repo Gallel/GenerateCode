@@ -1,0 +1,5 @@
+<time value="0:00:43.328986"/>
+<test id="1" result="OK" case="Create empty PriorityQueue and check it is empty" expected="true" result="true" reason=""/>
+<test id="2" result="OK" case="Add elements to PriorityQueue and check size and peek()" expected="7" result="7" reason=""/>
+<test id="3" result="OK" case="Add elements to PriorityQueue until it is full and check it throws FullContainerException" expected="class edu.uoc.ds.exceptions.FullContainerException" result="class edu.uoc.ds.exceptions.FullContainerException" reason=""/>
+<test id="4" result="OK" case="Add elements to PriorityQueue, poll them and check size and peek()" expected="null" result="null" reason=""/>

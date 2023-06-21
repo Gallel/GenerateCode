@@ -1,0 +1,11 @@
+<time value="0:00:33.289656"/>
+<test id="1" result="OK" case="Testing StackArrayImpl default constructor and isEmpty()" expected="true" result="true" reason=""/>
+<test id="2" result="OK" case="Testing StackArrayImpl constructor with parameter and isFull()" expected="false" result="false" reason=""/>
+<test id="3" result="OK" case="Testing StackArrayImpl push()" expected="3" result="3" reason=""/>
+<test id="4" result="OK" case="Testing StackArrayImpl peek()" expected="5" result="5" reason=""/>
+<test id="5" result="OK" case="Testing StackArrayImpl pop()" expected="12" result="12" reason=""/>
+<test id="6" result="OK" case="Testing StackArrayImpl isEmpty() when empty and after pop()" expected="true" result="true" reason=""/>
+<test id="7" result="OK" case="Testing StackArrayImpl isFull()" expected="false" result="false" reason=""/>
+<test id="8" result="OK" case="Testing StackArrayImpl isFull() after adding elements" expected="true" result="true" reason=""/>
+<test id="9" result="OK" case="Testing StackArrayImpl push() when full" expected="FullContainerException" result="FullContainerException" reason=""/>
+<test id="10" result="OK" case="Testing StackArrayImpl toString()" expected="[20, 5]" result="[20, 5]" reason=""/>

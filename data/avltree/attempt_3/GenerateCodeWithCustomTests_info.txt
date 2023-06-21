@@ -1,0 +1,3 @@
+<time value="0:00:24.218976"/>
+<test id="1" result="OK" case="Tests AVLTree add and delete with integer elements" expected="The traversal orders of the AVL tree should match the expected arrays" result="The traversal orders of the AVL tree match the expected arrays" reason=""/>
+<test id="2" result="OK" case="Tests AVLTree add and delete with string elements" expected="The traversal orders of the AVL tree should match the expected arrays" result="The traversal orders of the AVL tree match the expected arrays" reason=""/>

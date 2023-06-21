@@ -1,0 +1,3 @@
+<time value="0:00:31.264414"/>
+<test id="1" result="OK" case="Testing the sorting of an array of integers" expected="The array of integers should be sorted in ascending order" result="The array of integers was sorted in ascending order" reason=""/>
+<test id="2" result="FAILED" case="Testing the sorting of an empty array of integers" expected="The empty array of integers should remain empty" result="The empty array of integers was not sorted" reason="Empty array not handled correctly"/>

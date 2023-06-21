@@ -1,0 +1,7 @@
+<time value="0:04:05.325283"/>
+<test id="1" result="OK" case="Insert elements at the end of the list" expected="" result=""/>
+<test id="2" result="OK" case="Insert elements after a position" expected="" result=""/>
+<test id="3" result="OK" case="Delete elements from the list" expected="" result=""/>
+<test id="4" result="OK" case="Delete elements from an empty list and handle invalid positions" expected="" result=""/>
+<test id="5" result="OK" case="Insert elements at the beginning of the list" expected="" result=""/>
+<test id="6" result="OK" case="Iterate through the positions in the list" expected="" result=""/>

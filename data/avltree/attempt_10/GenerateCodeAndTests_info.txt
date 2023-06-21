@@ -1,0 +1,7 @@
+<time value="0:00:39.348756"/>
+<test id="1" result="OK" case="test add and get methods" expected="5" result="5" reason=""/>
+<test id="2" result="OK" case="test delete method with left child" expected="2" result="2" reason=""/>
+<test id="3" result="OK" case="test delete method with right child" expected="9" result="9" reason=""/>
+<test id="4" result="OK" case="test delete method with both children" expected="5" result="5" reason=""/>
+<test id="5" result="OK" case="test empty tree" expected="true" result="true" reason=""/>
+<test id="6" result="OK" case="test thereIsComparator method" expected="true" result="true" reason=""/>

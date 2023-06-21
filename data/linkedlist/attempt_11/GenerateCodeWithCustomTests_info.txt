@@ -1,0 +1,11 @@
+<time value="0:00:55.009582"/>
+<test id="1" result="OK" case="Insert values into the list with insertEnd()" expected="The list should have all the values inserted" result="The list has all the values inserted" reason=""/>
+<test id="2" result="OK" case="Insert values into the list with insertAfter()" expected="The list should have all the values inserted in the correct position" result="The list has all the values inserted in the correct position" reason=""/>
+<test id="3" result="OK" case="Delete values from the list with delete()" expected="The list should have all the values deleted" result="The list has all the values deleted" reason=""/>
+<test id="4" result="OK" case="Delete first values from the list with deleteFirst()" expected="The list should have all the values deleted starting from the first" result="The list has all the values deleted starting from the first" reason=""/>
+<test id="5" result="OK" case="Delete next values from the list with deleteNext()" expected="The list should have the next values deleted" result="The list has the next values deleted" reason=""/>
+<test id="6" result="OK" case="Insert values into the list with insertBeginning()" expected="The list should have all the values inserted at the beginning" result="The list has all the values inserted at the beginning" reason=""/>
+<test id="7" result="OK" case="Positions in the list with positions()" expected="Should iterate through all the positions in the list" result="Iterated through all the positions in the list" reason=""/>
+<test id="8" result="OK" case="Swap nodes in the list with swap()" expected="The nodes should be swapped" result="The nodes have been swapped" reason=""/>
+<test id="9" result="OK" case="Update nodes in the list with update()" expected="The node should be updated" result="The node has been updated" reason=""/>
+<test id="10" result="OK" case="Get values with values()" expected="Should iterate through all the values in the list" result="Iterated through all the values in the list" reason=""/>

@@ -1,0 +1,9 @@
+<time value="0:00:25.558965"/>
+<test id="1" result="OK" case="Insert to beginning and check values" expected="4" result="4" reason="" />
+<test id="2" result="OK" case="Insert to end multiple times and check values" expected="1,2,3,4" result="1,2,3,4" reason="" />
+<test id="3" result="OK" case="Insert after and check positions" expected="1,2,3,4,5" result="1,2,3,4,5" reason="" />
+<test id="4" result="OK" case="Delete with success" expected="1,2,3" result="1,2,3" reason="" />
+<test id="5" result="OK" case="Delete with failure" expected="InvalidPositionException" result="InvalidPositionException" reason="" />
+<test id="6" result="OK" case="Delete first with success" expected="2,3" result="2,3" reason="" />
+<test id="7" result="OK" case="Delete first with failure" expected="EmptyContainerException" result="EmptyContainerException" reason="" />
+<test id="8" result="OK" case="Insert to beginning multiple times and check values" expected="4,3,2,1" result="4,3,2,1" reason="" />

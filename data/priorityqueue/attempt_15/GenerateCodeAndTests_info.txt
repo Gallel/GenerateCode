@@ -1,0 +1,18 @@
+<time value="0:01:57.246145"/>
+<test id="1" result="OK" case="Test constructor without parameters" expected="true" result="(new PriorityQueue<Integer>()).isEmpty()" reason=""/>
+<test id="2" result="OK" case="Test constructor with parameter" expected="0" result="(new PriorityQueue<Integer>(5)).size()" reason=""/>
+<test id="3" result="OK" case="Test add method" expected="42" result="{PriorityQueue<Integer> pq = new PriorityQueue<Integer>(); pq.add(50); pq.add(42); pq.add(60); return pq.poll();}" reason=""/>
+<test id="4" result="OK" case="Test clone method" expected="true" result="(new PriorityQueue<Integer>(5)).clone() instanceof PriorityQueue" reason=""/>
+<test id="5" result="OK" case="Test compare method" expected="1" result="{PriorityQueue<Integer> pq = new PriorityQueue<Integer>(); pq.add(50); pq.add(42); pq.add(60); return pq.compare(pq.first(), pq.last());}" reason=""/>
+<test id="6" result="OK" case="Test deleteLastPosition method" expected="60" result="{PriorityQueue<Integer> pq = new PriorityQueue<Integer>(); pq.add(50); pq.add(42); pq.add(60); return pq.deleteLastPosition().getElement();}" reason=""/>
+<test id="7" result="OK" case="Test isEmpty method" expected="true" result="(new PriorityQueue<Integer>()).isEmpty()" reason=""/>
+<test id="8" result="OK" case="Test isFull method" expected="false" result="(new PriorityQueue<Integer>(5)).isFull()" reason=""/>
+<test id="9" result="OK" case="Test nextLastPosition method" expected="1" result="{PriorityQueue<Integer> pq = new PriorityQueue<Integer>(5); pq.add(50); pq.add(42); return pq.nextLastPosition(60).getPosition();}" reason=""/>
+<test id="10" result="OK" case="Test peek method" expected="42" result="{PriorityQueue<Integer> pq = new PriorityQueue<Integer>(); pq.add(50); pq.add(42); pq.add(60); return pq.peek();}" reason=""/>
+<test id="11" result="OK" case="Test poll method" expected="42" result="{PriorityQueue<Integer> pq = new PriorityQueue<Integer>(); pq.add(50); pq.add(42); pq.add(60); return pq.poll();}" reason=""/>
+<test id="12" result="OK" case="Test positions method" expected="true" result="(new PriorityQueue<Integer>(5)).positions() instanceof Traversal" reason=""/>
+<test id="13" result="OK" case="Test siftDown method" expected="60" result="{PriorityQueue<Integer> pq = new PriorityQueue<Integer>(); pq.add(50); pq.add(42); pq.add(60); pq.siftDown(pq.root()); return pq.poll();}" reason=""/>
+<test id="14" result="OK" case="Test siftUp method" expected="50" result="{PriorityQueue<Integer> pq = new PriorityQueue<Integer>(); pq.add(42); pq.add(60); pq.siftUp(pq.last()); return pq.poll();}" reason=""/>
+<test id="15" result="OK" case="Test size method" expected="3" result="{PriorityQueue<Integer> pq = new PriorityQueue<Integer>(); pq.add(50); pq.add(42); pq.add(60); return pq.size();}" reason=""/>
+<test id="16" result="OK" case="Test toString method" expected="[(42), (50), (60)]" result="{PriorityQueue<Integer> pq = new PriorityQueue<Integer>(); pq.add(50); pq.add(42); pq.add(60); return pq.toString();}" reason=""/>
+<test id="17" result="OK" case="Test values method" expected="[(42), (50), (60)]" result="{PriorityQueue<Integer> pq = new PriorityQueue<Integer>(); pq.add(50); pq.add(42); pq.add(60); List<Integer> list = new ArrayList<>(); for (Integer n : pq.values()) {list.add(n);} return list.toString();}" reason=""/>

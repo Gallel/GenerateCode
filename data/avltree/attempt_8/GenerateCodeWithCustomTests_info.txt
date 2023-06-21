@@ -1,0 +1,7 @@
+<time value="0:00:53.151112"/>
+<test id="1" result="OK" case="Test AVLTree add()" expected="The tree should add the elements in the correct order and balance itself." result="The tree adds the elements in the correct order and balances itself." reason=""/>
+<test id="2" result="OK" case="Test AVLTree delete()" expected="The tree should remove the specified element, leaving the rest of the elements in the correct order and with height difference lesser than 2." result="The tree removes the element correctly and remains with the other elements in correct order and height difference lesser than 2." reason=""/>
+<test id="3" result="OK" case="Test AVLTree get()" expected="The method should return null if the element is not found, and the correct element if it is found." result="The method returns null or the correct elements depending on the cases." reason=""/>
+<test id="4" result="OK" case="Test AVLTree without comparator" expected="The AVLTree should not have a comparator instantiated." result="The AVLTree does not have an explicit comparator." reason=""/>
+<test id="5" result="OK" case="Test AVLTree with comparator" expected="The AVLTree should have an explicit comparator instantiated." result="The AVLTree has an explicit comparator." reason=""/>
+<test id="6" result="OK" case="Test AVLTree Node getHeight()" expected="Every AVLTree node should have a correct height attribute (indicating the quantity of levels from this node to the lowest leaf of each subtree)." result="The tree nodes have the correct height attribute." reason=""/>

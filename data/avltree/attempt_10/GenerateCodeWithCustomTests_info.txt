@@ -1,0 +1,8 @@
+<time value="0:00:22.460996"/>
+<test id="1" result="OK" case="Adding elements to an empty AVLTree" expected="[10, 20, 30, 40]" result="[10, 20, 30, 40]" reason=""/>
+<test id="1" result="OK" case="Adding elements to a non-empty AVLTree" expected="[10, 20, 30, 40, 50]" result="[10, 20, 30, 40, 50]" reason=""/>
+<test id="1" result="OK" case="Adding duplicate elements to an AVLTree" expected="[10, 20, 30, 40, 50]" result="[10, 20, 30, 40, 50]" reason=""/>
+<test id="1" result="OK" case="Getting an existing element from an AVLTree" expected="20" result="20" reason=""/>
+<test id="1" result="OK" case="Trying to get a non-existing element from an AVLTree" expected="null" result="null" reason=""/>
+<test id="1" result="OK" case="Deleting an element from a one-element AVLTree" expected="10" result="10" reason=""/>
+<test id="1" result="OK" case="Deleting a non-existing element from an AVLTree" expected="null" result="null" reason=""/>

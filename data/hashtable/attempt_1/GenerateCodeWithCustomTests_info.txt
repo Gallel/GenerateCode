@@ -1,0 +1,12 @@
+<time value="0:00:48.096677"/>
+<test id="1" result="OK" case="Dictionary size" expected="3" result="3" reason=""/>
+<test id="2" result="OK" case="Contains key" expected="true" result="true" reason=""/>
+<test id="3" result="OK" case="Does not contain key" expected="false" result="false" reason=""/>
+<test id="4" result="OK" case="Delete existing key" expected="Miss Piggy" result="Miss Piggy" reason=""/>
+<test id="5" result="OK" case="Delete non-existing key" expected="null" result="null" reason=""/>
+<test id="6" result="OK" case="Get existing key" expected="Kermit the Frog" result="Kermit the Frog" reason=""/>
+<test id="7" result="OK" case="Get non-existing key" expected="null" result="null" reason=""/>
+<test id="8" result="OK" case="Put new item" expected="4" result="4" reason=""/>
+<test id="9" result="OK" case="Put overwrite existing key" expected="3" result="3" reason=""/>
+<test id="10" result="OK" case="keys()" expected="KERM1955, ELM1980, PIG1974," result="KERM1955, ELM1980, PIG1974," reason=""/>
+<test id="11" result="OK" case="values()" expected="Kermit the Frog, Elmo, Miss Piggy," result="Kermit the Frog, Elmo, Miss Piggy," reason=""/>

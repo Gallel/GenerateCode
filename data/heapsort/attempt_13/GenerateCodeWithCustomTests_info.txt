@@ -1,0 +1,3 @@
+<time value="0:00:05.796720"/>
+<test id="1" result="OK" case="Test if the algorithm sorts a given sequence of integers" expected="The sequence should be sorted" result="The sequence is sorted" reason=""/>
+<test id="2" result="FAILED" case="Test if the algorithm throws an exception when given an empty sequence" expected="An exception should be thrown" result="An exception is not thrown" reason="The test did not specify an expected exception"/>

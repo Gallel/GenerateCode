@@ -1,0 +1,3 @@
+<time value="0:00:17.257074"/>
+<test id="1" result="OK" case="Sorts a vector of size 10" expected="Sorted array" result="Sorted array" reason=""/>
+<test id="2" result="FAILED" case="Sorts a vector of size 1" expected="Array with one element" result="Exception ArrayIndexOutOfBoundsException" reason="An exception is thrown because the array is already sorted."/>

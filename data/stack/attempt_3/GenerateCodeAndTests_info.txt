@@ -1,0 +1,8 @@
+<time value="0:00:41.682626"/>
+<test id="1" result="OK" case="Creating an empty stack and checking that it's empty" expected="true" result="(new StackArrayImpl<Integer>()).isEmpty()"/>
+<test id="2" result="OK" case="Creating a stack with maximum capacity of 2 elements and checking that it's not full" expected="false" result="(new StackArrayImpl<String>(2)).isFull()"/>
+<test id="3" result="OK" case="Adding an item to an empty stack, checking its size, and peeking the top" expected="1;hello" result="(new StackArrayImpl<String>()).push(&quot;hello&quot;); (new StackArrayImpl<String>()).size() + &quot;;&quot; + (new StackArrayImpl<String>()).peek()"/>
+<test id="4" result="OK" case="Adding 3 items to a stack and retrieving them all" expected="first second third" result="StackArrayImpl&lt;String&gt; stack = new StackArrayImpl&lt;String&gt;(); stack.push(&quot;first&quot;); stack.push(&quot;second&quot;); stack.push(&quot;third&quot;); String s = &quot;&quot;; Iterator&lt;String&gt; it = stack.values(); while (it.hasNext()) { s += it.next() + &quot; &quot;; } s"/>
+<test id="5" result="OK" case="Removing an item from a stack and checking its size" expected="1" result="StackArrayImpl&lt;Integer&gt; stack = new StackArrayImpl&lt;Integer&gt;(2); stack.push(1); stack.push(2); stack.pop(); stack.size()"/>
+<test id="6" result="OK" case="Trying to remove an item from an empty stack" expected="null" result="(new StackArrayImpl<Integer>()).pop()"/>
+<test id="7" result="OK" case="Trying to add an item to a full stack" expected="" result="StackArrayImpl&lt;Integer&gt; stack = new StackArrayImpl&lt;Integer&gt;(1); stack.push(1); stack.push(2); "/>

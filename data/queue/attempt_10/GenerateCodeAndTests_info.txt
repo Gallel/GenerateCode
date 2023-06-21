@@ -1,0 +1,8 @@
+<time value="0:00:57.902392"/>
+<test id="1" result="OK" case="Create an empty queue and check if it's empty" expected="true" result="true" reason="" />
+<test id="2" result="OK" case="Create a queue with max capacity of 5 and add 3 elements" expected="size == 3, peek() equals to first added element" result="true" reason="" />
+<test id="3" result="OK" case="Create a queue with max capacity of 2 and add 2 elements, then poll one element" expected="size == 1, element polled is the first added" result="true" reason="" />
+<test id="4" result="OK" case="Create a queue with max capacity of 3 and add 3 elements, then add one more to test isFull() method" expected="isFull() returns true" result="true" reason="" />
+<test id="5" result="OK" case="Create a queue with max capacity of 4 and add 4 elements, then poll all 4 elements" expected="isEmpty() returns true, poll() method returns null after all elements are polled" result="true" reason="" />
+<test id="6" result="OK" case="Create a queue with max capacity of 3 and add 3 elements, then call toString() method" expected="The string representation of the queue is [elem1, elem2, elem3]" result="[elem1, elem2, elem3]" reason="" />
+<test id="7" result="OK" case="Create a queue with max capacity of 2 and add 2 elements, then iterate over all elements using values() method" expected="The elements iterated are the ones added, in the correct order" result="true" reason="" />

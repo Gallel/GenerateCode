@@ -1,0 +1,8 @@
+<time value="0:00:53.819796"/>
+<test id="1" result="OK" case="Testing add() method when the container is initially empty" expected="3" result="3" reason=""/>
+<test id="2" result="OK" case="Testing add() method when the container is not empty" expected="5" result="5" reason=""/>
+<test id="3" result="OK" case="Testing peek() method when the container is not empty" expected="3" result="3" reason=""/>
+<test id="4" result="OK" case="Testing poll() method when the container is not empty" expected="3" result="3" reason=""/>
+<test id="5" result="OK" case="Testing poll() method when there are multiple items in the container" expected="3" result="3" reason=""/>
+<test id="6" result="OK" case="Testing poll() method when the container becomes empty" expected="null" result="null" reason=""/>
+<test id="7" result="OK" case="Testing clone() method" expected="[3, 4, 5]" result="[3, 4, 5]" reason=""/>

@@ -1,0 +1,12 @@
+<time value="0:00:43.548564"/>
+<test id="1" result="OK" case="Test priority queue with integers using default constructor" expected="Priority queue with 5 elements: [1, 2, 3, 4, 5]" result="Priority queue with 5 elements: [1, 2, 3, 4, 5]" reason=""/>
+<test id="2" result="OK" case="Test priority queue with strings using capacity constructor" expected="Priority queue with 4 elements: [a, b, c, d]" result="Priority queue with 4 elements: [a, b, c, d]" reason=""/>
+<test id="3" result="OK" case="Test priority queue with doubles using comparator constructor" expected="Priority queue with 3 elements: [0.1, 2.5, 3.0]" result="Priority queue with 3 elements: [0.1, 2.5, 3.0]" reason=""/>
+<test id="4" result="OK" case="Test adding an element to the priority queue" expected="Priority queue with 4 elements: [1, 2, 3, 4]" result="Priority queue with 4 elements: [1, 2, 3, 4]" reason=""/>
+<test id="5" result="OK" case="Test cloning the priority queue" expected="Priority queue with 4 elements: [1, 2, 3, 4]" result="Priority queue with 4 elements: [1, 2, 3, 4]" reason=""/>
+<test id="6" result="OK" case="Test getting the lowest priority element" expected="1" result="1" reason=""/>
+<test id="7" result="OK" case="Test deleting the lowest priority element" expected="Priority queue with 3 elements: [2, 3, 4]" result="Priority queue with 3 elements: [2, 3, 4]" reason=""/>
+<test id="8" result="OK" case="Test checking if the priority queue is empty" expected="true" result="true" reason=""/>
+<test id="9" result="OK" case="Test checking if the priority queue is full" expected="false" result="false" reason=""/>
+<test id="10" result="OK" case="Test getting the number of elements in the priority queue" expected="4" result="4" reason=""/>
+<test id="11" result="OK" case="Test getting the elements in the priority queue" expected="[1, 2, 3, 4]" result="[1, 2, 3, 4]" reason=""/>

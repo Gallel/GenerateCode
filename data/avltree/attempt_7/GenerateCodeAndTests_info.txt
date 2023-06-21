@@ -1,0 +1,6 @@
+<time value="0:01:24.052216"/>
+<test id="1" result="OK" case="Creating an AVLTree object" expected="true" result="(new AVLTree<Integer>()) != null" reason=""/>
+<test id="2" result="OK" case="Checking if there is a comparator" expected="false" result="(new AVLTree<Integer>()).thereIsComparator()" reason=""/>
+<test id="3" result="OK" case="Adding an element to the tree" expected="true" result="{AVLTree<Integer> tree = new AVLTree<Integer>(); tree.add(5); tree.get(5) != null;}" reason=""/>
+<test id="4" result="OK" case="Adding multiple elements to the tree" expected="true" result="{AVLTree<Integer> tree = new AVLTree<Integer>(); tree.add(5); tree.add(3); tree.add(7); tree.get(5) != null && tree.get(3) != null && tree.get(7) != null;}" reason=""/>
+<test id="5" result="OK" case="Deleting an element from the tree" expected="null" result="{AVLTree<Integer> tree = new AVLTree<Integer>(); tree.add(5); tree.delete(5); tree.get(5);}" reason=""/>

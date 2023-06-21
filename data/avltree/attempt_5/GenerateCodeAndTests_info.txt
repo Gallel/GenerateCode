@@ -1,0 +1,4 @@
+<time value="0:00:29.449147"/>
+<test id="1" result="OK" case="Testing add method" expected="5" result="5" reason=""/>
+<test id="2" result="OK" case="Testing delete method" expected="null" result="null" reason=""/>
+<test id="3" result="OK" case="Testing get method" expected="5" result="5" reason=""/>

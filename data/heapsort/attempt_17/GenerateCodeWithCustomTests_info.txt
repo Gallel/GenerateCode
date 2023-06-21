@@ -1,0 +1,5 @@
+<time value="0:00:11.442553"/>
+<test id="1" result="OK" case="Testing sorting algorithm on integer array" expected="The integers in the array sorted from least to greatest" result="The integers in the array sorted from least to greatest" reason=""/>
+<test id="2" result="OK" case="Testing sorting algorithm on an already sorted array" expected="The integers in the array sorted from least to greatest" result="The integers in the array sorted from least to greatest" reason=""/>
+<test id="3" result="OK" case="Testing sorting algorithm on array with repeated integers" expected="The integers in the array sorted from least to greatest, with duplicates retained in their original order" result="The integers in the array sorted from least to greatest, with duplicates retained in their original order" reason=""/>
+<test id="4" result="OK" case="Testing sorting algorithm on an array with only one element" expected="The array with the single element" result="The array with the single element" reason=""/>

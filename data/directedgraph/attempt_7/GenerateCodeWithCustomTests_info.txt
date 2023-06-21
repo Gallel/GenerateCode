@@ -1,0 +1,16 @@
+<time value="0:00:24.938948"/>
+<test id="1" result="OK" case="Test adjacencyList method" expected="true" result="true" reason=""/>
+<test id="2" result="OK" case="Test createVertex method" expected="VertexImpl" result="VertexImpl" reason=""/>
+<test id="3" result="OK" case="Test deleteEdge method" expected="true" result="true" reason=""/>
+<test id="4" result="OK" case="Test deleteVertex method" expected="true" result="true" reason=""/>
+<test id="5" result="OK" case="Test edgedWithDestA method" expected="true" result="true" reason=""/>
+<test id="6" result="OK" case="Test edges method" expected="true" result="true" reason=""/>
+<test id="7" result="OK" case="Test edgesWithSource method" expected="true" result="true" reason=""/>
+<test id="8" result="OK" case="Test getEdge method" expected="true" result="true" reason=""/>
+<test id="9" result="OK" case="Test getVertex method" expected="true" result="true" reason=""/>
+<test id="10" result="OK" case="Test newDictionaryVertexs method" expected="true" result="true" reason=""/>
+<test id="11" result="OK" case="Test newEdge method" expected="EdgeImpl" result="EdgeImpl" reason=""/>
+<test id="12" result="OK" case="Test newVertex method" expected="VertexImpl" result="VertexImpl" reason=""/>
+<test id="13" result="OK" case="Test numVertexs method" expected="0" result="0" reason=""/>
+<test id="14" result="OK" case="Test vertexs method" expected="true" result="true" reason=""/>
+<test id="15" result="OK" case="Test toString method" expected="DirectedGraphImpl{vertices=DictionaryImpl{elements={}, size=0}}" result="DirectedGraphImpl{vertices=DictionaryImpl{elements={}, size=0}}}" reason=""/>

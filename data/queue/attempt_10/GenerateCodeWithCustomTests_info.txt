@@ -1,0 +1,11 @@
+<time value="0:00:49.126262"/>
+<test id="1" result="OK" case="Add an item to the queue" expected="3" result="3" reason=""/>
+<test id="2" result="OK" case="Retrieves the first item added to the queue" expected="54" result="54" reason=""/>
+<test id="3" result="OK" case="Delete the first item in the queue" expected="54" result="54" reason=""/>
+<test id="4" result="OK" case="Method to check if the container is empty" expected="false" result="false" reason=""/>
+<test id="5" result="OK" case="Retrieves the number of items in the container" expected="2" result="2" reason=""/>
+<test id="6" result="OK" case="Retrieves the items in the container" expected="[54, 60]" result="[54, 60]" reason=""/>
+<test id="7" result="FAILED" case="Method to check if the container is full" expected="false" result="true" reason="Queue of size 2 should not be full"/>
+<test id="8" result="OK" case="Constructor with a parameter and fullTest" expected="FullContainerException" result="FullContainerException" reason=""/>
+<test id="9" result="OK" case="Retrieves the items in the container using an iterator" expected="[54, 60]" result="[54, 60]" reason=""/>
+<test id="10" result="OK" case="Check if works with different data types" expected="[a, 3.5, true]" result="[a, 3.5, true]" reason=""/>

@@ -1,0 +1,32 @@
+<time value="0:00:53.222100"/>
+<test id="1" result="OK" case="Test hash table initialization with default size" expected="11" result="(new HashTable<Integer, Integer>()).size()" reason=""/>
+<test id="2" result="OK" case="Test hash table initialization with custom size" expected="20" result="(new HashTable<Integer, Integer>(20)).size()" reason=""/>
+<test id="3" result="OK" case="Test putting and retrieving values in the hash table" expected="5" result="(new HashTable<String, Integer>(){{
+        put(&quot;one&quot;, 1);
+        put(&quot;two&quot;, 2);
+        put(&quot;three&quot;, 3);
+        put(&quot;four&quot;, 4);
+        put(&quot;five&quot;, 5);
+    }}).size()" reason=""/>
+<test id="4" result="OK" case="Test deleting values from the hash table" expected="4" result="(new HashTable<String, Integer>(){{
+        put(&quot;one&quot;, 1);
+        put(&quot;two&quot;, 2);
+        put(&quot;three&quot;, 3);
+        put(&quot;four&quot;, 4);
+        put(&quot;five&quot;, 5);
+        delete(&quot;one&quot;);
+        delete(&quot;three&quot;);
+    }}).size()" reason=""/>
+<test id="5" result="OK" case="Test retrieving all keys from hash table" expected="true" result="(new HashTable<String, Integer>(){{
+        put(&quot;one&quot;, 1);
+        put(&quot;two&quot;, 2);
+        put(&quot;three&quot;, 3);
+        put(&quot;four&quot;, 4);
+        put(&quot;five&quot;, 5);
+        Iterator<String> keys = keys();
+        while (keys.hasNext()) {
+            String key = keys.next();
+            if (!containsKey(key)) return false;
+        }
+        return true;
+    }}).booleanValue()" reason=""/>

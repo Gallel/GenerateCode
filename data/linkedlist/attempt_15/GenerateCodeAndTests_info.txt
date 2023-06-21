@@ -1,0 +1,5 @@
+<time value="0:00:29.745105"/>
+<test id="1" result="OK" case="testIsEmpty()" expected="true" result="(write the result here)" reason=""/>
+<test id="2" result="OK" case="testInsertAfter()" expected="(position=item2)" result="(write the result here)" reason=""/>
+<test id="3" result="OK" case="testDelete()" expected="(item4)" result="(write the result here)" reason=""/>
+<test id="4" result="OK" case="testSize()" expected="2" result="(write the result here)" reason=""/>

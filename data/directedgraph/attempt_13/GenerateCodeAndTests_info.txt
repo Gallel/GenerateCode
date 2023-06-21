@@ -1,0 +1,2 @@
+<time value="0:00:18.044974"/>
+<test id="1" result="OK" case="Create a DirectedGraphImpl object" expected="Class DirectedGraphImpl object" result="Class DirectedGraphImpl object" reason="It creates the object successfully"/>

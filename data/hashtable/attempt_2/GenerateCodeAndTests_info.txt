@@ -1,0 +1,14 @@
+<time value="0:02:03.271539"/>
+<test id="1" result="OK" case="Test put method" expected="1" result="1" reason=""/>
+<test id="2" result="OK" case="Test put method with existing key" expected="2" result="2" reason=""/>
+<test id="3" result="OK" case="Test get method" expected="2" result="2" reason=""/>
+<test id="4" result="OK" case="Test containsKey method" expected="true" result="true" reason=""/>
+<test id="5" result="FAILED" case="Test containsKey method with not existing key" expected="false" result="true" reason="Method returns true instead of false"/>
+<test id="6" result="OK" case="Test delete method" expected="2" result="2" reason=""/>
+<test id="7" result="OK" case="Test delete method with not existing key" expected="null" result="null" reason=""/>
+<test id="8" result="OK" case="Test keys method" expected="[1, 3]" result="[1, 3]" reason=""/>
+<test id="9" result="OK" case="Test values method" expected="[2, 4]" result="[2, 4]" reason=""/>
+<test id="10" result="OK" case="Test isEmpty method" expected="false" result="false" reason=""/>
+<test id="11" result="OK" case="Test isEmpty method with empty hashtable" expected="true" result="true" reason=""/>
+<test id="12" result="OK" case="Test size method" expected="2" result="2" reason=""/>
+<test id="13" result="OK" case="Test toString method" expected="[1=2, 3=4]" result="[1=2, 3=4]" reason=""/>

@@ -1,0 +1,3 @@
+<time value="0:01:34.718105"/>
+<test id="1" result="OK" case="Add and balance the tree" expected="The AVL tree should be balanced" result="The AVL tree is balanced" reason=""/>
+<test id="2" result="OK" case="Delete a node and balance the tree" expected="The AVL tree should be balanced after deleting a node" result="The AVL tree is balanced after deleting a node" reason=""/>

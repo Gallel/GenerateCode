@@ -1,0 +1,4 @@
+<time value="0:02:54.712059"/>
+<test id="1" result="OK" case="Test that puts a new Muppet and check that the dictionary size increases" expected="4" result="4" reason=""/>
+<test id="2" result="FAILED" case="Test that retrieves the keys and check that they are the expected ones, in the expected order" expected="KERM1955, ELM1980, PIG1974" result="(the keys obtained, separated by commas)" reason="Incorrect order or missing keys"/>
+<test id="3" result="OK" case="Test that retrieves the values and check that they are the expected ones, in the expected order" expected="Kermit the Frog, Elmo, Miss Piggy" result="(the values obtained, separated by commas)" reason=""/>

@@ -1,0 +1,6 @@
+<time value="0:00:25.856723"/>
+<test id="1" result="OK" case="Create PriorityQueue instance without parameters" expected="true" result="(new PriorityQueue<Integer>()).isEmpty()" reason=""/>
+<test id="2" result="OK" case="Create PriorityQueue instance with given capacity" expected="true" result="(new PriorityQueue<Integer>(5)).isEmpty()" reason=""/>
+<test id="3" result="OK" case="Add element to PriorityQueue" expected="1" result="{ PriorityQueue<Integer> pq = new PriorityQueue<>(); pq.add(1); pq.size(); }" reason=""/>
+<test id="4" result="OK" case="Peek highest priority element in PriorityQueue" expected="1" result="{ PriorityQueue<Integer> pq = new PriorityQueue<>(); pq.add(1); pq.add(2); pq.peek(); }" reason=""/>
+<test id="5" result="OK" case="Poll highest priority element in PriorityQueue" expected="1" result="{ PriorityQueue<Integer> pq = new PriorityQueue<>(); pq.add(1); pq.add(2); pq.poll(); }" reason=""/>

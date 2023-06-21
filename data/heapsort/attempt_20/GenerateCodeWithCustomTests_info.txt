@@ -1,0 +1,3 @@
+<time value="0:00:06.568708"/>
+<test id="1" result="OK" case="Sorting an array of integers" expected="Array sorted in ascending order" result="Array sorted in ascending order" reason=""/>
+<test id="2" result="FAILED" case="Sorting an array of strings" expected="Array sorted in alphabetical order" result="Array not sorted in alphabetical order" reason="Returned array is not sorted in alphabetical order"/>

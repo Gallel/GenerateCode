@@ -1,0 +1,5 @@
+<time value="0:02:03.180132"/>
+<test id="1" result="OK" case="emptyTest" expected="true,null" result="true,null" reason=""/>
+<test id="2" result="OK" case="addTest" expected="10,null,9,8,7,6,5,4,3,2,1,0" result="10,null,9,8,7,6,5,4,3,2,1,0" reason=""/>
+<test id="3" result="OK" case="addAndFullContainerTest" expected="200,null" result="200,null" reason=""/>
+<test id="4" result="OK" case="pullTest" expected="9,8,7,6,5,4,3,2,1,0" result="9,8,7,6,5,4,3,2,1,0" reason=""/>

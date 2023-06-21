@@ -1,0 +1,15 @@
+<time value="0:00:27.519740"/>
+<test id="1" result="OK" case="Create an empty AVL tree without comparator and check its size should be zero" expected="0" result="0" reason="" />
+<test id="2" result="OK" case="Create an AVL tree with a comparator provided and check its size should be zero" expected="0" result="0" reason="" />
+<test id="3" result="OK" case="Add an element to an empty AVL tree and check its size should be one" expected="1" result="1" reason="" />
+<test id="4" result="OK" case="Add multiple elements to an empty AVL tree and check its size" expected="5" result="5" reason="" />
+<test id="5" result="OK" case="Add an element to a non-empty AVL tree and check its size" expected="6" result="6" reason="" />
+<test id="6" result="OK" case="Add multiple elements to a non-empty AVL tree and check its size" expected="10" result="10" reason="" />
+<test id="7" result="OK" case="Get an element from an AVL tree containing the element" expected="Element" result="Element" reason="" />
+<test id="8" result="OK" case="Get an element from an AVL tree without containing the element" expected="null" result="null" reason="" />
+<test id="9" result="OK" case="Delete an element from an AVL tree containing the element and check its size" expected="9" result="9" reason="" />
+<test id="10" result="OK" case="Delete an element from an AVL tree without containing the element and check its size" expected="10" result="10" reason="" />
+<test id="11" result="OK" case="Check if there is a comparator for an AVL tree with a comparator provided" expected="true" result="true" reason="" />
+<test id="12" result="OK" case="Check if there is a comparator for an AVL tree without a comparator provided" expected="false" result="false" reason="" />
+<test id="13" result="OK" case="Balance an AVL tree after insertion and check if its height difference is less than or equal to one" expected="true" result="true" reason="" />
+<test id="14" result="OK" case="Balance an AVL tree after deletion and check if its height difference is less than or equal to one" expected="true" result="true" reason="" />

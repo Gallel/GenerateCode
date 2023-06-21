@@ -1,0 +1,9 @@
+<time value="0:00:32.754247"/>
+<test id="1" result="OK" case="creates a StackArrayImpl object with no parameters and checks if the size is 0" expected="0" result="0" reason=""/>
+<test id="2" result="OK" case="creates a StackArrayImpl object with capacity 10 and checks if the size is 0" expected="0" result="0" reason=""/>
+<test id="3" result="OK" case="pushes an element to an empty stack and checks if the size is 1" expected="1" result="1" reason=""/>
+<test id="4" result="OK" case="pushes an element to the stack and then checks if peek method returns the correct element" expected="10" result="10" reason=""/>
+<test id="5" result="OK" case="pushes an element to the stack and then checks if pop method returns the correct element" expected="10" result="10" reason=""/>
+<test id="6" result="OK" case="pushes two elements to the stack, pops them, and checks if the size is 0" expected="0" result="0" reason=""/>
+<test id="7" result="OK" case="tries to pop from an empty stack and expects an EmptyContainerException" expected="EmptyContainerException" result="EmptyContainerException" reason=""/>
+<test id="8" result="OK" case="pushes 10 elements to a stack of capacity 10 and expects a FullContainerException" expected="FullContainerException" result="FullContainerException" reason=""/>

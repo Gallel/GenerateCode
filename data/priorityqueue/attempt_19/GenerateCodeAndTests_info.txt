@@ -1,0 +1,7 @@
+<time value="0:02:27.322828"/>
+<test id="1" result="OK" case="Creating a PriorityQueue with default constructor" expected="true" result="(new PriorityQueue()).isEmpty()" reason=""/>
+<test id="2" result="OK" case="Creating a PriorityQueue with given capacity" expected="0" result="(new PriorityQueue(10)).size()" reason=""/>
+<test id="3" result="OK" case="Adding an item to an empty PriorityQueue" expected="false" result="(new PriorityQueue()).add(5); !(new PriorityQueue()).isEmpty()" reason=""/>
+<test id="4" result="OK" case="Adding several items to a PriorityQueue" expected="2" result="PriorityQueue<Integer> pq = new PriorityQueue<>(); pq.add(5); pq.add(2); pq.size();" reason=""/>
+<test id="5" result="OK" case="Retrieving the lowest priority item from a PriorityQueue" expected="2" result="PriorityQueue<Integer> pq = new PriorityQueue<>(); pq.add(5); pq.add(2); pq.peek();" reason=""/>
+<test id="6" result="OK" case="Deleting the lowest priority item from a PriorityQueue and retrieving the next lowest priority item" expected="5" result="PriorityQueue<Integer> pq = new PriorityQueue<>(); pq.add(5); pq.add(2); pq.poll(); pq.peek();" reason=""/>

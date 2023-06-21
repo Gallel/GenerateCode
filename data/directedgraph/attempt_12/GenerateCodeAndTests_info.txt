@@ -1,0 +1,6 @@
+<time value="0:00:23.049159"/>
+<test id="1" result="OK" case="Creating a new DirectedGraphImpl instance" expected="true" result="true" reason=""/>
+<test id="2" result="OK" case="Adding a new vertex to the graph" expected="1" result="(call to numVertexs() method)" reason=""/>
+<test id="3" result="OK" case="Creating a new edge between two vertices" expected="true" result="(call to newEdge() method and checking if the returned value is not null)" reason=""/>
+<test id="4" result="OK" case="Deleting an existing vertex from the graph" expected="0" result="(call to numVertexs() method)" reason=""/>
+<test id="5" result="OK" case="Deleting an existing edge from the graph" expected="null" result="(call to getEdge() method with the deleted edge as parameter and checking if it returns null)" reason=""/>

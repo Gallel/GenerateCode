@@ -1,0 +1,15 @@
+<time value="0:04:03.717777"/>
+<test id="1" result="OK" case="Create an empty list and check its size" expected="0" result="" reason=""/>
+<test id="2" result="OK" case="Insert an item at the beginning of the list and check its size" expected="1" result="" reason=""/>
+<test id="3" result="OK" case="Insert an item at the end of the list and check its size" expected="2" result="" reason=""/>
+<test id="4" result="OK" case="Insert an item after the first of the list and check its size" expected="3" result="" reason=""/>
+<test id="5" result="OK" case="Insert an item before the last of the list and check its size" expected="4" result="" reason=""/>
+<test id="6" result="OK" case="Delete the last item of the list and check its size" expected="3" result="" reason=""/>
+<test id="7" result="OK" case="Delete the first item of the list and check its size" expected="2" result="" reason=""/>
+<test id="8" result="OK" case="Update an item in the list and check its size" expected="2" result="" reason=""/>
+<test id="9" result="OK" case="Swap items in the list and check its size" expected="2" result="" reason=""/>
+<test id="10" result="OK" case="Check if the list is empty" expected="false" result="" reason=""/>
+<test id="11" result="OK" case="Retrieve the number of items in the list" expected="2" result="" reason=""/>
+<test id="12" result="OK" case="Retrieve the string representation of the list" expected="[item1, item2]" result="" reason=""/>
+<test id="13" result="OK" case="Iterate over the list and retrieve its items" expected="[item1, item2]" result="" reason=""/>
+<test id="14" result="FAILED" case="Delete a position that does not exist in the list" expected="Exception" result="" reason=""/>

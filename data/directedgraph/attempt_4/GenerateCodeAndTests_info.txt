@@ -1,0 +1,10 @@
+<time value="0:00:24.202782"/>
+<test id="1" result="OK" case="Creating a new DirectedGraphImpl object" expected="Object of type DirectedGraphImpl" result="Object of type DirectedGraphImpl" reason=""/>
+<test id="2" result="OK" case="Adding a new vertex to the graph" expected="New Vertex object" result="New Vertex object" reason=""/>
+<test id="3" result="OK" case="Adding a new edge to the graph" expected="New Edge object" result="New Edge object" reason=""/>
+<test id="4" result="OK" case="Retrieving the vertex with a specific element" expected="Vertex object" result="Vertex object" reason=""/>
+<test id="5" result="OK" case="Retrieving an adjacency list for a vertex" expected="Iterator object pointing to a list of vertices" result="Iterator object pointing to a list of vertices" reason=""/>
+<test id="6" result="OK" case="Retrieving a list of all edges in the graph" expected="Iterator object pointing to a list of edges" result="Iterator object pointing to a list of edges" reason=""/>
+<test id="7" result="OK" case="Retrieving a list of all vertices in the graph" expected="Iterator object pointing to a list of vertices" result="Iterator object pointing to a list of vertices" reason=""/>
+<test id="8" result="OK" case="Retrieving a list of all edges with destination at a specific vertex" expected="Iterator object pointing to a list of edges" result="Iterator object pointing to a list of edges" reason=""/>
+<test id="9" result="OK" case="Retrieving a list of all edges with source at a specific vertex" expected="Iterator object pointing to a list of edges" result="Iterator object pointing to a list of edges" reason=""/>

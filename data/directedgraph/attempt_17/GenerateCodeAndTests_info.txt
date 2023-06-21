@@ -1,0 +1,16 @@
+<time value="0:00:32.901407"/>
+<test id="1" result="OK" case="Test constructor" expected="DirectedGraphImpl object" result="DirectedGraphImpl object" reason=""/>
+<test id="2" result="OK" case="Test createVertex method" expected="Vertex object" result="Vertex object" reason=""/>
+<test id="3" result="OK" case="Test deleteEdge method" expected="void" result="void" reason=""/>
+<test id="4" result="OK" case="Test deleteVertex method" expected="void" result="void" reason=""/>
+<test id="5" result="OK" case="Test edgedWithDestA method" expected="Iterator object" result="Iterator object" reason=""/>
+<test id="6" result="OK" case="Test edges method" expected="Iterator object" result="Iterator object" reason=""/>
+<test id="7" result="OK" case="Test edgesWithSource method" expected="Iterator object" result="Iterator object" reason=""/>
+<test id="8" result="OK" case="Test getEdge method" expected="DirectedEdge object" result="DirectedEdge object" reason=""/>
+<test id="9" result="OK" case="Test getVertex method" expected="Vertex object" result="Vertex object" reason=""/>
+<test id="10" result="OK" case="Test newDictionaryVertexs method" expected="Dictionary object" result="Dictionary object" reason=""/>
+<test id="11" result="OK" case="Test newEdge method" expected="DirectedEdge object" result="DirectedEdge object" reason=""/>
+<test id="12" result="OK" case="Test newVertex method" expected="Vertex object" result="Vertex object" reason=""/>
+<test id="13" result="OK" case="Test numVertexs method" expected="number of vertices" result="number of vertices" reason=""/>
+<test id="14" result="OK" case="Test toString method" expected="string representation" result="string representation" reason=""/>
+<test id="15" result="OK" case="Test vertexs method" expected="Iterator object" result="Iterator object" reason=""/>

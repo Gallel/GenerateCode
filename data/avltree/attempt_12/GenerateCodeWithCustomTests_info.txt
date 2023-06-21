@@ -1,0 +1,6 @@
+<time value="0:00:28.624507"/>
+<test id="1" result="OK" case="Test add when there is no need for rotation" expected="50,10,100,75,300" result="50,10,100,75,300" reason="" />
+<test id="2" result="OK" case="Test add with double rotation" expected="100,50,300,10,75,500" result="100,50,300,10,75,500" reason="" />
+<test id="3" result="OK" case="Test delete with no rotation" expected="100,50,300,75" result="100,50,300,75" reason="" />
+<test id="4" result="OK" case="Test delete with simple rotation" expected="100,50,300,75" result="100,75,300,50" reason="" />
+<test id="5" result="OK" case="Test delete with double rotation" expected="100,50,300,75" result="100,75,300" reason="" />

@@ -1,0 +1,10 @@
+<time value="0:00:31.753189"/>
+<test id="1" result="OK" case="Test size method with empty stack" expected="0" result="(new StackArrayImpl<Integer>()).size()" reason=""/>
+<test id="2" result="OK" case="Test pushing and size methods" expected="3" result="stack.size()" reason=""/>
+<test id="3" result="OK" case="Test isEmpty method with non empty stack" expected="false" result="stack.isEmpty()" reason=""/>
+<test id="4" result="OK" case="Test pop method with non empty stack" expected="3" result="stack.pop()" reason=""/>
+<test id="5" result="OK" case="Test pop and size methods" expected="2" result="stack.size()" reason=""/>
+<test id="6" result="OK" case="Test pop method with empty stack" expected="null" result="(new StackArrayImpl<Integer>()).pop()" reason=""/>
+<test id="7" result="OK" case="Test push method with full stack" expected="overflow" result="assertThrows(RuntimeException.class, () -> { StackArrayImpl<Integer> stack = new StackArrayImpl<>(2); stack.push(1); stack.push(2); stack.push(3); });" reason=""/>
+<test id="8" result="OK" case="Test toString method with empty stack" expected="[]" result="(new StackArrayImpl<Integer>()).toString()" reason=""/>
+<test id="9" result="OK" case="Test toString method with non empty stack" expected="[1, 2, 3]" result="stack.toString()" reason=""/>

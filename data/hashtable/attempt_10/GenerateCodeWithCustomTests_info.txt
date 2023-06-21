@@ -1,0 +1,4 @@
+<time value="0:00:13.453772"/>
+<test id="1" result="OK" case="Test put method inserts a new item with key and value" expected="4" result="4" reason=""/>
+<test id="2" result="OK" case="Test keys method retrieves all keys in the dictionary" expected="KERM1955-ELM1980-PIG1974" result="KERM1955-ELM1980-PIG1974" reason=""/>
+<test id="3" result="OK" case="Test values method retrieves all values in the dictionary" expected="Kermit the Frog-Elmo-Miss Piggy" result="Kermit the Frog-Elmo-Miss Piggy" reason=""/>

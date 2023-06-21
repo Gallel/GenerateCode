@@ -1,0 +1,7 @@
+<time value="0:00:21.038394"/>
+<test id="1" result="OK" case="Creating hash table without parameters" expected="empty hash table" result="empty hash table" reason=""/>
+<test id="2" result="OK" case="Creating hash table with parameters" expected="empty hash table with specific size" result="empty hash table with specific size" reason=""/>
+<test id="3" result="OK" case="Adding a value to hash table" expected="new value added to hash table" result="new value added to hash table" reason=""/>
+<test id="4" result="OK" case="Retrieving value from hash table" expected="retrieved value is correct" result="retrieved value is correct" reason=""/>
+<test id="5" result="OK" case="Deleting value from hash table" expected="value deleted from hash table" result="value deleted from hash table" reason=""/>
+<test id="6" result="OK" case="Checking if hash table is empty" expected="hash table is empty" result="hash table is empty" reason=""/>

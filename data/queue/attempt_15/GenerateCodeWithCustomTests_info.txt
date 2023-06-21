@@ -1,0 +1,6 @@
+<time value="0:00:46.386064"/>
+<test id="1" result="OK" case="Add an element to the queue" expected="3" result="3" reason=""/>
+<test id="2" result="OK" case="Retrieve the first element added to the queue" expected="54" result="54" reason=""/>
+<test id="3" result="OK" case="Delete the first element in the queue" expected="54" result="54" reason=""/>
+<test id="4" result="OK" case="Empty the queue and check its status" expected="true" result="true" reason=""/>
+<test id="5" result="OK" case="Fill the queue to its limit and try to add one more element" expected="FullContainerException" result="FullContainerException" reason=""/>

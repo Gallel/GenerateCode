@@ -1,0 +1,6 @@
+<time value="0:00:25.383309"/>
+<test id="1" result="OK" case="Creating a HashTable with default table size" expected="5" result="ht.size()" reason="The expected size of the HashTable is 5"/>
+<test id="2" result="OK" case="Adding a new element to the HashTable" expected="Hello" result="ht.get(1)" reason="The expected value associated with key 1 is 'Hello'"/>
+<test id="3" result="OK" case="Deleting an element from the HashTable" expected="4" result="ht.size()" reason="The expected size of the HashTable after deleting an element is 4"/>
+<test id="4" result="OK" case="Checking if the HashTable contains a key" expected="true" result="ht.containsKey(2)" reason="The expected result is true because the HashTable contains key 2"/>
+<test id="5" result="OK" case="Checking if the HashTable is empty" expected="false" result="ht.isEmpty()" reason="The expected result is false because the HashTable is not empty"/>

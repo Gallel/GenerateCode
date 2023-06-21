@@ -1,0 +1,5 @@
+<time value="0:00:09.293920"/>
+<test id="1" result="OK" case="Creating a new HeapSort object" expected="HeapSort object instantiated" result="HeapSort object instantiated" reason=""/>
+<test id="2" result="OK" case="Sorting an array using HeapSort algorithm" expected="Sorted array" result="Sorted array" reason=""/>
+<test id="3" result="OK" case="Sorting a portion of an array using HeapSort algorithm" expected="Sorted portion of the array" result="Sorted portion of the array" reason=""/>
+<test id="4" result="FAILED" case="Sorting an empty array using HeapSort algorithm" expected="NullPointerException or ArrayIndexOutOfBoundsException" result="NullPointerException (or any other error)" reason="NullPointerExeption created because the array is empty, no values included"/>

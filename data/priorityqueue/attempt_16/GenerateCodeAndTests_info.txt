@@ -1,0 +1,13 @@
+<time value="0:00:33.912624"/>
+<test id="1" result="OK" case="Create Priority Queue object without parameters constructor" expected="true" result="(new PriorityQueue()).isEmpty()" reason="" />
+<test id="2" result="OK" case="Create Priority Queue object with given capacity" expected="true" result="(new PriorityQueue(10)).isEmpty()" reason="" />
+<test id="3" result="OK" case="Create Priority Queue object with given capacity and comparator" expected="true" result="(new PriorityQueue(10, Comparator.naturalOrder())).isEmpty()" reason="" />
+<test id="4" result="OK" case="Create Priority Queue object with given comparator" expected="true" result="(new PriorityQueue(Comparator.naturalOrder())).isEmpty()" reason="" />
+<test id="5" result="OK" case="Add element to Priority Queue" expected="1" result="{PriorityQueue<Integer> queue = new PriorityQueue<>(); queue.add(1); queue.size();}" reason="" />
+<test id="6" result="OK" case="Clone Priority Queue object" expected="true" result="(new PriorityQueue()).clone().isEmpty()" reason="" />
+<test id="7" result="OK" case="Check if Priority Queue is empty" expected="true" result="{PriorityQueue<Integer> queue = new PriorityQueue<>(); queue.isEmpty();}" reason="" />
+<test id="8" result="OK" case="Check if Priority Queue is full" expected="false" result="{PriorityQueue<Integer> queue = new PriorityQueue<>(); queue.isFull();}" reason="" />
+<test id="9" result="OK" case="Retrieve the lowest priority item" expected="1" result="{PriorityQueue<Integer> queue = new PriorityQueue<>(); queue.add(1); queue.peek();}" reason="" />
+<test id="10" result="OK" case="Delete the lowest priority item" expected="1" result="{PriorityQueue<Integer> queue = new PriorityQueue<>(); queue.add(1); queue.poll();}" reason="" />
+<test id="11" result="OK" case="Check Priority Queue size" expected="1" result="{PriorityQueue<Integer> queue = new PriorityQueue<>(); queue.add(1); queue.size();}" reason="" />
+<test id="12" result="OK" case="Get Priority Queue values" expected="[]" result="{PriorityQueue<Integer> queue = new PriorityQueue<>(); queue.values().toString();}" reason="" />

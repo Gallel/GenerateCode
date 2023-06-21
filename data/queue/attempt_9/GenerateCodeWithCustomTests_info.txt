@@ -1,0 +1,6 @@
+<time value="0:00:52.462251"/>
+<test id="1" result="OK" case="Add item to queue" expected="Queue size is incremented" result="Queue size is incremented" reason=""/>
+<test id="2" result="OK" case="Peek first item" expected="Returns the first item without modifying the queue" result="Returns the first item without modifying the queue" reason=""/>
+<test id="3" result="OK" case="Poll first item" expected="Removes and returns the first item" result="Removes and returns the first item" reason=""/>
+<test id="4" result="OK" case="Empty container exceptions" expected="Exceptions thrown when calling 'peek' and 'poll' with empty container" result="Exceptions thrown when calling 'peek' and 'poll' with empty container" reason=""/>
+<test id="5" result="OK" case="Full container exception" expected="Throws FullContainerException when trying to add an item in a full container" result="Throws FullContainerException when trying to add an item in a full container" reason=""/>

@@ -1,0 +1,7 @@
+<time value="0:00:24.610034"/>
+<test id="1" result="OK" case="Creating an AVL tree" expected="AVLTree class should be created without errors" result="AVLTree class was created without errors" reason=""/>
+<test id="2" result="OK" case="Creating an AVL tree with comparator" expected="AVLTree class should be created with a comparator parameter without errors" result="AVLTree class was created with a comparator parameter without errors" reason=""/>
+<test id="3" result="OK" case="Adding an item to the tree" expected="Element should be added to the tree without errors" result="Element was added to the tree without errors" reason=""/>
+<test id="4" result="OK" case="Checking if a comparator exists" expected="Method should return true if a comparator exists" result="Method returned true as expected" reason=""/>
+<test id="5" result="OK" case="Retrieving an element from the tree" expected="Element should be retrieved without errors" result="Element was retrieved without errors" reason=""/>
+<test id="6" result="OK" case="Deleting an element from the tree" expected="Element should be deleted without errors" result="Element was deleted without errors" reason=""/>

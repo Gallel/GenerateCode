@@ -1,0 +1,4 @@
+<time value="0:00:16.751802"/>
+<test id="1" result="OK" case="Testing MergeSort algorithm with integers" expected="Array sorted in ascending order" result="Array sorted in ascending order" reason=""/>
+<test id="2" result="OK" case="Testing MergeSort algorithm with a one-element array" expected="Array sorted with one element" result="Array sorted with one element" reason=""/>
+<test id="3" result="OK" case="Testing MergeSort algorithm with a negative integers" expected="Array sorted in ascending order" result="Array sorted in ascending order" reason=""/>

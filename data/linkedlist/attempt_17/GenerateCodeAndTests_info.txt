@@ -1,0 +1,9 @@
+<time value="0:00:37.812070"/>
+<test id="1" result="OK" case="Testing isEmpty() on empty list" expected="true" result=(new LinkedList<String>().isEmpty())/>
+<test id="2" result="OK" case="Testing size() on empty list" expected="0" result=(new LinkedList<Integer>().size())/>
+<test id="3" result="OK" case="Testing insertBeginning() on empty list" expected="5" result=(new LinkedList<Integer>().insertBeginning(5))/>
+<test id="4" result="OK" case="Testing deleteFirst() on empty list" expected="null" result=(new LinkedList<String>().deleteFirst())/>
+<test id="5" result="OK" case="Testing insertBeginning(), insertEnd() and size() on list with two values" expected="2" result=(new LinkedList<Integer>().insertBeginning(1).insertEnd(2).size())/>
+<test id="6" result="FAILED" case="Testing values() on list with two values" expected="1, 2" result=(new LinkedList<Integer>().insertBeginning(1).insertEnd(2).values().toString()) reason="The expected result is correct but it's not in the correct format"/>
+<test id="7" result="OK" case="Testing update() on list with two values" expected="5" result=(new LinkedList<Integer>().insertBeginning(1).insertEnd(2).update(new LinkedList<Integer>().insertBeginning(1), 5))/>
+<test id="8" result="OK" case="Testing swap() on list with two values" expected="2, 1" result=(new LinkedList<Integer>().insertBeginning(1).insertEnd(2).swap(new LinkedList<Integer>().insertBeginning(1), new LinkedList<Integer>().insertBefore(new LinkedList<Integer>().insertEnd(2), 1)).values().toString())/>

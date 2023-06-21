@@ -1,0 +1,9 @@
+<time value="0:00:26.866325"/>
+<test id="1" result="OK" case="Creating a stack without parameters and adding elements" expected="true" result="{true}" reason=""/>
+<test id="2" result="OK" case="Creating a max size stack and adding elements" expected="true" result="{true}" reason=""/>
+<test id="3" result="OK" case="Testing if an empty stack is empty" expected="true" result="{true}" reason=""/>
+<test id="4" result="OK" case="Testing if a full stack is full" expected="true" result="{true}" reason=""/>
+<test id="5" result="OK" case="Adding an element and checking it is at the top of the stack with peek()" expected="test" result="{test}" reason=""/>
+<test id="6" result="OK" case="Adding an element and removing it with pop()" expected="test" result="{test}" reason=""/>
+<test id="7" result="OK" case="Adding more than max elements to a stack" expected="false" result="{false}" reason=""/>
+<test id="8" result="OK" case="Creating a string representation of the stack" expected="test1 test2 test3" result="test1 test2 test3" reason=""/>

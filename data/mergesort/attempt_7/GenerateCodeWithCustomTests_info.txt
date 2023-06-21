@@ -1,0 +1,5 @@
+<time value="0:00:26.555090"/>
+<test id="1" result="OK" case="Sort an array of integers in ascending order" expected="An array with ordered integers" result="An array with ordered integers" reason=""/>
+<test id="2" result="OK" case="Sort an array with repeated values" expected="An array where repeated values are consecutive and ordered" result="An array where repeated values are consecutive and ordered" reason=""/>
+<test id="3" result="FAILED" case="Try to sort an empty array" expected="An empty array" result="An empty array" reason="The test is not written properly, it tries to compare the empty array without providing any value to compare. Missing values to compare in the test."/>
+<test id="4" result="FAILED" case="Try to sort an array with only one value" expected="An array with the same value" result="Nothing is done in the empty case, resulting in an unaltered array" reason="The case where there's only one value should be checked before applying the algorithm"/>

@@ -1,0 +1,11 @@
+<time value="0:00:36.099426"/>
+<test id="1" result="OK" case="Test to create a vertex and check number of vertices" expected="1" result="1" reason=""/>
+<test id="2" result="OK" case="Test to create two vertices and check number of vertices" expected="2" result="2" reason=""/>
+<test id="3" result="OK" case="Test to create two vertices and add an edge between them" expected="true" result="true" reason=""/>
+<test id="4" result="OK" case="Test to create two vertices and add an edge between them, and then delete the edge" expected="0" result="0" reason=""/>
+<test id="5" result="OK" case="Test to create two vertices and add an edge between them, and then delete one vertex" expected="1" result="1" reason=""/>
+<test id="6" result="OK" case="Test to create two vertices and add an edge between them, and then delete the other vertex" expected="1" result="1" reason=""/>
+<test id="7" result="OK" case="Test to create two vertices and add an edge between them, and then get the edge between them" expected="5" result="5" reason=""/>
+<test id="8" result="OK" case="Test to create two vertices and add an edge between them, and then get an edge from non-existent vertex" expected="null" result="null" reason=""/>
+<test id="9" result="OK" case="Test to create two vertices and add an edge between them, and then get a vertex with certain value" expected="VertexImpl{value=1}" result="VertexImpl{value=1}" reason=""/>
+<test id="10" result="OK" case="Test to create two vertices and add an edge between them, and then get the vertices adjacent to a vertex" expected="[]" result="[]" reason=""/>

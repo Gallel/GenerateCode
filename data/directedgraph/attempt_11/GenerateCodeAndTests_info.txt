@@ -1,0 +1,12 @@
+<time value="0:00:30.663356"/>
+<test id="1" result="OK" case="Test newVertex()" expected="value1" result="value1" reason=""/>
+<test id="2" result="OK" case="Test getVertex()" expected="value1" result="value1" reason=""/>
+<test id="3" result="OK" case="Test numVertexs()" expected="1" result="1" reason=""/>
+<test id="4" result="OK" case="Test newEdge()" expected="(Vertex1,Vertex2)" result="(Vertex1,Vertex2)" reason=""/>
+<test id="5" result="OK" case="Test getEdge()" expected="(Vertex1,Vertex2)" result="(Vertex1,Vertex2)" reason=""/>
+<test id="6" result="OK" case="Test edges()" expected="(Vertex1,Vertex2),(Vertex2,Vertex1)" result="(Vertex1,Vertex2),(Vertex2,Vertex1)" reason=""/>
+<test id="7" result="OK" case="Test edgesWithSource()" expected="(Vertex1,Vertex2)" result="(Vertex1,Vertex2)" reason=""/>
+<test id="8" result="OK" case="Test edgedWithDestA()" expected="(Vertex2,Vertex1)" result="(Vertex2,Vertex1)" reason=""/>
+<test id="9" result="OK" case="Test adjacencyList()" expected="(Vertex2)" result="(Vertex2)" reason=""/>
+<test id="10" result="OK" case="Test deleteEdge()" expected="(Vertex1,Vertex2)" result="(Vertex1,Vertex2)" reason=""/>
+<test id="11" result="OK" case="Test deleteVertex()" expected="null" result="null" reason=""/>

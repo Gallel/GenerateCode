@@ -1,0 +1,6 @@
+<time value="0:00:20.979103"/>
+<test id="1" result="OK" case="Test unsorted array of integers" expected="[1, 2, 3, 4, 5, 6]" result="[1, 2, 3, 4, 5, 6]" reason=""/>
+<test id="2" result="OK" case="Test sorted array of integers" expected="[1, 2, 3, 4, 5, 6]" result="[1, 2, 3, 4, 5, 6]" reason=""/>
+<test id="3" result="OK" case="Test unsorted array of strings" expected="[apple, banana, cherry, date]" result="[apple, banana, cherry, date]" reason=""/>
+<test id="4" result="OK" case="Test sorted array of strings" expected="[apple, banana, cherry, date]" result="[apple, banana, cherry, date]" reason=""/>
+<test id="5" result="OK" case="Test empty array" expected="[]" result="[]" reason=""/>

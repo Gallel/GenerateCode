@@ -1,0 +1,5 @@
+<time value="0:00:21.174370"/>
+<test id="1" result="OK" case="Sorting an integer array in ascending order" expected="[1, 2, 3, 4, 5]" result="[1, 2, 3, 4, 5]" reason=""/>
+<test id="2" result="OK" case="Sorting a string array in descending order" expected="[world, this, is, hello, another]" result="[world, this, is, hello, another]" reason=""/>
+<test id="3" result="OK" case="Sorting a CustomObject array by a specific attribute in ascending order" expected="[{name=John, age=18}, {name=Mike, age=20}, {name=Tom, age=23}]" result="[{name=John, age=18}, {name=Mike, age=20}, {name=Tom, age=23}]" reason=""/>
+<test id="4" result="OK" case="Sorting an array with only one element" expected="[42]" result="[42]" reason=""/>

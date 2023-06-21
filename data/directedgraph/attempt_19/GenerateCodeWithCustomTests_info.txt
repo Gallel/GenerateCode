@@ -1,0 +1,13 @@
+<time value="0:00:22.581845"/>
+<test id="1" result="OK" case="Creation of a new DirectedGraph" expected="0" result="0" reason=""/>
+<test id="2" result="OK" case="Number of edges with destination in a vertex" expected="0" result="0" reason=""/>
+<test id="3" result="OK" case="List of edges in an empty graph" expected="[]" result="[]" reason=""/>
+<test id="4" result="OK" case="Number of edges with source in a vertex" expected="0" result="0" reason=""/>
+<test id="5" result="OK" case="Obtaining a non-existent edge" expected="null" result="null" reason=""/>
+<test id="6" result="OK" case="Obtaining a non-existent vertex" expected="null" result="null" reason=""/>
+<test id="7" result="OK" case="Creation and deletion of edges" expected="[ab(1), bc(2), ac(3), ba(4), ca(5)]" result="[bc(2), ac(3), ca(5)]" reason=""/>
+<test id="8" result="OK" case="Creation and deletion of vertices" expected="[a, b, c]" result="[b, c]" reason=""/>
+<test id="9" result="OK" case="Number of vertices" expected="2" result="2" reason=""/>
+<test id="10" result="OK" case="Creation of a new vertex" expected="d" result="d" reason=""/>
+<test id="11" result="OK" case="Obtaining the adjacency list of a vertex" expected="[]" result="[]" reason=""/>
+<test id="12" result="OK" case="Obtaining the vertex associated with an element" expected="a" result="a" reason=""/>

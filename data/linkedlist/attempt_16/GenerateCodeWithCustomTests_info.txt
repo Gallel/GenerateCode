@@ -1,0 +1,9 @@
+<time value="0:03:07.720287"/>
+<test id="1" result="OK" case="Testing the insertEnd and size methods" expected="4" result="4"/>
+<test id="2" result="OK" case="Testing the insertAfter method" expected="1, 2, 3, 4, 5" result="1, 2, 3, 4, 5"/>
+<test id="3" result="OK" case="Testing the delete method" expected="1, 2, 3, 4" result="1, 2, 3, 4"/>
+<test id="4" result="OK" case="Testing the invalid position exception in deleteNext method" expected="InvalidPositionException" result="InvalidPositionException"/>
+<test id="5" result="OK" case="Testing the delete and empty container exception methods" expected="true" result="true"/>
+<test id="6" result="OK" case="Testing the insertBeginning method" expected="4, 3, 2, 1" result="4, 3, 2, 1"/>
+<test id="7" result="OK" case="Testing the positions method" expected="4, 3, 2, 1" result="4, 3, 2, 1"/>
+<test id="8" result="OK" case="Testing the able to swap nodes" expected="2, 3" result="2, 3"/>

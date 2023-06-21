@@ -1,0 +1,5 @@
+<time value="0:06:23.017154"/>
+<test id="1" result="OK" case="Create an empty QueueArrayImpl and test if it is empty" expected="true" result=(new QueueArrayImpl<Integer>().isEmpty()) reason=""/>
+<test id="2" result="OK" case="Create a QueueArrayImpl with capacity of 5 and test if it is full" expected="false" result=(new QueueArrayImpl<Integer>(5).isFull()) reason=""/>
+<test id="3" result="OK" case="Create a QueueArrayImpl with capacity of 3 and add 2 elements. Test the size and peek the next element" expected="2, 6" result=(new QueueArrayImpl<Integer>(3) {{add(2); add(6);}}.size() + ", " + new QueueArrayImpl<Integer>(3) {{add(2); add(6);}}.peek()) reason=""/>
+<test id="4" result="OK" case="Create a QueueArrayImpl with capacity of 2 and add 3 elements. Test the poll method and the final contents" expected="[3]" result=(new QueueArrayImpl<Integer>(2) {{add(1); add(2); add(3);}}.poll(); new QueueArrayImpl<Integer>(2) {{add(1); add(2); add(3);}}.toString()) reason=""/>

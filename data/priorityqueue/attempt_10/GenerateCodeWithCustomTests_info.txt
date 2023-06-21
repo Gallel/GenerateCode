@@ -1,0 +1,6 @@
+<time value="0:00:55.613422"/>
+<test id="1" result="OK" case="Test isEmpty when priority queue is empty" expected="true" result="true" reason=""/>
+<test id="2" result="FAILED" case="Test poll when priority queue is empty" expected="EmptyContainerException" result="EmptyContainerException" reason=""/>
+<test id="3" result="OK" case="Test adding elements to the priority queue" expected="10" result="10" reason=""/>
+<test id="4" result="OK" case="Test full container exception" expected="FullContainerException" result="FullContainerException" reason=""/>
+<test id="5" result="OK" case="Test polling elements from the priority queue" expected="9" result="9" reason=""/>

@@ -1,0 +1,14 @@
+<time value="0:00:48.434706"/>
+<test id="1" result="OK" case="LinkedList should be initialized as empty" expected="0" result="0" reason=""/>
+<test id="2" result="OK" case="An element can be inserted at the end of the list" expected="1" result="1" reason=""/>
+<test id="3" result="OK" case="Multiple elements can be inserted at the end of the list" expected="4" result="4" reason=""/>
+<test id="4" result="OK" case="An element can be inserted after a given position" expected="1" result="1" reason=""/>
+<test id="5" result="OK" case="Multiple elements can be inserted after a given position" expected="5" result="5" reason=""/>
+<test id="6" result="OK" case="An element can be inserted before a given position" expected="1" result="1" reason=""/>
+<test id="7" result="OK" case="Multiple elements can be inserted before a given position" expected="5" result="5" reason=""/>
+<test id="8" result="OK" case="The first element of the list can be deleted" expected="1" result="1" reason=""/>
+<test id="9" result="OK" case="The next element after a given position can be deleted" expected="4" result="4" reason=""/>
+<test id="10" result="OK" case="An element at a given position can be deleted" expected="1" result="1" reason=""/>
+<test id="11" result="OK" case="List can be checked for emptiness" expected="true" result="true" reason=""/>
+<test id="12" result="OK" case="New nodes can be created" expected="true" result="true" reason=""/>
+<test id="13" result="OK" case="List can be checked for size" expected="0" result="0" reason=""/>

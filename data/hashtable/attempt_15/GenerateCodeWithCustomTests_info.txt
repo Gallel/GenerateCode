@@ -1,0 +1,4 @@
+<time value="0:01:56.760525"/>
+<test id="1" result="OK" case="Inserts three elements, checks if size is three, inserts a new one and checks if size is four" expected="size=3, size=4" result="size=3, size=4" reason=""/>
+<test id="2" result="OK" case="Calls keys iterator and expects three keys in arbitrary order" expected="keys=KERM1955, ELM1980, PIG1974" result="keys=KERM1955, ELM1980, PIG1974" reason=""/>
+<test id="3" result="OK" case="Calls values iterator and expects three names in arbitrary order" expected="values=Kermit the Frog, Elmo, Miss Piggy" result="values=Kermit the Frog, Elmo, Miss Piggy" reason=""/>

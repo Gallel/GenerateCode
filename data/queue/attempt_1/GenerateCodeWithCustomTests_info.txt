@@ -1,0 +1,6 @@
+<time value="0:01:56.063161"/>
+<test id="1" result="OK" case="Add an item to the queue" expected="Size of the queue should be 3" result="Size of the queue is 3" reason=""/>
+<test id="2" result="OK" case="Peek the first item in the queue" expected="Returned item should be 54 and size of the queue should still be 2" result="Returned item is 54 and size of the queue is 2" reason=""/>
+<test id="3" result="OK" case="Poll the first item in the queue" expected="Returned item should be 54 and size of the queue should be 1" result="Returned item is 54 and size of the queue is 1" reason=""/>
+<test id="4" result="OK" case="Try to empty the queue" expected="Queue should be empty (isEmpty should be true)" result="Queue is empty (isEmpty is true)" reason=""/>
+<test id="5" result="OK" case="Try to fill the queue" expected="Queue should be full (isFull should be true) and FullContainerException should be thrown when adding a new item" result="Queue is full (isFull is true) and FullContainerException is thrown when adding a new item" reason=""/>

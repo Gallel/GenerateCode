@@ -1,0 +1,13 @@
+<time value="0:01:59.685767"/>
+<test id="1" result="OK" case="check if put stores the values correctly" expected="true" result="true" reason=""/>
+<test id="2" result="OK" case="check if get retrieves the stored value" expected="value" result="value" reason=""/>
+<test id="3" result="OK" case="check if get returns null when the key is not found" expected="null" result="null" reason=""/>
+<test id="4" result="OK" case="check if delete removes the stored value" expected="null" result="null" reason=""/>
+<test id="5" result="OK" case="check if delete returns the removed value" expected="value" result="value" reason=""/>
+<test id="6" result="OK" case="check if delete returns null when the key is not found" expected="null" result="null" reason=""/>
+<test id="7" result="OK" case="check if the size of the table is correct when inserting values" expected="2" result="2" reason=""/>
+<test id="8" result="OK" case="check if the size of the table is correct after deleting a value" expected="1" result="1" reason=""/>
+<test id="9" result="OK" case="check if the table contains a certain key" expected="true" result="true" reason=""/>
+<test id="10" result="OK" case="check if the table doesn't contain an absent key" expected="false" result="false" reason=""/>
+<test id="11" result="OK" case="check if resize increases the table size" expected="200" result="200" reason=""/>
+<test id="12" result="OK" case="check if resize keeps the existing values" expected="value" result="value" reason=""/>

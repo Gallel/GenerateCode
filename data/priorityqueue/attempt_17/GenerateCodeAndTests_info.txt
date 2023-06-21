@@ -1,0 +1,5 @@
+<time value="0:01:26.503182"/>
+<test id="1" result="OK" case="Create a PriorityQueue of Integers with default constructor" expected="true" result="(new PriorityQueue<Integer>()).isEmpty()" reason=""/>
+<test id="2" result="OK" case="Create a PriorityQueue of Strings with given capacity constructor" expected="0" result="(new PriorityQueue<String>(5)).size()" reason=""/>
+<test id="3" result="FAILED" case="Add 3 strings to PriorityQueue and retrieve the first one" expected="hello" result="(new PriorityQueue<String>()).add(&#34;world&#34;);(new PriorityQueue<String>()).add(&#34;hello&#34;);(new PriorityQueue<String>()).add(&#34;everyone&#34;);(new PriorityQueue<String>()).peek()" reason="Returns null instead of expected value"/>
+<test id="4" result="OK" case="Peek an empty PriorityQueue" expected="null" result="(new PriorityQueue<Integer>()).peek()" reason=""/>

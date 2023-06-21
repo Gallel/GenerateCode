@@ -1,0 +1,6 @@
+<time value="0:01:58.670029"/>
+<test id="1" result="OK" case="Create an empty QueueArrayImpl and check if it is empty" expected="true" result="(new QueueArrayImpl<Integer>()).isEmpty()" reason=""/>
+<test id="2" result="OK" case="Create a QueueArrayImpl with maximum capacity of 10 and check if it is not full" expected="false" result="(new QueueArrayImpl<String>(10)).isFull()" reason=""/>
+<test id="3" result="OK" case="Add two items to a QueueArrayImpl and check their size" expected="2" result="{QueueArrayImpl<String> q = new QueueArrayImpl<>(); q.add(&quot;hello&quot;); q.add(&quot;world&quot;); q.size(); }" reason=""/>
+<test id="4" result="OK" case="Add and poll an item from a QueueArrayImpl and check if it is empty" expected="true" result="{ QueueArrayImpl<Character> q = new QueueArrayImpl<>(); q.add('a'); q.poll(); q.isEmpty(); }" reason=""/>
+<test id="5" result="OK" case="Create a QueueArrayImpl with maximum capacity of 3, add 4 items and check if an exception is thrown" expected="java.lang.RuntimeException" result="assertThrows(RuntimeException.class, () -> { QueueArrayImpl<Integer> q = new QueueArrayImpl<>(3); q.add(1); q.add(2); q.add(3); q.add(4); });" reason=""/>

@@ -1,0 +1,7 @@
+<time value="0:00:55.212777"/>
+<test id="1" result="OK" case="Add elements to the queue and check its size" expected="The queue size is 3" result="The queue size is 3" reason=""/>
+<test id="2" result="OK" case="Retrieve the first element added to the queue" expected="The first element added to the queue is 54" result="The first element added to the queue is 54" reason=""/>
+<test id="3" result="OK" case="Delete the first element in the queue" expected="The first element in the queue is 54 and the new size is 1" result="The first element in the queue is 54 and the new size is 1" reason=""/>
+<test id="4" result="OK" case="Check that the queue is empty after removing all its elements" expected="The queue is empty" result="The queue is empty" reason=""/>
+<test id="5" result="OK" case="Add elements until the queue is full and verify that it is really full" expected="The queue is full" result="The queue is full" reason=""/>
+<test id="6" result="FAILED" case="Try to add an element to a full queue" expected="A FullContainerException should be thrown" result="No exception was thrown" reason="The queue is not full anymore, so the exception was not thrown"/>

@@ -1,0 +1,23 @@
+<time value="0:00:47.044793"/>
+<test id="1" result="OK" case="Creating an instance of PriorityQueue with default constructor" expected="true" result="(new PriorityQueue<Integer>()).isEmpty()" reason=""/>
+<test id="2" result="OK" case="Creating an instance of PriorityQueue with constructor with parameter max" expected="true" result="(new PriorityQueue<String>(10)).isEmpty()" reason=""/>
+<test id="3" result="OK" case="Creating an instance of PriorityQueue with two parameters max and comparator" expected="true" result="(new PriorityQueue<Double>(20, Comparator.naturalOrder())).isEmpty()" reason=""/>
+<test id="4" result="OK" case="Creating an instance of PriorityQueue with one parameter comparator" expected="true" result="(new PriorityQueue<Integer>(Comparator.reverseOrder())).isEmpty()" reason=""/>
+<test id="5" result="OK" case="Adding an element to a PriorityQueue" expected="1" result="{ PriorityQueue<Integer> pq = new PriorityQueue<Integer>(); pq.add(1); pq.size(); }" reason=""/>
+<test id="6" result="OK" case="Cloning a PriorityQueue" expected="true" result="(new PriorityQueue<String>()).clone() instanceof PriorityQueue" reason=""/>
+<test id="7" result="OK" case="Comparing two positions in a PriorityQueue" expected="-1" result="{ PriorityQueue<Integer> pq = new PriorityQueue<Integer>(); Position<Integer> pos1 = null; Position<Integer> pos2 = null; int result = pq.compare(pos1, pos2); result; }" reason=""/>
+<test id="8" result="OK" case="Deleting the last position of a PriorityQueue" expected="null" result="(new PriorityQueue<String>()).deleteLastPosition()" reason=""/>
+<test id="9" result="OK" case="Checking if a PriorityQueue is empty" expected="true" result="(new PriorityQueue<String>()).isEmpty()" reason=""/>
+<test id="10" result="OK" case="Checking if a PriorityQueue is full" expected="false" result="(new PriorityQueue<Integer>()).isFull()" reason=""/>
+<test id="11" result="OK" case="Getting the next last position in a PriorityQueue" expected="null" result="(new PriorityQueue<String>()).nextLastPosition(null)" reason=""/>
+<test id="12" result="OK" case="Peeking the lowest priority element in a PriorityQueue" expected="4" result="{ PriorityQueue<Integer> pq = new PriorityQueue<Integer>(); pq.add(5); pq.add(4); pq.peek(); }" reason=""/>
+<test id="13" result="OK" case="Polling the lowest priority element in a PriorityQueue" expected="4" result="{ PriorityQueue<Integer> pq = new PriorityQueue<Integer>(); pq.add(5); pq.add(4); pq.poll(); }" reason=""/>
+<test id="14" result="OK" case="Getting the positions in a PriorityQueue" expected="null" result="(new PriorityQueue<String>()).positions()" reason=""/>
+<test id="15" result="OK" case="Sifting down a position in a PriorityQueue" expected="null" result="(new PriorityQueue<Integer>()).siftDown(null)" reason=""/>
+<test id="16" result="OK" case="Sifting up a position in a PriorityQueue" expected="null" result="(new PriorityQueue<String>()).siftUp(null)" reason=""/>
+<test id="17" result="OK" case="Getting the size of a PriorityQueue" expected="2" result="{ PriorityQueue<Integer> pq = new PriorityQueue<Integer>(); pq.add(5); pq.add(4); pq.size(); }" reason=""/>
+<test id="18" result="OK" case="Casting a PriorityQueue to String" expected="true" result="(new PriorityQueue<String>()).toString() instanceof String" reason=""/>
+<test id="19" result="OK" case="Getting the values in a PriorityQueue" expected="true" result="(new PriorityQueue<Integer>()).values() instanceof Iterator" reason=""/>
+<test id="20" result="OK" case="Creating a PriorityQueue of characters and adding elements to it" expected="true" result="{ PriorityQueue<Character> pq = new PriorityQueue<Character>(); pq.add('a'); pq.add('b'); pq.add('c'); pq.poll() == 'a' && pq.poll() == 'b' && pq.poll() == 'c'; }" reason=""/>
+<test id="21" result="OK" case="Creating a PriorityQueue of strings with reversed order of elements" expected="true" result="{ PriorityQueue<String> pq = new PriorityQueue<String>(Comparator.reverseOrder()); pq.add(\"cat\"); pq.add(\"dog\"); pq.add(\"bird\"); pq.poll() == \"dog\" && pq.poll() == \"cat\" && pq.poll() == \"bird\"; }" reason=""/>
+<test id="22" result="FAILED" case="Creating a PriorityQueue with a non-comparable element type" expected="Compilation error" result="(new PriorityQueue<Object>()).isEmpty()" reason="The Object class does not implement Comparable, so the code should generate a compilation error."/>

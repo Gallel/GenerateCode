@@ -1,0 +1,8 @@
+<time value="0:00:24.318011"/>
+<test id="1" result="OK" case="Create a new DirectedGraphImpl object" expected="class DirectedGraphImpl" result="class DirectedGraphImpl" reason=""/>
+<test id="2" result="OK" case="Create a new vertex with value 'A'" expected="A" result="A" reason=""/>
+<test id="3" result="OK" case="Delete an existing vertex" expected="0" result="0" reason=""/>
+<test id="4" result="OK" case="Create a new edge between two vertices" expected="Edge{label=1, source=VertexImpl{value=A}, dest=VertexImpl{value=B}}" result="Edge{label=1, source=VertexImpl{value=A}, dest=VertexImpl{value=B}}" reason=""/>
+<test id="5" result="OK" case="Get the edge between vertices A and B" expected="Edge{label=1, source=VertexImpl{value=A}, dest=VertexImpl{value=B}}" result="Edge{label=1, source=VertexImpl{value=A}, dest=VertexImpl{value=B}}" reason=""/>
+<test id="6" result="OK" case="Get an iterator to all vertices in the graph" expected="[VertexImpl{value=A}, VertexImpl{value=B}]" result="[VertexImpl{value=A}, VertexImpl{value=B}]" reason=""/>
+<test id="7" result="OK" case="Get an iterator to all edges in the graph" expected="[Edge{label=1, source=VertexImpl{value=A}, dest=VertexImpl{value=B}}]" result="[Edge{label=1, source=VertexImpl{value=A}, dest=VertexImpl{value=B}}]" reason=""/>

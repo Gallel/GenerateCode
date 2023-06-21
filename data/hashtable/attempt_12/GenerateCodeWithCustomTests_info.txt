@@ -1,0 +1,4 @@
+<time value="0:01:45.686764"/>
+<test id="1" result="OK" case="Tests if the put method adds an element to the HashTable." expected="The size of the HashTable should be 4 after adding a new element." result="The size of the HashTable is 4." reason=""/>
+<test id="2" result="FAILED" case="Tests if the keys method retrieves all keys in the HashTable." expected="The keys method should retrieve all keys." result="The keys method does not retrieve all keys correctly." reason="Retrieved keys are not in the expected order."/>
+<test id="3" result="OK" case="Tests if the values method retrieves all values in the HashTable." expected="The values method should retrieve all values." result="The values method retrieves all values." reason=""/>

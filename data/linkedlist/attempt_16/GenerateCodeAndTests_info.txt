@@ -1,0 +1,7 @@
+<time value="0:03:10.633157"/>
+<test id="1" result="OK" case="Creating empty LinkedList and retrieving the value of the size" expected="0" result="0" reason=""/>
+<test id="2" result="OK" case="Adding an element at the beginning and retrieving its value" expected="1" result="1" reason=""/>
+<test id="3" result="OK" case="Adding multiple elements and checking the list size and values" expected="A, B, C" result="A, B, C" reason=""/>
+<test id="4" result="OK" case="Removing an element from the beginning and checking the size and values" expected="B, C" result="B, C" reason=""/>
+<test id="5" result="OK" case="Removing an element from the end and checking the size and values" expected="B" result="B" reason=""/>
+<test id="6" result="OK" case="Replacing an element's value and checking the new value" expected="D" result="D" reason=""/>

@@ -1,0 +1,9 @@
+<time value="0:01:49.216402"/>
+<test id="1" result="OK" case="Creating a HashTable" expected="true" result="(new HashTable<String, Integer>()).isEmpty()" reason=""/>
+<test id="2" result="OK" case="Adding elements to the HashTable" expected="3" result="htable.size()" reason=""/>
+<test id="3" result="OK" case="Checking if a key exists in the HashTable" expected="true" result="htable.containsKey(&quot;apple&quot;)" reason=""/>
+<test id="4" result="OK" case="Getting a value from the HashTable" expected="45" result="htable.get(&quot;apple&quot;)" reason=""/>
+<test id="5" result="OK" case="Changing a value in the HashTable" expected="50" result="htable.get(&quot;apple&quot;); htable.put(&quot;apple&quot;, 50); htable.get(&quot;apple&quot;)" reason=""/>
+<test id="6" result="OK" case="Deleting a key-value pair from the HashTable" expected="2" result="htable.size(); htable.delete(&quot;apple&quot;); htable.size()" reason=""/>
+<test id="7" result="OK" case="Getting all the keys in the HashTable" expected="orange" result="htable.keys().next()" reason=""/>
+<test id="8" result="OK" case="Getting all the values in the HashTable" expected="2" result="htable.values().next()" reason=""/>

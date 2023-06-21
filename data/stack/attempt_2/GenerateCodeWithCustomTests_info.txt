@@ -1,0 +1,9 @@
+<time value="0:00:28.253628"/>
+<test id="1" result="OK" case="Constructor without parameters. Stack is empty" expected="null" result="(write the result of the test here)" reason=""/>
+<test id="2" result="OK" case="Constructor with a parameter. Checking if stack is full" expected="true" result="(write the result of the test here)" reason=""/>
+<test id="3" result="OK" case="Pushing an element to the stack" expected="3" result="(write the result of the test here)" reason=""/>
+<test id="4" result="OK" case="Peeking into the stack" expected="12" result="(write the result of the test here)" reason=""/>
+<test id="5" result="OK" case="Popping an element from the stack" expected="12" result="(write the result of the test here)" reason=""/>
+<test id="6" result="OK" case="Checking if the stack is empty" expected="true" result="(write the result of the test here)" reason=""/>
+<test id="7" result="OK" case="Checking if the stack is full" expected="true" result="(write the result of the test here)" reason=""/>
+<test id="8" result="FAILED" case="Pushing an element to a full stack" expected="FullContainerException" result="(write the result of the test here)" reason="(write the reason here)"/>

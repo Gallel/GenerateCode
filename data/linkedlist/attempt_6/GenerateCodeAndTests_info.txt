@@ -1,0 +1,4 @@
+<time value="0:01:31.689841"/>
+<test id="1" result="OK" case="Test isEmpty() with an empty list" expected="true" result="(new LinkedList<Integer>()).isEmpty()" reason=""/>
+<test id="2" result="OK" case="Test insertEnd() and size() with an empty list" expected="1" result="LinkedList<Integer> l = new LinkedList<Integer>(); l.insertEnd(5); l.size();" reason=""/>
+<test id="3" result="FAILED" case="Test insertEnd() and size() with a non-empty list" expected="2" result="LinkedList<Integer> l = new LinkedList<Integer>(); l.insertEnd(5); l.insertEnd(7); l.size();" reason="This test is failing because it is returning 1 instead of 2. It is necessary to fix the implementation of the insertEnd() method."/>

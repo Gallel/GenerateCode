@@ -1,0 +1,7 @@
+<time value="0:00:57.821748"/>
+<test id="1" result="OK" case="Create queue without specifying maximum size, add some elements and check size" expected="The size of the queue must be 3" result="The size of the queue is 3" reason=""/>
+<test id="2" result="OK" case="Create queue with maximum size, add some elements and check size" expected="The size of the queue must be 2" result="The size of the queue is 2" reason=""/>
+<test id="3" result="OK" case="Peek an element in the queue" expected="The peeked element in the queue must be 54" result="The peeked element in the queue is 54" reason=""/>
+<test id="4" result="OK" case="Poll an element in the queue" expected="The polled element in the queue must be 54 and the size must be 1" result="The polled element in the queue is 54 and the size of the queue is 1" reason=""/>
+<test id="5" result="OK" case="Poll the elements in the queue and check that the queue is empty" expected="The size of the queue must be 0 and the queue must be empty" result="The size of the queue is 0 and the queue is empty" reason=""/>
+<test id="6" result="FAILED" case="Try to add elements to the queue once it is full" expected="A FullContainerException must be thrown" result="No exception was thrown" reason="The code needs to throw a FullContainerException"/>

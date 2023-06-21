@@ -1,0 +1,7 @@
+<time value="0:00:37.031918"/>
+<test id="1" result="OK" case="Sorting array of integers" expected="[-5, 2, 3, 6, 7, 8, 10]" result="[-5, 2, 3, 6, 7, 8, 10]" reason=""/>
+<test id="2" result="OK" case="Sorting array of strings" expected="[apple, banana, cherry, grape, orange]" result="[apple, banana, cherry, grape, orange]" reason=""/>
+<test id="3" result="OK" case="Sorting array with elements in reverse order" expected="[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]" result="[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]" reason=""/>
+<test id="4" result="OK" case="Sorting array with duplicates" expected="[3, 6, 6, 7, 9, 10, 11, 11, 12, 12, 14]" result="[3, 6, 6, 7, 9, 10, 11, 11, 12, 12, 14]" reason=""/>
+<test id="5" result="OK" case="Sorting array with one element" expected="[1]" result="[1]" reason=""/>
+<test id="6" result="OK" case="Sorting empty array" expected="[]" result="[]" reason=""/>

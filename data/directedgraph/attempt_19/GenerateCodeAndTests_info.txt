@@ -1,0 +1,6 @@
+<time value="0:00:25.335102"/>
+<test id="1" result="OK" case="Testing newVertex()" expected="5" result="graph.numVertexs()" reason=""/>
+<test id="2" result="OK" case="Testing deleteVertex()" expected="2" result="graph.numVertexs()" reason=""/>
+<test id="3" result="OK" case="Testing edges()" expected="1" result="graph.edges().size()" reason=""/>
+<test id="4" result="OK" case="Testing getEdge()" expected="2" result="graph.getEdge(v1, v2).getWeight()" reason=""/>
+<test id="5" result="OK" case="Testing newEdge()" expected="1" result="graph.edges().size()" reason=""/>

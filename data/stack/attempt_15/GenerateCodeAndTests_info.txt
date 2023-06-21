@@ -1,0 +1,8 @@
+<time value="0:00:30.545466"/>
+<test id="1" result="OK" case="Create empty StackArrayImpl instance and check if is empty" expected="true" result="(new StackArrayImpl<>()).isEmpty()" reason=""/>
+<test id="2" result="OK" case="Create StackArrayImpl instance with maximum capacity and check if is empty" expected="true" result="(new StackArrayImpl<>(5)).isEmpty()" reason=""/>
+<test id="3" result="OK" case="Push an element to StackArrayImpl and check if is not empty" expected="false" result="{ StackArrayImpl<Integer> stack = new StackArrayImpl<>(); stack.push(1); !stack.isEmpty(); }" reason=""/>
+<test id="4" result="OK" case="Add more elements than maximum capacity to StackArrayImpl and check if is full" expected="true" result="{ StackArrayImpl<Integer> stack = new StackArrayImpl<>(2); stack.push(1); stack.push(2); stack.push(3); stack.isFull(); }" reason=""/>
+<test id="5" result="OK" case="Push an element to StackArrayImpl and check if is in the top of the stack" expected="1" result="{ StackArrayImpl<Integer> stack = new StackArrayImpl<>(); stack.push(1); stack.peek(); }" reason=""/>
+<test id="6" result="OK" case="Push an element to StackArrayImpl, pop it and check if the size decreases" expected="0" result="{ StackArrayImpl<Integer> stack = new StackArrayImpl<>(); stack.push(1); stack.pop(); stack.size(); }" reason=""/>
+<test id="7" result="OK" case="Push several elements to StackArrayImpl and check if toString method works properly" expected="[1, 2, 3, 4]" result="{ StackArrayImpl<Integer> stack = new StackArrayImpl<>(); stack.push(1); stack.push(2); stack.push(3); stack.push(4); stack.toString(); }" reason=""/>

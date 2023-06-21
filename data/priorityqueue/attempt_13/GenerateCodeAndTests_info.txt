@@ -1,0 +1,7 @@
+<time value="0:00:26.911182"/>
+<test id="1" result="OK" case="Test constructor without parameters" expected="0" result="PriorityQueue<Integer>().size()" reason=""/>
+<test id="2" result="OK" case="Test add method" expected="1" result="PriorityQueue<Integer> pq = new PriorityQueue<Integer>(); pq.add(1); pq.size();" reason=""/>
+<test id="3" result="OK" case="Test poll method" expected="null" result="PriorityQueue<Integer> pq = new PriorityQueue<Integer>(); pq.poll();" reason=""/>
+<test id="4" result="OK" case="Test peek method" expected="null" result="PriorityQueue<Integer> pq = new PriorityQueue<Integer>(); pq.peek();" reason=""/>
+<test id="5" result="OK" case="Test isFull and isEmpty methods" expected="false" result="PriorityQueue<Integer> pq = new PriorityQueue<Integer>(1); pq.isEmpty() == true &amp;&amp; pq.isFull() == false;" reason=""/>
+<test id="6" result="OK" case="Test constructor with parameters" expected="3" result="PriorityQueue<Integer> pq = new PriorityQueue<Integer>(3); pq.size();" reason=""/>

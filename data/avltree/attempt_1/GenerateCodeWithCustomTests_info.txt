@@ -1,0 +1,8 @@
+<time value="0:00:43.404046"/>
+<test id="1" result="OK" case="Test add method and balance method (no comparator)" expected="The tree is balanced and the elements are ordered correctly" result="The tree is balanced and the elements are ordered correctly" reason=""/>
+<test id="2" result="OK" case="Test add method and balance method (with comparator)" expected="The tree is balanced and the elements are ordered correctly" result="The tree is balanced and the elements are ordered correctly" reason=""/>
+<test id="3" result="OK" case="Test get method and delete method (no comparator)" expected="The expected order is 50, 75, 100" result="The expected order is 50, 75, 100" reason=""/>
+<test id="4" result="OK" case="Test get method and delete method (with comparator)" expected="The expected order is A, B, C" result="The expected order is A, B, C" reason=""/>
+<test id="5" result="OK" case="Test without inserts" expected="The tree is empty" result="The tree is empty" reason=""/>
+<test id="6" result="OK" case="Test add method and balance method (comparator is null)" expected="The tree is balanced and the elements are ordered correctly" result="The tree is balanced and the elements are ordered correctly" reason=""/>
+<test id="7" result="OK" case="Test add method and balance method (comparator is not null)" expected="The tree is balanced and the elements are ordered correctly" result="The tree is balanced and the elements are ordered correctly" reason=""/>

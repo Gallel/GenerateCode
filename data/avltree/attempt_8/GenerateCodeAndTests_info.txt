@@ -1,0 +1,7 @@
+<time value="0:00:19.287139"/>
+<test id="1" result="OK" case="Test constructor without parameters" expected="Object of AVLTree type is created." result="Object of AVLTree type created." reason=""/>
+<test id="2" result="OK" case="Test constructor with parameter" expected="Object of AVLTree type is created using a comparator." result="Object of AVLTree type created using a comparator." reason=""/>
+<test id="3" result="OK" case="Test add method" expected="Item is added to the tree." result="Item added to the tree." reason=""/>
+<test id="4" result="OK" case="Test delete method" expected="Item is deleted from the tree." result="Item deleted from the tree." reason=""/>
+<test id="5" result="OK" case="Test get method" expected="Retrieved element from the tree." result="Element retrieved from the tree." reason=""/>
+<test id="6" result="OK" case="Test thereIsComparator method" expected="Comparator is present in the AVLTree object." result="Comparator found in AVLTree object." reason=""/>

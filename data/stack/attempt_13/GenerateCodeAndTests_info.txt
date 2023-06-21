@@ -1,0 +1,7 @@
+<time value="0:00:32.240871"/>
+<test id="1" result="OK" case="Creating stack with default capacity and adding an element. Checking size and peek." expected="Size: 1, Peer: Hello" result="Size: 1, Peer: Hello" reason=""/>
+<test id="2" result="FAILED" case="Creating stack with max capacity of 2, adding two elements, and trying to add a third element. Checking size and peek." expected="Size: 2, Peer: World" result="Size: 2, Peer: World" reason="Error when adding third element"/>
+<test id="3" result="OK" case="Creating stack with max capacity of 2, adding two elements, popping an element, and checking size and peek." expected="Size: 1, Peer: Hello" result="Size: 1, Peer: Hello" reason=""/>
+<test id="4" result="OK" case="Creating stack with max capacity of 2. Checking if stack is empty and full." expected="Empty: true, Full: false" result="Empty: true, Full: false" reason=""/>
+<test id="5" result="OK" case="Creating stack with max capacity of 2, adding two elements. Checking if stack is empty and full." expected="Empty: false, Full: true" result="Empty: false, Full: true" reason=""/>
+<test id="6" result="OK" case="Creating stack with default capacity. Adding three elements and getting an iterator over the elements. Retrieving all elements with the iterator and checking if they were correct." expected="1. Hello, 2. World, 3.!" result="1. Hello, 2. World, 3.!" reason=""/>

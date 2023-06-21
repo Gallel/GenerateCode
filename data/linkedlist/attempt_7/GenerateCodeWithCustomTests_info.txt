@@ -1,0 +1,9 @@
+<time value="0:00:57.021520"/>
+<test id="1" result="OK" case="Insertion test" expected="true" result="true" reason="" />
+<test id="2" result="OK" case="Insert after test" expected="true" result="true" reason="" />
+<test id="3" result="OK" case="Deletion Test" expected="true" result="true" reason="" />
+<test id="4" result="OK" case="Deletion and invalid position test" expected="true" result="true" reason="" />
+<test id="5" result="OK" case="Deletion and empty exception test" expected="true" result="true" reason="" />
+<test id="6" result="OK" case="Insert at the beginning test" expected="true" result="true" reason="" />
+<test id="7" result="OK" case="Delete next test" expected="true" result="true" reason="" />
+<test id="8" result="OK" case="Positions test" expected="true" result="true" reason="" />

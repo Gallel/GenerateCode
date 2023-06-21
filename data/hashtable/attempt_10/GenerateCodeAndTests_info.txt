@@ -1,0 +1,6 @@
+<time value="0:01:52.382486"/>
+<test id="1" result="OK" case="Creating a table with default size and inserting one value" expected="The table must have only one value and it must return it when using get()" result="The method returned the expected value from get()" reason=""/>
+<test id="2" result="OK" case="Creating a table and checking the size before inserting values" expected="The size must be 0" result="The size was 0, as expected" reason=""/>
+<test id="3" result="OK" case="Creating a table and putting three values with the same key" expected="The size must be 1 and the final value must be the last inserted value" result="The size was 1 and the value returned by get() was the expected value" reason=""/>
+<test id="4" result="OK" case="Creating a table, putting three values and deleting two of them" expected="The size must be 1 and get() must return only the remaining value" result="The size was 1 and get() returned only the expected value" reason=""/>
+<test id="5" result="FAILED" case="Creating a table, putting three values and checking if they all exist" expected="containsKey() must return true for all the inserted values" result="containsKey() returned false for one value" reason="The values had different keys"/>

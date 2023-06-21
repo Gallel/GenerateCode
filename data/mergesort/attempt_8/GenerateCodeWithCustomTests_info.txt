@@ -1,0 +1,6 @@
+<time value="0:00:29.291389"/>
+<test id="1" result="OK" case="Tests if the method sorts the vector correctly" expected="The vector sorted" result="The vector sorted" reason=""/>
+<test id="2" result="OK" case="Tests if the method sorts a vector with repeated integers correctly" expected="The vector sorted" result="The vector sorted" reason=""/>
+<test id="3" result="OK" case="Tests if the method sorts a vector with negative integers correctly" expected="The vector sorted" result="The vector sorted" reason=""/>
+<test id="4" result="OK" case="Tests if the method sorts a vector with only one element correctly" expected="The vector sorted" result="The vector sorted" reason=""/>
+<test id="5" result="OK" case="Tests if the method sorts a vector of strings correctly" expected="The vector sorted" result="The vector sorted" reason=""/>

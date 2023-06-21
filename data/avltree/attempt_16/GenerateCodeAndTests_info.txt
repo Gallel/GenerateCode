@@ -1,0 +1,32 @@
+<time value="0:01:27.264258"/>
+<test id="1" result="OK" case="Creating an AVLTree without parameters" expected="true" result="{AVLTree<Integer> tree = new AVLTree<Integer>(); boolean result = tree.isEmpty();}"><![CDATA[
+boolean result = true;
+try {
+AVLTree<Integer> tree = new AVLTree<Integer>();
+result = tree.isEmpty();
+} catch (Exception e) {
+result = false;
+}
+result;
+]]></test>
+<test id="2" result="OK" case="Creating an AVLTree with Comparator" expected="true" result="{AVLTree<Integer> tree = new AVLTree<Integer>((a, b)->{ return a-b;}); boolean result = tree.thereIsComparator(); }"><![CDATA[
+boolean result = false;
+try {
+AVLTree<Integer> tree = new AVLTree<Integer>((a, b)->{ return a-b;});
+result = tree.thereIsComparator();
+} catch (Exception e) {
+result = false;
+}
+result;
+]]></test>
+<test id="3" result="OK" case="Adding a new item to the tree" expected="true" result="{AVLTree<Integer> tree = new AVLTree<Integer>(); tree.add(5); boolean result = tree.contains(5); }"><![CDATA[
+boolean result = false;
+try {
+AVLTree<Integer> tree = new AVLTree<Integer>();
+tree.add(5);
+result = tree.contains(5);
+} catch (Exception e) {
+result = false;
+}
+result;
+]]></test>

@@ -1,0 +1,3 @@
+<time value="0:00:29.565565"/>
+<test id="1" result="OK" case="Sorts a vector of integers in ascending order" expected="All elements sorted in ascending order" result="All elements sorted in ascending order" reason=""/>
+<test id="2" result="FAILED" case="Sorts a vector of integers with repeated elements" expected="All elements sorted in ascending order" result="All elements sorted in ascending order except for the repeated elements" reason="The algorithm is not able to sort repeated elements in the correct order"/>

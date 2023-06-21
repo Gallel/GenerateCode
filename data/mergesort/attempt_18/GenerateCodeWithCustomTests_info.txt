@@ -1,0 +1,6 @@
+<time value="0:00:26.232494"/>
+<test id="1" result="OK" case="Tests if the array is correctly sorted in ascending order." expected="1,2,3,4,5,7,8,9,10,12" result="1,2,3,4,5,7,8,9,10,12" reason=""/>
+<test id="2" result="OK" case="Tests if the array was already sorted." expected="1,2,3,4,5,7,8,9,10,12" result="1,2,3,4,5,7,8,9,10,12" reason=""/>
+<test id="3" result="OK" case="Tests if the array is correctly sorted in descending order." expected="12,10,9,8,7,5,4,3,2,1" result="12,10,9,8,7,5,4,3,2,1" reason=""/>
+<test id="4" result="OK" case="Tests if the algorithm works for arrays with repeated values." expected="1,2,2,2,3,4,5,7,9,12" result="1,2,2,2,3,4,5,7,9,12" reason=""/>
+<test id="5" result="OK" case="Tests if the algorithm works for arrays of Strings." expected="Apple,Bicycle,Car,House,Lamp,Plane,Radio,Shoe,Table,TV" result="Apple,Bicycle,Car,House,Lamp,Plane,Radio,Shoe,Table,TV" reason=""/>

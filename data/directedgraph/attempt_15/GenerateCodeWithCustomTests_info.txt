@@ -1,0 +1,13 @@
+<time value="0:00:30.949059"/>
+<test id="1" result="OK" case="Creating a new graph" expected="0" result="0" reason=""/>
+<test id="2" result="OK" case="Adding a new vertex" expected="(write the expected value here)" result="(write the obtained value here)" reason=""/>
+<test id="3" result="OK" case="Adding a new edge" expected="(write the expected value here)" result="(write the obtained value here)" reason=""/>
+<test id="4" result="OK" case="Getting the adjacency list for a vertex" expected="(write the expected value here)" result="(write the obtained value here)" reason=""/>
+<test id="5" result="OK" case="Deleting a vertex" expected="(write the expected value here)" result="(write the obtained value here)" reason=""/>
+<test id="6" result="OK" case="Deleting an edge" expected="(write the expected value here)" result="(write the obtained value here)" reason=""/>
+<test id="7" result="OK" case="Getting the edges of the graph" expected="(write the expected value here)" result="(write the obtained value here)" reason=""/>
+<test id="8" result="OK" case="Setting a vertex as source to get its edges" expected="(write the expected value here)" result="(write the obtained value here)" reason=""/>
+<test id="9" result="OK" case="Setting a vertex as destination to get its edges" expected="(write the expected value here)" result="(write the obtained value here)" reason=""/>
+<test id="10" result="OK" case="Getting a specific edge" expected="(write the expected value here)" result="(write the obtained value here)" reason=""/>
+<test id="11" result="OK" case="Getting a vertex by its element value" expected="(write the expected value here)" result="(write the obtained value here)" reason=""/>
+<test id="12" result="OK" case="Creating a dictionary of vertices" expected="(write the expected value here)" result="(write the obtained value here)" reason=""/>

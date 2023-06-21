@@ -1,0 +1,7 @@
+<time value="0:00:48.895154"/>
+<test id="1" result="OK" case="Test add and poll methods" expected="[] -> [1] -> [1,2] -> [2] -> []" result="[] -> [1] -> [1,2] -> [2] -> []" reason=""/>
+<test id="2" result="OK" case="Test isEmpty method" expected="true -> false" result="true -> false" reason=""/>
+<test id="3" result="OK" case="Test isFull method" expected="false -> true" result="false -> true" reason=""/>
+<test id="4" result="OK" case="Test peek method" expected="null -> 1" result="null -> 1" reason=""/>
+<test id="5" result="OK" case="Test size method after adding and removing one" expected="0 -> 1 -> 0" result="0 -> 1 -> 0" reason=""/>
+<test id="6" result="OK" case="Test toString method" expected="[] -> [1] -> [1,2] -> [2] -> []" result="[] -> [1] -> [1,2] -> [2] -> []" reason=""/>

@@ -1,0 +1,8 @@
+<time value="0:01:51.678607"/>
+<test id="1" result="OK" case="Add and check size function" expected="3" result="3" reason=""/>
+<test id="2" result="OK" case="Peek the head of the queue" expected="54" result="54" reason=""/>
+<test id="3" result="OK" case="Poll an element from the queue" expected="54" result="54" reason=""/>
+<test id="4" result="OK" case="Check that empty function works in case of non-empty container " expected="false" result="false" reason=""/>
+<test id="5" result="OK" case="Check that empty function works in case of empty container " expected="true" result="true" reason=""/>
+<test id="6" result="OK" case="Check that full function works in case of non-full container " expected="false" result="false" reason=""/>
+<test id="7" result="OK" case="Check that add throw FullContainerException" expected="FullContainerException" result="FullContainerException" reason=""/>

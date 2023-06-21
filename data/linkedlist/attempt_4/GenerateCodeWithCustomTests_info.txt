@@ -1,0 +1,10 @@
+<time value="0:06:19.341006"/>
+<test id="1" result="OK" case="Test insert and size methods" expected="4" result="4" reason=""/>
+<test id="2" result="OK" case="Test insertAfter method" expected="1, 2, 3, 4, 5" result="1, 2, 3, 4, 5" reason=""/>
+<test id="3" result="OK" case="Test delete method" expected="1, 2, 3, 5" result="1, 2, 3, 5" reason=""/>
+<test id="4" result="OK" case="Test deleteNext method and InvalidPositionException" expected="2, 4, 5, 3, 1" result="2, 4, 5, 3, 1" reason=""/>
+<test id="5" result="OK" case="Test deleteFirst method and EmptyContainerException" expected="2, 3" result="2, 3" reason=""/>
+<test id="6" result="OK" case="Test insertBeginning method" expected="4, 3, 2, 1" result="4, 3, 2, 1" reason=""/>
+<test id="7" result="OK" case="Test positions method" expected="1, 2, 3, 4" result="1, 2, 3, 4" reason=""/>
+<test id="8" result="OK" case="Test swap method" expected="2, 1, 3, 4" result="2, 1, 3, 4" reason=""/>
+<test id="9" result="OK" case="Test update method" expected="2" result="2" reason=""/>

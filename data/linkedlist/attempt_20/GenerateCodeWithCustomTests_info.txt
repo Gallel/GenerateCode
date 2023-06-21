@@ -1,0 +1,7 @@
+<time value="0:03:07.193936"/>
+<test id="1" result="OK" case="Tests insertion of elements to the end of the list" expected="" result="" reason=""/>
+<test id="2" result="OK" case="Tests insertion of elements after a position in the list" expected="" result="" reason=""/>
+<test id="3" result="OK" case="Tests deletion of elements from the list" expected="" result="" reason=""/>
+<test id="4" result="OK" case="Tests deletion of elements from the list and handling of exceptions" expected="" result="" reason=""/>
+<test id="5" result="OK" case="Tests insertion of elements at the beginning of the list" expected="" result="" reason=""/>
+<test id="6" result="OK" case="Tests iteration over the positions in the list" expected="" result="" reason=""/>

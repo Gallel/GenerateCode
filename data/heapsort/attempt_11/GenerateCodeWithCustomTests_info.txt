@@ -1,0 +1,5 @@
+<time value="0:00:09.606936"/>
+<test id="1" result="OK" case="Sorts an array of integers in ascending order" expected="The array is sorted in ascending order" result="The array is sorted in ascending order" reason=""/>
+<test id="2" result="OK" case="Sorts an array of integers in descending order" expected="The array is sorted in ascending order" result="The array is sorted in ascending order" reason=""/>
+<test id="3" result="OK" case="Sorts an array of strings in ascending order" expected="The array is sorted in ascending order" result="The array is sorted in ascending order" reason=""/>
+<test id="4" result="OK" case="Sorts an array of strings in descending order" expected="The array is sorted in ascending order" result="The array is sorted in ascending order" reason=""/>

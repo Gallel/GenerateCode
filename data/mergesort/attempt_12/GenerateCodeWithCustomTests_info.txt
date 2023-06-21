@@ -1,0 +1,3 @@
+<time value="0:00:15.530698"/>
+<test id="1" result="OK" case="sorts a given array in ascending order" expected="the given array sorted in ascending order" result="the given array sorted in ascending order" reason=""/>
+<test id="2" result="FAILED" case="does not throw an IndexOutOfBoundsException for an empty array" expected="does not throw an IndexOutOfBoundsException" result="IndexOutOfBoundsException was thrown" reason="The parameter n should be checked to avoid the error."/>

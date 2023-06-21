@@ -1,0 +1,5 @@
+<time value="0:00:27.125467"/>
+<test id="1" result="OK" case="Creating empty priority queue" expected="true" result="(new PriorityQueue<String>()).isEmpty()" reason=""/>
+<test id="2" result="OK" case="Adding one element to the priority queue" expected="false" result="(new PriorityQueue<Integer>()).add(1); !(new PriorityQueue<Integer>()).isEmpty()" reason=""/>
+<test id="3" result="OK" case="Adding two elements to the priority queue" expected="2" result="(new PriorityQueue<Integer>()).add(2); (new PriorityQueue<Integer>()).add(1); (new PriorityQueue<Integer>()).size()" reason=""/>
+<test id="4" result="FAILED" case="Adding two elements to the priority queue" expected="1" result="(new PriorityQueue<Integer>()).add(2); (new PriorityQueue<Integer>()).add(1); (new PriorityQueue<Integer>()).peek()" reason="The expected value is 2."/>

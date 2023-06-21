@@ -1,0 +1,5 @@
+<time value="0:00:39.795778"/>
+<test id="1" result="OK" case="Testing constructor without parameters and add() method." expected="John, Diana, Ana, Mario" result="John, Diana, Ana, Mario" reason=""/>
+<test id="2" result="OK" case="Testing constructor with comparator and add() method." expected="Ana, Diana, John, Mario" result="Ana, Diana, John, Mario" reason=""/>
+<test id="3" result="OK" case="Testing get() method." expected="Mario" result="Mario" reason=""/>
+<test id="4" result="OK" case="Testing delete() method." expected="null" result="null" reason=""/>

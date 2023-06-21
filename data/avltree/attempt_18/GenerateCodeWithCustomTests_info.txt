@@ -1,0 +1,3 @@
+<time value="0:01:53.201644"/>
+<test id="1" result="OK" case="Test add() and levelOrderTraversal()" expected="Correct order of nodes according to the input sequence of elements" result="Correct order of nodes according to the input sequence of elements" reason=""/>
+<test id="2" result="OK" case="Test add() and delete() for left rotation" expected="Correct order of nodes after deletion" result="Correct order of nodes after deletion" reason=""/>

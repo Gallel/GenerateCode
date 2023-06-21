@@ -1,0 +1,5 @@
+<time value="0:01:18.801770"/>
+<test id="1" result="OK" case="Test empty queue" expected="true,EmptyContainerException" result="true,EmptyContainerException" reason=""/>
+<test id="2" result="OK" case="Test add 10 items and get values with Iterator" expected="10 items returned in order starting with 9" result="10 items returned in order starting with 9" reason=""/>
+<test id="3" result="OK" case="Test add more than maximum capacity and get FullContainerException" expected="FullContainerException" result="FullContainerException" reason=""/>
+<test id="4" result="OK" case="Test add 10 items and poll all of them" expected="10 items returned in order starting with 9 and then none" result="10 items returned in order starting with 9 and then none" reason=""/>

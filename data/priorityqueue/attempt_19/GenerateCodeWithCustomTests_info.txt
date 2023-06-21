@@ -1,0 +1,7 @@
+<time value="0:01:52.453451"/>
+<test id="1" result="OK" case="Test isEmpty() for an empty queue" expected="true" result="true" reason="" />
+<test id="2" result="FAILED" case="Test poll() for an empty queue" expected="EmptyContainerException" result="EmptyContainerException" reason="" />
+<test id="3" result="OK" case="Test add() for a non-empty queue" expected="2" result="2" reason="" />
+<test id="4" result="OK" case="Test peek() for a queue with multiple items" expected="5" result="5" reason="" />
+<test id="5" result="OK" case="Test poll() for a queue with multiple items" expected="5" result="5" reason="" />
+<test id="6" result="OK" case="Test size() for a queue with multiple items" expected="3" result="3" reason="" />

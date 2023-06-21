@@ -1,0 +1,5 @@
+<time value="0:00:13.544455"/>
+<test id="1" result="OK" case="Creating an empty HeapSort object" expected="HeapSort object created without errors" result="HeapSort object created without errors" reason=""/>
+<test id="2" result="OK" case="Creating HeapSort object with a vector" expected="HeapSort object with vector created without errors" result="HeapSort object with vector created without errors" reason=""/>
+<test id="3" result="OK" case="Sorting a sequence of items using int" expected="Sequence of items sorted without errors" result="Sequence of items sorted without errors" reason=""/>
+<test id="4" result="OK" case="Sorting a sequence of items using vector" expected="Sequence of items sorted using vector without errors" result="Sequence of items sorted using vector without errors" reason=""/>

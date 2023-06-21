@@ -1,0 +1,6 @@
+<time value="0:00:23.692172"/>
+<test id="1" result="OK" case="Sort a vector of integers" expected="All elements sorted in ascending order" result="All elements sorted in ascending order" reason=""/>
+<test id="2" result="OK" case="Sort a vector of strings" expected="All elements sorted in alphabetical order" result="All elements sorted in alphabetical order" reason=""/>
+<test id="3" result="OK" case="Sort an empty vector" expected="An empty vector" result="An empty vector" reason=""/>
+<test id="4" result="OK" case="Sort a vector with repeated elements" expected="All elements sorted in ascending order and repeated elements together" result="All elements sorted in ascending order and repeated elements together" reason=""/>
+<test id="5" result="OK" case="Sort a vector with negative numbers" expected="All elements sorted in ascending order" result="All elements sorted in ascending order" reason=""/>

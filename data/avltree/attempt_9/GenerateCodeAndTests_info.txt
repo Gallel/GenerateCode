@@ -1,0 +1,7 @@
+<time value="0:00:13.128008"/>
+<test id="1" result="OK" case="Creating an AVLTree object without parameter" expected="AVLTree object should be created without any errors" result="AVLTree object created successfully" reason="" />
+<test id="2" result="OK" case="Creating an AVLTree object with Comparator parameter" expected="AVLTree object should be created with a comparator without any errors" result="AVLTree object created successfully" reason="" />
+<test id="3" result="OK" case="Adding an element to AVLTree object" expected="The element should be added to AVLTree object without any errors" result="Element added successfully" reason="" />
+<test id="4" result="OK" case="Deleting an element from AVLTree object" expected="The element should be deleted from AVLTree object without any errors" result="Element deleted successfully" reason="" />
+<test id="5" result="OK" case="Retrieving an element from AVLTree object" expected="The element should be retrieved from AVLTree object without any errors" result="Element retrieved successfully" reason="" />
+<test id="6" result="OK" case="Checking existence of the comparator" expected="The thereIsComparator() should return true or false based on the comparator existence" result="Comparator exists in AVLTree object" reason="" />

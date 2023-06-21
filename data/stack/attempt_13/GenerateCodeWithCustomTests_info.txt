@@ -1,0 +1,15 @@
+<time value="0:00:29.773269"/>
+<test id="1" result="OK" case="constructor without parameters" expected="1000" result="1000" reason=""/>
+<test id="2" result="OK" case="constructor with parameter" expected="500" result="500" reason=""/>
+<test id="3" result="OK" case="isEmpty true" expected="true" result="true" reason=""/>
+<test id="4" result="OK" case="isFull false" expected="false" result="false" reason=""/>
+<test id="5" result="OK" case="peek null" expected="null" result="null" reason=""/>
+<test id="6" result="OK" case="pop null" expected="null" result="null" reason=""/>
+<test id="7" result="OK" case="push & size" expected="1" result="1" reason=""/>
+<test id="8" result="OK" case="push & pop" expected="1" result="1" reason=""/>
+<test id="9" result="OK" case="isEmpty false" expected="false" result="false" reason=""/>
+<test id="10" result="OK" case="peek 1 element" expected="5" result="5" reason=""/>
+<test id="11" result="OK" case="pop 1 element" expected="5" result="5" reason=""/>
+<test id="12" result="OK" case="isEmpty true after pop" expected="true" result="true" reason=""/>
+<test id="13" result="OK" case="fullTest" expected="throw FullContainerException" result="throw FullContainerException" reason=""/>
+<test id="14" result="OK" case="toString" expected="[1]" result="[1]" reason=""/>

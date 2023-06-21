@@ -1,0 +1,5 @@
+<time value="0:00:08.562134"/>
+<test id="1" result="OK" case="Testing constructor HeapSort()" expected="HeapSort instantiated" result="HeapSort instantiated" reason=""/>
+<test id="2" result="OK" case="Testing constructor HeapSort(E[])" expected="HeapSort instantiated with vector" result="HeapSort instantiated with vector" reason=""/>
+<test id="3" result="OK" case="Testing method sort(int)" expected="n items sorted" result="n items sorted" reason=""/>
+<test id="4" result="OK" case="Testing method sort(E[], int)" expected="vector sorted up to index n" result="vector sorted up to index n" reason=""/>

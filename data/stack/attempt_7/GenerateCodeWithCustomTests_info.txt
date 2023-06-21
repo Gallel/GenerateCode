@@ -1,0 +1,6 @@
+<time value="0:00:14.996000"/>
+<test id="1" result="OK" case="Test push method" expected="3" result="3" reason=""/>
+<test id="2" result="OK" case="Test peek method" expected="12" result="12" reason=""/>
+<test id="3" result="OK" case="Test pop method" expected="12" result="12" reason=""/>
+<test id="4" result="OK" case="Test empty stack" expected="java.lang.NullPointerException" result="java.lang.NullPointerException" reason=""/>
+<test id="5" result="OK" case="Test full stack" expected="edu.uoc.ds.exceptions.FullContainerException" result="edu.uoc.ds.exceptions.FullContainerException" reason=""/>

@@ -1,0 +1,6 @@
+<time value="0:00:51.557565"/>
+<test id="1" result="OK" case="Put a new Muppet to the dictionary" expected="The new Muppet should be added to the dictionary" result="The new Muppet was successfully added to the dictionary" reason=""/>
+<test id="2" result="OK" case="Get a Muppet from the dictionary" expected="The Muppet should be retrieved from the dictionary" result="The Muppet was successfully retrieved from the dictionary" reason=""/>
+<test id="3" result="OK" case="Get all keys in the dictionary" expected="All the keys in the dictionary should be retrieved" result="All the keys in the dictionary were successfully retrieved" reason=""/>
+<test id="4" result="OK" case="Get all values in the dictionary" expected="All the values in the dictionary should be retrieved" result="All the values in the dictionary were successfully retrieved" reason=""/>
+<test id="5" result="FAILED" case="Delete an existing Muppet from the dictionary" expected="The Muppet and its associated key should be removed from the dictionary" result="The Muppet was removed from the dictionary but its associated key was not" reason="The implementation does not remove the unused synonyms list when an element is removed from it, causing this method to fail"/>

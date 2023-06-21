@@ -1,0 +1,5 @@
+<time value="0:00:20.787640"/>
+<test id="1" result="OK" case="Sorts an array in ascending order" expected="The elements of the array sorted in ascending order" result="The elements of the array sorted in ascending order" reason=""/>
+<test id="2" result="OK" case="Sorts an array in descending order" expected="The elements of the array sorted in descending order" result="The elements of the array sorted in descending order" reason=""/>
+<test id="3" result="OK" case="Sorts an array of strings" expected="The elements of the array sorted in lexicographic order" result="The elements of the array sorted in lexicographic order" reason=""/>
+<test id="4" result="OK" case="Sorts an array of custom objects" expected="The elements of the array sorted as defined by the custom object compareTo method" result="The elements of the array sorted as defined by the custom object compareTo method" reason=""/>

@@ -1,0 +1,16 @@
+<time value="0:02:00.624313"/>
+<test id="1" result="OK" case="Test if constructor without parameters creates the HashTable object" expected="not null" result="not null" reason=""/>
+<test id="2" result="OK" case="Test if constructor with parameter creates the HashTable object" expected="not null" result="not null" reason=""/>
+<test id="3" result="OK" case="Test if calculateIndex() returns the correct index" expected="2" result="2" reason=""/>
+<test id="4" result="OK" case="Test if containsKey() returns true if the key exists in the HashTable" expected="true" result="true" reason=""/>
+<test id="5" result="OK" case="Test if containsKey() returns false if the key does not exist in the HashTable" expected="false" result="false" reason=""/>
+<test id="6" result="OK" case="Test if createSynonymsList() creates new LinkedList if there are no synonyms found in the index" expected="not null" result="not null" reason=""/>
+<test id="7" result="OK" case="Test if delete() returns the correct value of the deleted key-value pair" expected="2" result="2" reason=""/>
+<test id="8" result="OK" case="Test if get() returns the correct value of the key" expected="2" result="2" reason=""/>
+<test id="9" result="OK" case="Test if isEmpty() returns true if HashTable is empty" expected="true" result="true" reason=""/>
+<test id="10" result="OK" case="Test if keys() returns all keys in the HashTable" expected="not null" result="not null" reason=""/>
+<test id="11" result="OK" case="Test if put() adds a new key-value pair to HashTable" expected="not null" result="not null" reason=""/>
+<test id="12" result="OK" case="Test if put() replaces the value of existing key in HashTable" expected="2" result="2" reason=""/>
+<test id="13" result="OK" case="Test if size() returns the correct size of the HashTable" expected="1" result="1" reason=""/>
+<test id="14" result="OK" case="Test if toString() returns the correct string representation of HashTable" expected="[]" result="[]" reason=""/>
+<test id="15" result="OK" case="Test if values() returns all values in the HashTable" expected="not null" result="not null" reason=""/>

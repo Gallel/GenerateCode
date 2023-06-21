@@ -1,0 +1,3 @@
+<time value="0:00:40.225814"/>
+<test id="1" result="OK" case="Add elements to the tree and balance it" expected="The tree should be balanced after an add operation" result="The tree is balanced after an add operation" reason=""/>
+<test id="2" result="OK" case="Delete an element from the tree and balance it" expected="The tree should be balanced after a delete operation" result="The tree is balanced after a delete operation" reason=""/>

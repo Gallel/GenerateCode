@@ -1,0 +1,4 @@
+<time value="0:00:50.903796"/>
+<test id="1" result="OK" case="Test put method in HashTableTest" expected="4" result="4" reason=""/>
+<test id="2" result="OK" case="Test keys method in HashTableTest" expected="KERM1955,ELM1980,PIG1974" result="KERM1955,ELM1980,PIG1974" reason=""/>
+<test id="3" result="OK" case="Test values method in HashTableTest" expected="Kermit the Frog,Elmo,Miss Piggy" result="Kermit the Frog,Elmo,Miss Piggy" reason=""/>

@@ -1,0 +1,8 @@
+<time value="0:00:52.152179"/>
+<test id="1" result="OK" case="Test isEmpty method when the queue is empty" expected="true" result="true" reason=""/>
+<test id="2" result="OK" case="Test poll method when the queue is empty" expected="EmptyContainerException" result="EmptyContainerException" reason=""/>
+<test id="3" result="OK" case="Test diferentes add methods with some single item" expected="3" result="3" reason=""/>
+<test id="4" result="OK" case="Test peek method after adding a multiple items" expected="1" result="1" reason=""/>
+<test id="5" result="OK" case="Test poll method to extract from the queue all distinct and ordered itens when there's no duplicated items" expected="1-2-3-4-5-6-7-8-9" result="1-2-3-4-5-6-7-8-9" reason=""/>
+<test id="6" result="OK" case="Testing pull method to extract from the queue all distinct and ordered itens when there're duplicated items in the queue" expected="1-1-2-2-2-4-4-5-7" result="1-1-2-2-2-4-4-5-7" reason=""/>
+<test id="7" result="OK" case="Testing add method when the queue is full" expected="FullContainerException" result="FullContainerException" reason=""/>

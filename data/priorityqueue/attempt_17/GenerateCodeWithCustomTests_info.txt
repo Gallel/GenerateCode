@@ -1,0 +1,5 @@
+<time value="0:01:21.918869"/>
+<test id="1" result="OK" case="Test add method with different inputs." expected="Outputs should meet the requirements." result="OK" reason=""/>
+<test id="2" result="OK" case="Test addAndFullContainerTest method with a full container." expected="The method should throw a FullContainerException." result="OK" reason=""/>
+<test id="3" result="OK" case="Test poll method with different inputs." expected="Outputs should meet the requirements." result="OK" reason=""/>
+<test id="4" result="OK" case="Test emptyTest method with an empty container." expected="Outputs should meet the requirements." result="OK" reason=""/>

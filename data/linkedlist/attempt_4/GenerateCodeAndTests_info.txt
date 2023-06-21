@@ -1,0 +1,6 @@
+<time value="0:00:50.132767"/>
+<test id="1" result="OK" case="Test if the insert methods work correctly" expected="(1,(2, 3),4,5)" result="(1,(2, 3),4,5)" reason=""/>
+<test id="2" result="OK" case="Test if the delete methods work correctly" expected="(1,(2, 3))" result="(1,(2, 3))" reason=""/>
+<test id="3" result="OK" case="Test if the update method works correctly" expected="(1,(2, 6),4,5)" result="(1,(2, 6),4,5)" reason=""/>
+<test id="4" result="OK" case="Test if the size method works correctly" expected="3" result="3" reason=""/>
+<test id="5" result="OK" case="Test if the values method works correctly" expected="(1,2,6,4,5)" result="(1,2,6,4,5)" reason=""/>

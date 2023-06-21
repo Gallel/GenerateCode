@@ -1,0 +1,9 @@
+<time value="0:00:33.703522"/>
+<test id="1" result="OK" case="Create empty StackArrayImpl and check if it is empty" expected="true" result="true" reason=""/>
+<test id="2" result="OK" case="Create StackArrayImpl with max capacity of 10 and check if it is empty and not full" expected="true" result="true" reason=""/>
+<test id="3" result="OK" case="Add one element to StackArrayImpl with max capacity of 10 and check if it is not empty and not full" expected="false, false" result="false, false" reason=""/>
+<test id="4" result="OK" case="Add 10 elements to StackArrayImpl with max capacity of 10 and check if it is not empty and full" expected="false, true" result="false, true" reason=""/>
+<test id="5" result="OK" case="Add 10 elements and check if the last element added is returned by peek()" expected="10" result="10" reason=""/>
+<test id="6" result="OK" case="Pop one element and check if the last element added is returned by pop()" expected="10" result="10" reason=""/>
+<test id="7" result="OK" case="Add 10 elements and pop all of them and check if the stack is empty and if an EmptyContainerException is thrown when trying to pop again" expected="true, EmptyContainerException" result="true, EmptyContainerException" reason=""/>
+<test id="8" result="OK" case="Add 10 elements to StackArrayImpl with max capacity of 10 and push one more element and check if a FullContainerException is thrown" expected="FullContainerException" result="FullContainerException" reason=""/>

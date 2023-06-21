@@ -1,0 +1,20 @@
+<time value="0:00:34.086096"/>
+<test id="1" result="OK" case="Test constructor without parameters" expected="" result="" reason=""/>
+<test id="2" result="OK" case="Test constructor with given capacity" expected="" result="" reason=""/>
+<test id="3" result="OK" case="Test constructor with given capacity and comparable to given comparator" expected="" result="" reason=""/>
+<test id="4" result="OK" case="Test constructor with maximum capacity and comparable to given comparator" expected="" result="" reason=""/>
+<test id="5" result="OK" case="Test add method" expected="" result="" reason=""/>
+<test id="6" result="OK" case="Test clone method" expected="" result="" reason=""/>
+<test id="7" result="OK" case="Test compare method" expected="" result="" reason=""/>
+<test id="8" result="OK" case="Test deleteLastPosition method" expected="" result="" reason=""/>
+<test id="9" result="OK" case="Test isEmpty method" expected="" result="" reason=""/>
+<test id="10" result="OK" case="Test isFull method" expected="" result="" reason=""/>
+<test id="11" result="OK" case="Test nextLastPosition method" expected="" result="" reason=""/>
+<test id="12" result="OK" case="Test peek method" expected="" result="" reason=""/>
+<test id="13" result="OK" case="Test poll method" expected="" result="" reason=""/>
+<test id="14" result="OK" case="Test positions method" expected="" result="" reason=""/>
+<test id="15" result="OK" case="Test siftDown method" expected="" result="" reason=""/>
+<test id="16" result="OK" case="Test siftUp method" expected="" result="" reason=""/>
+<test id="17" result="OK" case="Test size method" expected="" result="" reason=""/>
+<test id="18" result="OK" case="Test toString method" expected="" result="" reason=""/>
+<test id="19" result="OK" case="Test values method" expected="" result="" reason=""/>

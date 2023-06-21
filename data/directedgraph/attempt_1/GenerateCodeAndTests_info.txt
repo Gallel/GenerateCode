@@ -1,0 +1,16 @@
+<time value="0:00:36.465579"/>
+<test id="1" result="OK" case="Create an instance of DirectedGraphImpl class" expected="DirectedGraphImpl object" result="DirectedGraphImpl object" reason=""/>
+<test id="2" result="OK" case="Create a new VertexImpl object" expected="VertexImpl object" result="VertexImpl object" reason=""/>
+<test id="3" result="OK" case="Delete an edge from the graph" expected="No edge should exist in the graph" result="No edge exists in the graph" reason=""/>
+<test id="4" result="OK" case="Delete a vertex from the graph" expected="No such vertex should exist in the graph" result="Vertex does not exist in the graph" reason=""/>
+<test id="5" result="OK" case="Get an edge between two vertices" expected="Edge object" result="Edge object" reason=""/>
+<test id="6" result="OK" case="Get a vertex given its element value" expected="Vertex object" result="Vertex object" reason=""/>
+<test id="7" result="OK" case="Create a new edge between two vertices" expected="New edge object" result="New edge object" reason=""/>
+<test id="8" result="OK" case="Create a new vertex" expected="New vertex object" result="New vertex object" reason=""/>
+<test id="9" result="OK" case="Get the number of vertices in the graph" expected="Number of vertices" result="Number of vertices" reason=""/>
+<test id="10" result="OK" case="Convert the graph to string format" expected="String representation of graph" result="String representation of graph" reason=""/>
+<test id="11" result="OK" case="Get iterator to adjacent vertices" expected="Iterator to adjacent vertices" result="Iterator to adjacent vertices" reason=""/>
+<test id="12" result="OK" case="Get iterator to edges with destination vertex" expected="Iterator to edges with destination vertex" result="Iterator to edges with destination vertex" reason=""/>
+<test id="13" result="OK" case="Get iterator to all edges in the graph" expected="Iterator to all edges" result="Iterator to all edges" reason=""/>
+<test id="14" result="OK" case="Get iterator to edges with source vertex" expected="Iterator to edges with source vertex" result="Iterator to edges with source vertex" reason=""/>
+<test id="15" result="OK" case="Get iterator to all vertices in the graph" expected="Iterator to all vertices" result="Iterator to all vertices" reason=""/>

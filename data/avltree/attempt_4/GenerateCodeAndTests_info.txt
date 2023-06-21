@@ -1,0 +1,9 @@
+<time value="0:00:47.973838"/>
+<test id="1" result="OK" case="Creates AVLTree with no issues" expected="true" result="(new AVLTree<Integer>()) != null" reason=""/>
+<test id="2" result="OK" case="Creates AVLTree with comparator with no issues" expected="true" result="(new AVLTree<Integer>((a, b) -> a.compareTo(b))) != null" reason=""/>
+<test id="3" result="OK" case="Adds item to the tree correctly" expected="10" result="(new AVLTree<Integer>()).add(10); (new AVLTree<Integer>()).get(10)" reason=""/>
+<test id="4" result="OK" case="Adds null item to the tree throws exception" expected="true" result="testThrowsNullPointerException((AVLTree<Integer> avt) -> avt.add(null))" reason=""/>
+<test id="5" result="OK" case="Checks if there is a specific comparator and finds it correctly" expected="true" result="(new AVLTree<Integer>((a, b) -> a.compareTo(b))).thereIsComparator()" reason=""/>
+<test id="6" result="OK" case="Deletes item from the tree correctly" expected="10" result="(new AVLTree<Integer>()).add(10); (new AVLTree<Integer>()).delete(10)" reason=""/>
+<test id="7" result="OK" case="Deletes null item from the tree throws exception" expected="true" result="testThrowsNullPointerException((AVLTree<Integer> avt) -> avt.delete(null))" reason=""/>
+<test id="8" result="OK" case="Gets item from the tree correctly" expected="10" result="(new AVLTree<Integer>()).add(10); (new AVLTree<Integer>()).get(10)" reason=""/>

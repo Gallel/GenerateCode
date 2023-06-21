@@ -1,0 +1,3 @@
+<time value="0:00:04.775818"/>
+<test id="1" result="OK" case="Sort a sequence of integers" expected="Sorted array" result="Sorted array" reason=""/>
+<test id="2" result="OK" case="Sort an empty sequence" expected="Empty array" result="Empty array" reason=""/>

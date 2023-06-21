@@ -1,0 +1,3 @@
+<time value="0:00:10.855713"/>
+<test id="1" result="OK" case="Sorts an array of integers in ascending order" expected="[1, 2, 3, 4, 5]" result="[1, 2, 3, 4, 5]" reason=""/>
+<test id="2" result="FAILED" case="Sorts an array of characters in descending order" expected="[z, y, x, w, v]" result="[w, x, y, z, v]" reason="The sorting algorithm is sorting the characters in ascending order instead of descending order."/>

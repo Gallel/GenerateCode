@@ -1,0 +1,5 @@
+<time value="0:00:12.091530"/>
+<test id="1" result="OK" case="Sort a sequence of integers" expected="The sequence in ascending order" result="The sequence sorted in ascending order" reason=""/>
+<test id="2" result="OK" case="Sort a sequence containing duplicated integers" expected="The sequence in ascending order without changing repeated numbers order" result="The sequence sorted in ascending order without changing repeated numbers order" reason=""/>
+<test id="3" result="OK" case="Sort a sequence containing only one integer" expected="The same sequence" result="The same sequence" reason=""/>
+<test id="4" result="OK" case="Sort a sequence in descending order" expected="The sequence in ascending order" result="The sequence sorted in ascending order" reason=""/>

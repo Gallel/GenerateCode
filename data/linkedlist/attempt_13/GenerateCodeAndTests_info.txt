@@ -1,0 +1,13 @@
+<time value="0:00:32.546207"/>
+<test id="1" result="OK" case="Tests if a LinkedList instance is created successfully" expected="true" result="(new LinkedList<String>()).isEmpty()" reason=""/>
+<test id="2" result="OK" case="Tests if an element can be inserted at the beginning of the LinkedList" expected="test" result="LinkedList.insertBeginning("test");" reason=""/>
+<test id="3" result="OK" case="Tests if an element can be inserted at the end of the LinkedList" expected="test" result="LinkedList.insertEnd("test");" reason=""/>
+<test id="4" result="OK" case="Tests if an element can be inserted after a certain node" expected="test" result="LinkedList.insertAfter("testNode", "test");" reason=""/>
+<test id="5" result="OK" case="Tests if an element can be inserted before a certain node" expected="test" result="LinkedList.insertBefore("testNode", "test");" reason=""/>
+<test id="6" result="OK" case="Tests if an element can be deleted from a certain node" expected="test" result="LinkedList.delete("testNode");" reason=""/>
+<test id="7" result="OK" case="Tests if the first element can be deleted from the LinkedList" expected="test" result="LinkedList.deleteFirst();" reason=""/>
+<test id="8" result="OK" case="Tests if an element can be deleted from the next position of a certain node" expected="test" result="LinkedList.deleteNext("testNode");" reason=""/>
+<test id="9" result="OK" case="Tests if a certain position can be updated with a new value" expected="test" result="LinkedList.update("testNode", "newTestValue");" reason=""/>
+<test id="10" result="OK" case="Tests if the size of the LinkedList is correctly retrieved" expected="5" result="LinkedList.size();" reason=""/>
+<test id="11" result="OK" case="Tests if the LinkedList can be swapped" expected="true" result="LinkedList.swap("node1", "node2");" reason=""/>
+<test id="12" result="OK" case="Tests if LinkedList's values can be retrieved" expected="test" result="LinkedList.values().next();" reason=""/>

@@ -1,0 +1,9 @@
+<time value="0:00:58.479859"/>
+<test id="1" result="OK" case="Testing add() method on an empty queue" expected="1" result="1" reason=""/>
+<test id="2" result="OK" case="Testing add() method on a full queue" expected="IllegalStateException" result="IllegalStateException" reason=""/>
+<test id="3" result="OK" case="Testing peek() method on an empty queue" expected="NoSuchElementException" result="NoSuchElementException" reason=""/>
+<test id="4" result="OK" case="Testing poll() method on an empty queue" expected="NoSuchElementException" result="NoSuchElementException" reason=""/>
+<test id="5" result="OK" case="Testing add(), peek(), and size() methods on a non-empty queue" expected="2" result="2" reason=""/>
+<test id="6" result="OK" case="Testing poll(), peek(), and size() methods on a non-empty queue" expected="1" result="1" reason=""/>
+<test id="7" result="OK" case="Testing values() method on a non-empty queue" expected="[2, 3]" result="[2, 3]" reason=""/>
+<test id="8" result="OK" case="Testing toString() method on a non-empty queue" expected="[2, 3]" result="[2, 3]" reason=""/>

@@ -1,0 +1,3 @@
+<time value="0:00:35.970773"/>
+<test id="1" result="OK" case="Test add and get" expected="50, 10, 100, 75, 300, 500" result="50,10,100,75,300,500" reason=""/>
+<test id="2" result="OK" case="Test delete" expected="100, 50, 300, 75" result="100,50,300,75" reason=""/>

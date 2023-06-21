@@ -1,0 +1,4 @@
+<time value="0:00:47.538072"/>
+<test id="1" result="OK" case="Test the put method. Add a new value and check the size of the dictionary." expected="4" result="4" reason=""/>
+<test id="2" result="OK" case="Test the keys method. Add three values and check if the keys are returned in the correct order." expected="KERM1955, ELM1980, PIG1974" result="KERM1955, ELM1980, PIG1974" reason=""/>
+<test id="3" result="OK" case="Test the values method. Retrieve three values from the dictionary and check if they are returned in the correct order." expected="Kermit the Frog, Elmo, Miss Piggy" result="Kermit the Frog, Elmo, Miss Piggy" reason=""/>

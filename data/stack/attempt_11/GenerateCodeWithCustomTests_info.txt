@@ -1,0 +1,16 @@
+<time value="0:00:41.970094"/>
+<test id="1" result="OK" case="StackArrayImpl constructor with no parameters" expected="The stack should have a maximum capacity of 100" result="The stack has a maximum capacity of 100" reason=""/>
+<test id="2" result="OK" case="StackArrayImpl constructor with parameter" expected="The stack should have a maximum capacity of 200" result="The stack has a maximum capacity of 200" reason=""/>
+<test id="3" result="OK" case="isEmpty method on empty stack" expected="The isEmpty method should return true" result="The isEmpty method returns true" reason=""/>
+<test id="4" result="OK" case="isEmpty method on non-empty stack" expected="The isEmpty method should return false" result="The isEmpty method returns false" reason=""/>
+<test id="5" result="OK" case="isFull method on non-full stack" expected="The isFull method should return false" result="The isFull method returns false" reason=""/>
+<test id="6" result="OK" case="isFull method on full stack" expected="The isFull method should return true" result="The isFull method returns true" reason=""/>
+<test id="7" result="OK" case="peek method on empty stack" expected="The peek method should return null" result="The peek method returns null" reason=""/>
+<test id="8" result="OK" case="peek method on non-empty stack" expected="The peek method should return the last element added to the stack" result="The peek method returns the last element added to the stack" reason=""/>
+<test id="9" result="OK" case="pop method on empty stack" expected="The pop method should return null" result="The pop method returns null" reason=""/>
+<test id="10" result="OK" case="pop method on non-empty stack" expected="The pop method should return the last element added to the stack, and the stack should no longer contain that element" result="The pop method returns the last element added to the stack, and the stack no longer contains that element" reason=""/>
+<test id="11" result="OK" case="push method on non-full stack" expected="The push method should add the element to the top of the stack" result="The push method adds the element to the top of the stack" reason=""/>
+<test id="12" result="OK" case="push method on full stack" expected="The push method should not add the element to the stack and should throw a FullContainerException" result="The push method does not add the element to the stack and throws a FullContainerException" reason=""/>
+<test id="13" result="OK" case="size method" expected="The size method should return the number of elements in the stack" result="The size method returns the number of elements in the stack" reason=""/>
+<test id="14" result="OK" case="toString method" expected="The toString method should return a String representation of the stack" result="The toString method returns a String representation of the stack" reason=""/>
+<test id="15" result="OK" case="values method" expected="The values method should return an iterator of the elements in the stack" result="The values method returns an iterator of the elements in the stack" reason=""/>

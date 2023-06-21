@@ -1,0 +1,9 @@
+<time value="0:00:59.201404"/>
+<test id="1" result="OK" case="Put an element in the table" expected="4" result="4" reason=""/>
+<test id="2" result="OK" case="Check if a key is in the table" expected="true" result="true" reason=""/>
+<test id="3" result="FAILED" case="Check if a key is in the table" expected="false" result="true" reason="Returns true even though the key is not in the table"/>
+<test id="4" result="OK" case="Delete an element in the table" expected="2" result="2" reason=""/>
+<test id="5" result="OK" case="Get an element in the table" expected="Elmo" result="Elmo" reason=""/>
+<test id="6" result="OK" case="Check if the table is empty" expected="false" result="false" reason=""/>
+<test id="7" result="OK" case="Get all the keys in the table" expected="KERM1955" result="KERM1955" reason=""/>
+<test id="8" result="OK" case="Get all the values in the table" expected="Kermit the Frog" result="Kermit the Frog" reason=""/>

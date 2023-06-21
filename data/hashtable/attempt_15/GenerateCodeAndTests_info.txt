@@ -1,0 +1,7 @@
+<time value="0:00:49.528001"/>
+<test id="1" result="OK" case="Test default constructor" expected="true" result="(new HashTable<Integer, String>()).isEmpty()" reason=""/>
+<test id="2" result="OK" case="Test constructor with parameter" expected="5" result="(new HashTable<Integer, String>(5)).size()" reason=""/>
+<test id="3" result="OK" case="Test put and get methods" expected="value2" result="ht.get(key2)" reason=""/>
+<test id="4" result="OK" case="Test containsKey method" expected="true" result="ht.containsKey(key3)" reason=""/>
+<test id="5" result="OK" case="Test delete method" expected="true" result="ht.delete(key1) != null" reason=""/>
+<test id="6" result="OK" case="Test size method" expected="2" result="ht.size()" reason=""/>

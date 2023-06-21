@@ -1,0 +1,5 @@
+<time value="0:00:35.068198"/>
+<test id="1" result="OK" case="Sort a given array of integers" expected="[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]" result="[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]" reason=""/>
+<test id="2" result="OK" case="Sort a given array of strings" expected="[apple, banana, cherry, date, elderberry]" result="[apple, banana, cherry, date, elderberry]" reason=""/>
+<test id="3" result="OK" case="Sort a given array of objects by a custom comparable field" expected="[(A, 5), (B, 8), (C, 9), (D, 13), (E, 17)]" result="[(A, 5), (B, 8), (C, 9), (D, 13), (E, 17)]" reason=""/>
+<test id="4" result="FAILED" case="Sort a given already sorted array of integers" expected="[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]" result="[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]" reason="Fails because it's not optimized to detect already sorted arrays"/>

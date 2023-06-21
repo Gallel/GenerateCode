@@ -1,0 +1,7 @@
+<time value="0:00:46.665581"/>
+<test id="1" result="OK" case="Creating a HashTable object with default constructor and adding a key-value pair" expected="size=1,object.toString()=[5=hello]" result="size=1,object.toString()=[5=hello]" reason=""/>
+<test id="2" result="OK" case="Creating a HashTable object with size 15 and adding several key-value pairs" expected="size=3, object.toString()=[1=a, 6=f, 21=u]" result="size=3, object.toString()=[1=a, 6=f, 21=u]" reason=""/>
+<test id="3" result="OK" case="Creating a HashTable object, adding a key-value pair, and using the get method" expected="hello" result="hello" reason=""/>
+<test id="4" result="OK" case="Creating a HashTable object, adding a key-value pair, deleting it, and checking if it's contained" expected="false" result="false" reason=""/>
+<test id="5" result="OK" case="Creating a HashTable object, checking if it's empty" expected="true" result="true" reason=""/>
+<test id="6" result="OK" case="Creating a HashTable object, adding key-value pairs, checking its size" expected="3" result="3" reason=""/>

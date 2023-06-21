@@ -1,0 +1,5 @@
+<time value="0:02:02.792219"/>
+<test id="1" result="OK" case="Test the put method. A new item is added to the dictionary using a new key." expected="The dictionary contains 4 items." result="The dictionary contains 4 items." reason=""/>
+<test id="2" result="FAILED" case="Test the put method. An existing item is added to the dictionary using an existing key." expected="The dictionary contains 3 items." result="The dictionary contains 4 items." reason="The put method doesn't handle adding existing items properly."/>
+<test id="3" result="OK" case="Test the keys method. The keys are retrieved from the dictionary." expected="The dictionary has 3 unique keys." result="The dictionary has 3 unique keys." reason=""/>
+<test id="4" result="OK" case="Test the values method. The values are retrieved from the dictionary." expected="The dictionary has 3 unique values." result="The dictionary has 3 unique values." reason=""/>

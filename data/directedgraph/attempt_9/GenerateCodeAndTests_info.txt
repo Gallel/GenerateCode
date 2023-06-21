@@ -1,0 +1,7 @@
+<time value="0:01:34.806625"/>
+<test id="1" result="OK" case="Testing newVertex method" expected="newVertex() should add a vertex to the graph and return the created vertex with the correct value" result="Correct" reason=""/>
+<test id="2" result="OK" case="Testing getVertex method" expected="getVertex() should return the vertex with the given value if it exists in the graph" result="Correct" reason=""/>
+<test id="3" result="OK" case="Testing deleteVertex method" expected="deleteVertex() should remove the given vertex from the graph and all its related edges" result="Correct" reason=""/>
+<test id="4" result="OK" case="Testing newEdge method" expected="newEdge() should create a new edge between the given source and destination vertices and add it to the graph" result="Correct" reason=""/>
+<test id="5" result="OK" case="Testing getEdge method" expected="getEdge() should return the edge between the given source and destination vertices if it exists in the graph" result="Correct" reason=""/>
+<test id="6" result="OK" case="Testing deleteEdge method" expected="deleteEdge() should remove the given edge from the graph" result="Correct" reason=""/>

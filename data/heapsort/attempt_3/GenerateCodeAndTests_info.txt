@@ -1,0 +1,5 @@
+<time value="0:00:08.882571"/>
+<test id="1" result="OK" case="Sort an array of integers" expected="[1, 2, 3, 4, 5]" result="[1, 2, 3, 4, 5]" reason=""/>
+<test id="2" result="OK" case="Sort an array of strings" expected="['apple', 'banana', 'cherry']" result="['apple', 'banana', 'cherry']" reason=""/>
+<test id="3" result="OK" case="Sort an empty array" expected="[]" result="[]" reason=""/>
+<test id="4" result="OK" case="Sort a single-element array" expected="[1]" result="[1]" reason=""/>

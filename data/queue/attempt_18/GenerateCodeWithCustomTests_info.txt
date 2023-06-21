@@ -1,0 +1,6 @@
+<time value="0:01:45.872715"/>
+<test id="1" result="OK" case="addTest" expected="3" result="3" reason=""/>
+<test id="2" result="OK" case="peekTest" expected="54" result="54" reason=""/>
+<test id="3" result="OK" case="pollTest" expected="54" result="54" reason=""/>
+<test id="4" result="OK" case="emptyTest" expected="true" result="true" reason=""/>
+<test id="5" result="OK" case="fullTest" expected="true" result="true" reason=""/>

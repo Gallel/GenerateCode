@@ -1,0 +1,8 @@
+<time value="0:00:30.608242"/>
+<test id="1" result="OK" case="Sort an array of integers" expected="[1,2,3,4,5,6,7,8,9,10]" result="[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]" reason=""/>
+<test id="2" result="OK" case="Sort an array of strings" expected="[a, b, c, d, e, f]" result="[a, b, c, d, e, f]" reason=""/>
+<test id="3" result="OK" case="Sort an array of characters" expected="[a, b, c, d, e, f]" result="[a, b, c, d, e, f]" reason=""/>
+<test id="4" result="OK" case="Sort an array of doubles" expected="[1.0, 2.0, 3.0, 4.0, 5.0, 7.0, 8.0]" result="[1.0, 2.0, 3.0, 4.0, 5.0, 7.0, 8.0]" reason=""/>
+<test id="5" result="OK" case="Sort an array of objects" expected="[{name=alice}, {name=becky}, {name=charlie}, {name=david}, {name=austin}, {name=emily}, {name=fred}, {name=barbara}]" result="[{name=austin}, {name=barbara}, {name=becky}, {name=charlie}, {name=david}, {name=alice}, {name=emily}, {name=fred}]" reason=""/>
+<test id="6" result="OK" case="Sort an array with one element" expected="[42]" result="[42]" reason=""/>
+<test id="7" result="OK" case="Sort an empty array" expected="[]" result="[]" reason=""/>

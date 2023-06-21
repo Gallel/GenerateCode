@@ -1,0 +1,6 @@
+<time value="0:00:18.297512"/>
+<test id="1" result="OK" case="Creating HeapSort object" expected="class HeapSort" result="class HeapSort" reason=""/>
+<test id="2" result="OK" case="Sorting empty array" expected="[]" result="[]" reason=""/>
+<test id="3" result="OK" case="Sorting array of integers" expected="[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]" result="[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]" reason=""/>
+<test id="4" result="OK" case="Sorting array of strings" expected="[a, b, c, d, e]" result="[a, b, c, d, e]" reason=""/>
+<test id="5" result="FAILED" case="Sorting array with null values" expected="[2,3,4]" result="[2,null,3,null,4]" reason="Null values are allowed in the array"/>

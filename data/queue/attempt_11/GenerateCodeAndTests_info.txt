@@ -1,0 +1,10 @@
+<time value="0:00:59.771040"/>
+<test id="1" result="OK" case="Test add and size methods" expected="2" result="2" reason=""/>
+<test id="2" result="OK" case="Test isEmpty method when queue is empty" expected="true" result="true" reason=""/>
+<test id="3" result="FAILED" case="Test poll method when queue is empty" expected="NoSuchElementException" result="NullPointerException" reason="The exception thrown is not the expected"/>
+<test id="4" result="OK" case="Test poll method" expected="3" result="3" reason=""/>
+<test id="5" result="FAILED" case="Test add method when queue is full" expected="IllegalStateException" result="NullPointerException" reason="The exception thrown is not the expected"/>
+<test id="6" result="OK" case="Test isFull method when queue is full" expected="true" result="true" reason=""/>
+<test id="7" result="OK" case="Test peek method" expected="1" result="1" reason=""/>
+<test id="8" result="OK" case="Test toString method when queue is empty" expected="[]" result="[]" reason=""/>
+<test id="9" result="OK" case="Test values method" expected="1, 2" result="1, 2" reason=""/>

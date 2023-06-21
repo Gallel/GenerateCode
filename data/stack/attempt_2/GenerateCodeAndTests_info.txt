@@ -1,0 +1,7 @@
+<time value="0:00:29.791076"/>
+<test id="1" result="OK" case="Creates a StackArrayImpl object without parameters and checks if it is empty" expected="true" result="(new StackArrayImpl()).isEmpty()" reason=""/>
+<test id="2" result="OK" case="Creates a StackArrayImpl object with capacity 5 and checks if it is full" expected="false" result="(new StackArrayImpl(5)).isFull()" reason=""/>
+<test id="3" result="OK" case="Creates a StackArrayImpl object with capacity 3, pushes two elements, and peeks the top" expected="s" result="(new StackArrayImpl(3)).push('a');(new StackArrayImpl(3)).push('s');(new StackArrayImpl(3)).peek()" reason=""/>
+<test id="4" result="OK" case="Creates a StackArrayImpl object with capacity 2, pushes two elements and pops one" expected="c" result="(new StackArrayImpl(2)).push('c');(new StackArrayImpl(2)).push('k');(new StackArrayImpl(2)).pop()" reason=""/>
+<test id="5" result="OK" case="Creates a StackArrayImpl object with capacity 1 and checks the number of items in the stack" expected="1" result="(new StackArrayImpl(1)).push('c');(new StackArrayImpl(1)).size()" reason=""/>
+<test id="6" result="OK" case="Creates a StackArrayImpl object with capacity 10 and pushes three elements, then converts the whole stack to a string" expected="d\ns\na\n" result="(new StackArrayImpl(10)).push('a');(new StackArrayImpl(10)).push('s');(new StackArrayImpl(10)).push('d');(new StackArrayImpl(10)).toString()" reason=""/>

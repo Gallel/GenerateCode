@@ -1,0 +1,3 @@
+<time value="0:00:42.117787"/>
+<test id="1" result="OK" case="Check whether the method add works correctly with more than five nodes and a double rotation (DD) is required." expected="[100,50,300,10,75,500]" result="[100,50,300,10,75,500]" reason=""/>
+<test id="2" result="OK" case="Check whether the method delete works correctly with more than five nodes and when at least one double rotation is required." expected="100" result="100" reason=""/>

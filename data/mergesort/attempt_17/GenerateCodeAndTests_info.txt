@@ -1,0 +1,14 @@
+<time value="0:00:38.540907"/>
+<!--Test with an empty array-->
+<test id="1" result="OK" case="Empty Array" expected="[] - []" result="[] - []" reason=""/>
+<!--Test with one element-->
+<test id="2" result="OK" case="Array with one element" expected="[1] - [1]" result="[1] - [1]" reason=""/>
+<!--Test with two elements-->
+<test id="3" result="OK" case="Array with two elements in order" expected="[1,2] - [1,2]" result="[1,2] - [1,2]" reason=""/>
+<test id="4" result="OK" case="Array with two elements in reverse order" expected="[1,2] - [2,1]" result="[1,2] - [1,2]" reason=""/>
+<!--Test with repeated elements-->
+<test id="5" result="OK" case="Array with repeated elements" expected="[1,2,3,3,4] - [1,2,3,3,4]" result="[1,2,3,3,4] - [1,2,3,3,4]" reason=""/>
+<!--Test with an odd number of elements-->
+<test id="6" result="OK" case="Array with odd number of elements" expected="[1,2,3,4,5,6,7] - [1,2,3,4,5,6,7]" result="[1,2,3,4,5,6,7] - [1,2,3,4,5,6,7]" reason=""/>
+<!--Test with an even number of elements-->
+<test id="7" result="OK" case="Array with even number of elements" expected="[1,2,3,4,5,6] - [1,2,3,4,5,6]" result="[1,2,3,4,5,6] - [1,2,3,4,5,6]" reason=""/>

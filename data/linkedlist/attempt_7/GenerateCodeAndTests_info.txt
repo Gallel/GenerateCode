@@ -1,0 +1,11 @@
+<time value="0:06:23.614964"/>
+<test id="1" result="OK" case="Test linked list creation and size." expected="0" result="0" reason=""/>
+<test id="2" result="OK" case="Test if the linked list is empty." expected="true" result="true" reason=""/>
+<test id="3" result="OK" case="Test insertion of an element at the beginning of the linked list." expected="1" result="1" reason=""/>
+<test id="4" result="OK" case="Test insertion of an element at the end of the linked list." expected="2" result="2" reason=""/>
+<test id="5" result="OK" case="Test insertion of an element before a position." expected="3" result="3" reason=""/>
+<test id="6" result="OK" case="Test insertion of an element after a position." expected="4" result="4" reason=""/>
+<test id="7" result="OK" case="Test retrieval of the first position." expected="Position(element=1)" result="Position(element=1)" reason=""/>
+<test id="8" result="OK" case="Test retrieval of the last position." expected="Position(element=2)" result="Position(element=2)" reason=""/>
+<test id="9" result="OK" case="Test deletion of a position." expected="1" result="1" reason=""/>
+<test id="10" result="OK" case="Test if the linked list is empty after deleting a position." expected="false" result="false" reason=""/>

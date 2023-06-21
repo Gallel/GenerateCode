@@ -1,0 +1,5 @@
+<time value="0:02:00.074810"/>
+<test id="1" result="OK" case="Add an element to the queue, check if the queue is not empty, and retrieve the added item using the peek() method" expected="The queue should return a size of 1 and the element added" result="The result is as expected" reason=""/>
+<test id="2" result="OK" case="Add an element to the queue, remove it using the poll() method, check if the queue is empty, and retrieve null using the peek() method" expected="The queue should return a size of 0 and null when using the peek() method" result="The result is as expected" reason=""/>
+<test id="3" result="OK" case="Add more elements than the maximum size, expect an IllegalStateException to be thrown" expected="An IllegalStateException should be thrown" result="The exception was thrown as expected" reason=""/>
+<test id="4" result="OK" case="Add multiple elements to the queue and retrieve them using the values() method" expected="The iterator should return the elements in the same order as they were added to the queue" result="The result is as expected" reason=""/>

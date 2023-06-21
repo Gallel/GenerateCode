@@ -1,0 +1,6 @@
+<time value="0:00:24.610303"/>
+<test id="1" result="OK" case="Testing newVertex() method when vertex doesn't exist" expected="A new vertex should be created with the given value" result="A new vertex was correctly created with the given value" reason=""/>
+<test id="2" result="OK" case="Testing newVertex() method when vertex exists" expected="The method should not create a new vertex and return the existing one" result="The method returned the correct existing vertex" reason=""/>
+<test id="3" result="OK" case="Testing deleteVertex() method" expected="The method should remove the vertex from the graph" result="The method correctly removed the vertex from the graph" reason=""/>
+<test id="4" result="OK" case="Testing newEdge() method" expected="The method should create a new edge between the source and destination vertices" result="The method correctly created a new edge between the source and destination vertices" reason=""/>
+<test id="5" result="OK" case="Testing deleteEdge() method" expected="The method should remove the edge from the graph" result="The method correctly removed the edge from the graph" reason=""/>

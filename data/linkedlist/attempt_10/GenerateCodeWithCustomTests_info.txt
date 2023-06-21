@@ -1,0 +1,11 @@
+<time value="0:02:02.087117"/>
+<test id="1" result="OK" case="Insertion in empty list" expected="4" result="4" reason=""/>
+<test id="2" result="OK" case="Insertion at the end of the list" expected="5" result="5" reason=""/>
+<test id="3" result="OK" case="Insertion after a given position in the list" expected="4" result="4" reason=""/>
+<test id="4" result="OK" case="Deletion after a given position in the list" expected="5" result="5" reason=""/>
+<test id="5" result="OK" case="Deletion of the first position in the list" expected="1" result="1" reason=""/>
+<test id="6" result="OK" case="Deletion of a given position in the list" expected="2" result="2" reason=""/>
+<test id="7" result="OK" case="Updation of a given position in the list" expected="2" result="2" reason=""/>
+<test id="8" result="OK" case="Swapping two positions in the list" expected="2" result="2" reason=""/>
+<test id="9" result="OK" case="Traversal of the list" expected="[1, 4, 2, 5, 3]" result="[1, 4, 2, 5, 3]" reason=""/>
+<test id="10" result="OK" case="Conversion to string" expected="[1, 4, 2, 5, 3]" result="[1, 4, 2, 5, 3]" reason=""/>

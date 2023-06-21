@@ -1,0 +1,7 @@
+<time value="0:00:20.114546"/>
+<test id="1" result="OK" case="Test constructor without parameter - AVLTree()" expected="AVLTree object is created" result="AVLTree object is created" reason=""/>
+<test id="2" result="OK" case="Test constructor with parameter - AVLTree(Comparator<E> comparator)" expected="AVLTree object is created with a specific Comparator" result="AVLTree object is created with a specific Comparator" reason=""/>
+<test id="3" result="OK" case="Test add(E elemComp) method - adding a string into the AVL tree" expected="The string is added into the AVL tree without any problem" result="The string is added into the AVL tree without any problem" reason=""/>
+<test id="4" result="OK" case="Test delete(E elemComp) method - deleting an integer from the AVL tree" expected="The integer is deleted from the AVL tree without any problem" result="The integer is deleted from the AVL tree without any problem" reason=""/>
+<test id="5" result="OK" case="Test get(E elemComp) method - retrieving a specific element from the AVL tree" expected="The element is retrieved from the AVL tree without any problem" result="The element is retrieved from the AVL tree without any problem" reason=""/>
+<test id="6" result="OK" case="Test thereIsComparator() method - checking if there is a specific comparator in AVL tree" expected="The method returns a correct boolean value indicating whether there is a comparator or not" result="The method returns a correct boolean value indicating whether there is a comparator or not" reason=""/>

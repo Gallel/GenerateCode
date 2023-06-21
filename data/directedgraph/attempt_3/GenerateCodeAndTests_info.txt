@@ -1,0 +1,8 @@
+<time value="0:00:21.156622"/>
+<test id="1" result="OK" case="Create graph object" expected="Object should be created without error" result="Object created successfully" reason=""/>
+<test id="2" result="OK" case="Create a new vertex and get it by value" expected="Value of vertex should be the same as the one used to create it" result="Got vertex successfully" reason=""/>
+<test id="3" result="OK" case="Create a new vertex and delete it" expected="Vertex should be deleted without error" result="Vertex deleted successfully" reason=""/>
+<test id="4" result="OK" case="Create a new directed edge" expected="Edge should be created without error" result="Edge created successfully" reason=""/>
+<test id="5" result="OK" case="Get a directed edge with source and destination vertices" expected="Edge should be retrieved without error" result="Edge retrieved successfully" reason=""/>
+<test id="6" result="OK" case="Get a vertex's adjacent vertices" expected="Adjacent vertices should be retrieved without error" result="Adjacent vertices retrieved successfully" reason=""/>
+<test id="7" result="OK" case="Get edges with a vertex as destination" expected="Edges with destination vertex should be retrieved without error" result="Edges with destination vertex retrieved successfully" reason=""/>

@@ -1,0 +1,3 @@
+<time value="0:01:26.187789"/>
+<test id="1" result="OK" case="testAddAndSize" expected="3" result="3" reason=""/>
+<test id="2" result="FAILED" case="testPeekAndPoll" expected="5" result="2" reason="Incorrect value returned"/>

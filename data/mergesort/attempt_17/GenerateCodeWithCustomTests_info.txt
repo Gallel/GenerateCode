@@ -1,0 +1,7 @@
+<time value="0:00:33.017658"/>
+<test id="1" result="OK" case="Sort integers in ascending order" expected="1, 2, 3, 4, 5, 7, 8, 9, 10, 12" result="1, 2, 3, 4, 5, 7, 8, 9, 10, 12" reason=""/>
+<test id="2" result="OK" case="Sort integers in descending order" expected="12, 10, 9, 8, 7, 5, 4, 3, 2, 1" result="12, 10, 9, 8, 7, 5, 4, 3, 2, 1" reason=""/>
+<test id="3" result="OK" case="Sort strings in alphabetical order" expected="apple, banana, cherry, orange, strawberry" result="apple, banana, cherry, orange, strawberry" reason=""/>
+<test id="4" result="OK" case="Sort strings in alphabetical order ignoring case" expected="apple, banana, Cherry, orange, Strawberry" result="apple, banana, Cherry, orange, Strawberry" reason=""/>
+<test id="5" result="OK" case="Sort identical elements" expected="1, 1, 1, 1, 1" result="1, 1, 1, 1, 1" reason=""/>
+<test id="6" result="OK" case="Sort a single element vector" expected="1" result="1" reason=""/>

@@ -1,0 +1,5 @@
+<time value="0:03:07.911457"/>
+<test id="1" result="OK" case="Creating a queue with capacity of 3 and adding 2 elements" expected="2" result="(queue size) 2" reason=""/>
+<test id="2" result="OK" case="Adding 3 elements to a queue with capacity of 3 and then polling one" expected="2" result="(poll result) element1" reason=""/>
+<test id="3" result="OK" case="Creating a queue with capacity of 1 and adding an element. Then checking if the queue is full" expected="true" result="(isFull()) true" reason=""/>
+<test id="4" result="OK" case="Creating a queue with capacity of 1 and adding and polling an element. Then checking if the queue is empty" expected="true" result="(isEmpty()) true" reason=""/>

@@ -1,0 +1,5 @@
+<time value="0:00:09.537834"/>
+<test id="1" result="OK" case="Testing empty constructor" expected="HeapSort instantiated without errors." result="HeapSort instantiated without errors." reason=""/>
+<test id="2" result="OK" case="Testing constructor with parameter" expected="HeapSort instantiated with a vector parameter without errors." result="HeapSort instantiated with a vector parameter without errors." reason=""/>
+<test id="3" result="OK" case="Testing sorting with int parameter" expected="A sequence of items sorted without errors." result="A sequence of items sorted without errors." reason=""/>
+<test id="4" result="OK" case="Testing sorting with vector and int parameters" expected="A given vector of items sorted without errors." result="A given vector of items sorted without errors." reason=""/>

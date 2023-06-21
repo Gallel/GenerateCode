@@ -1,0 +1,9 @@
+<time value="0:00:54.364658"/>
+<test id="1" result="OK" case="Create a new queue with default capacity and check if it is empty" expected="true" result="true" reason=""/>
+<test id="2" result="OK" case="Create a new queue with capacity of 5 and add an element to it" expected="false" result="false" reason=""/>
+<test id="3" result="OK" case="Add 3 elements to the queue and check if its size is 3" expected="3" result="3" reason=""/>
+<test id="4" result="OK" case="Add 2 elements to the queue and remove 1 of them, then check its size and remaining element" expected="1" result="1" reason=""/>
+<test id="5" result="OK" case="Add 4 elements to the queue, remove all of them, then check if it's empty" expected="true" result="true" reason=""/>
+<test id="6" result="OK" case="Add 3 elements to the queue, check its first element with peek() method, then remove it with poll() method and check if it was the correct element" expected="true" result="true" reason=""/>
+<test id="7" result="OK" case="Create a new queue with capacity of 2, add 2 elements to it and try to add one more, expecting an IllegalStateException" expected="IllegalStateException" result="IllegalStateException" reason=""/>
+<test id="8" result="OK" case="Try to peek() or poll() an empty queue, expecting a NoSuchElementException" expected="NoSuchElementException" result="NoSuchElementException" reason=""/>

@@ -1,0 +1,5 @@
+<time value="0:01:31.478098"/>
+<test id="1" result="OK" case="Test empty queue" expected="true, EmptyContainerException" result="true, EmptyContainerException" reason=""/>
+<test id="2" result="OK" case="Test adding items to priority queue" expected="10, 9, 7, 6, 5, 4, 3, 2, 1, 0, 10" result="10, 9, 7, 6, 5, 4, 3, 2, 1, 0, 10" reason=""/>
+<test id="3" result="OK" case="Test adding items to full priority queue" expected="FullContainerException" result="FullContainerException" reason=""/>
+<test id="4" result="OK" case="Test removing items from priority queue" expected="9, 8, 7, 6, 5, 4, 3, 2, 1, 0, true" result="9, 8, 7, 6, 5, 4, 3, 2, 1, 0, true" reason=""/>

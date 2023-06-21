@@ -1,0 +1,5 @@
+<time value="0:00:09.403555"/>
+<test id="1" result="OK" case="Creating a new HeapSort with default constructor" expected="The HeapSort object is created" result="The HeapSort object is created" reason=""/>
+<test id="2" result="OK" case="Creating a new HeapSort with vector" expected="The HeapSort object is created with the given vector" result="The HeapSort object is created with the given vector" reason=""/>
+<test id="3" result="OK" case="Sorting an int array with HeapSort" expected="The int array is sorted" result="The int array is sorted" reason=""/>
+<test id="4" result="OK" case="Sorting a generic array with HeapSort" expected="The generic array is sorted" result="The generic array is sorted" reason=""/>

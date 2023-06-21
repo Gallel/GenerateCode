@@ -1,0 +1,15 @@
+<time value="0:00:41.929955"/>
+<test id="1" result="OK" case="verify if container is empty" expected="true" result="(isEmpty() method returns true)" reason=""/>
+<test id="2" result="OK" case="get the size of the container" expected="0" result="(size() method returns 0)" reason=""/>
+<test id="3" result="OK" case="add an element to the container" expected="1" result="(push() method adds an element to the container)" reason=""/>
+<test id="4" result="OK" case="verify if container is full" expected="false" result="(isFull() method returns false)" reason=""/>
+<test id="5" result="OK" case="get the last item added to the stack, if any" expected="1" result="(peek() method returns the last item added to the stack, if any)" reason=""/>
+<test id="6" result="OK" case="retrieve the items in the container" expected="[1]" result="(values() method retrieves the items in the container)" reason=""/>
+<test id="7" result="OK" case="delete the last item added to the stack, if any" expected="1" result="(pop() method deletes the last item added to the stack, if any)" reason=""/>
+<test id="8" result="OK" case="verify if container is empty after last item deletion" expected="true" result="(isEmpty() method returns true after deleting last item)" reason=""/>
+<test id="9" result="OK" case="get the size of the container after last item deletion" expected="0" result="(size() method returns 0 after deleting last item)" reason=""/>
+<test id="10" result="OK" case="add an element to the container after last item deletion" expected="1" result="(push() method adds an element to the container after deleting last item)" reason=""/>
+<test id="11" result="OK" case="delete the last item added to the stack, if any after adding a new item" expected="2" result="(pop() method deletes the last item added to the stack, if any after adding a new item)" reason=""/>
+<test id="12" result="OK" case="get the last item added to the stack after adding a new item" expected="1" result="(peek() method returns the last item added to the stack, if any after adding a new item)" reason=""/>
+<test id="13" result="OK" case="get the size of the container after adding a new item" expected="1" result="(size() method returns 1 after adding a new item)" reason=""/>
+<test id="14" result="FAILED" case="add an element to the full container" expected="FullContainerException to be thrown" result="(FullContainerException was not thrown when adding an element to the full container)" reason="FullContainerException not thrown"/>

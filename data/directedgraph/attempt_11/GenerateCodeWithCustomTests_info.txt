@@ -1,0 +1,2 @@
+<time value="0:00:26.335895"/>
+<test id="1" result="OK" case="Compiles correctly" expected="No compile errors" result="No compile errors" reason=""/>

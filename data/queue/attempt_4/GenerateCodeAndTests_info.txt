@@ -1,0 +1,11 @@
+<time value="0:03:00.544450"/>
+<test id="1" result="OK" case="Add one element to the queue" expected="1" result="1" reason=""/>
+<test id="2" result="OK" case="Add several elements to the queue" expected="1,2,3" result="1,2,3" reason=""/>
+<test id="3" result="OK" case="Add elements until queue is full" expected="Queue is full!" result="Queue is full!" reason=""/>
+<test id="4" result="OK" case="Peek the first element of the queue" expected="1" result="1" reason=""/>
+<test id="5" result="OK" case="Poll the first element of the queue" expected="1" result="1" reason=""/>
+<test id="6" result="OK" case="Poll all elements of the queue" expected="null" result="null" reason=""/>
+<test id="7" result="OK" case="Check if the queue is empty" expected="true" result="true" reason=""/>
+<test id="8" result="OK" case="Check if the queue is full" expected="false" result="false" reason=""/>
+<test id="9" result="OK" case="Check the size of the queue" expected="0" result="0" reason=""/>
+<test id="10" result="FAILED" case="Check if toString returns the correct output" expected="[1, 2, 3]" result="[1, 2, null]" reason="The test failed because the queue only has two elements, but the expected output indicates three elements."/>

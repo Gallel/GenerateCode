@@ -1,0 +1,7 @@
+<time value="0:01:26.840145"/>
+<test id="1" result="OK" case="Creates a stack of integers, pushes two elements, and checks the size of the stack" expected="Stack size is 2" result="Stack size is 2" reason=""/>
+<test id="2" result="OK" case="Pushes one element into the stack and checks the size of the stack" expected="Stack size is 3" result="Stack size is 3" reason=""/>
+<test id="3" result="OK" case="Peeks the top element of the stack and checks that it is equal to 12" expected="Top element is 12" result="Top element is 12" reason=""/>
+<test id="4" result="OK" case="Pops the top element of the stack and checks that it is equal to 12" expected="Top element is 12" result="Top element is 12" reason=""/>
+<test id="5" result="OK" case="Pops all the elements of the stack and checks that the stack is now empty" expected="Stack is empty" result="Stack is empty" reason=""/>
+<test id="6" result="OK" case="Pushes an element into a full stack and checks that a FullContainerException is thrown" expected="A FullContainerException is thrown" result="A FullContainerException is thrown" reason=""/>

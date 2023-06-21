@@ -1,0 +1,11 @@
+<time value="0:02:00.997015"/>
+<test id="1" result="OK" case="Testing put method with new key-value pair" expected="4" result="4" reason=""/>
+<test id="2" result="OK" case="Testing keys method" expected="KERM1955, ELM1980, PIG1974" result="KERM1955, ELM1980, PIG1974" reason=""/>
+<test id="3" result="OK" case="Testing values method" expected="Kermit the Frog, Elmo, Miss Piggy" result="Kermit the Frog, Elmo, Miss Piggy" reason=""/>
+<test id="4" result="OK" case="Testing get method with an existing key" expected="Miss Piggy" result="Miss Piggy" reason=""/>
+<test id="5" result="OK" case="Testing get method with a non-existing key" expected="null" result="null" reason=""/>
+<test id="6" result="OK" case="Testing containsKey method with an existing key" expected="true" result="true" reason=""/>
+<test id="7" result="OK" case="Testing containsKey method with a non-existing key" expected="false" result="false" reason=""/>
+<test id="8" result="OK" case="Testing size method" expected="3" result="3" reason=""/>
+<test id="9" result="OK" case="Testing delete method with an existing key" expected="Kermit the Frog" result="Kermit the Frog" reason=""/>
+<test id="10" result="OK" case="Testing delete method with a non-existing key" expected="null" result="null" reason=""/>

@@ -1,0 +1,8 @@
+<time value="0:00:45.321960"/>
+<test id="1" result="OK" case="Tests isEmpty() method on an empty stack" expected="true" result="{StackArrayImpl<Integer> s = new StackArrayImpl<Integer>(); s.isEmpty();}" reason=""/>
+<test id="2" result="OK" case="Tests isFull() method on a stack that is not full" expected="false" result="{StackArrayImpl<Integer> s = new StackArrayImpl<Integer>(); s.isFull();}" reason=""/>
+<test id="3" result="OK" case="Tests push() method on a stack with room for elements" expected="2" result="{StackArrayImpl<Integer> s = new StackArrayImpl<Integer>(); s.push(1); s.push(2); s.size();}" reason=""/>
+<test id="4" result="OK" case="Tests peek() method on a stack with elements" expected="2" result="{StackArrayImpl<Integer> s = new StackArrayImpl<Integer>(); s.push(1); s.push(2); s.peek();}" reason=""/>
+<test id="5" result="OK" case="Tests pop() method on a stack with elements" expected="1" result="{StackArrayImpl<Integer> s = new StackArrayImpl<Integer>(); s.push(1); s.push(2); s.pop(); s.size();}" reason=""/>
+<test id="6" result="OK" case="Tests toString() method on a stack with elements" expected="[1, 2]" result="{StackArrayImpl<Integer> s = new StackArrayImpl<Integer>(); s.push(1); s.push(2); s.toString();}" reason=""/>
+<test id="7" result="OK" case="Tests values() method on a stack with elements" expected="true" result="{StackArrayImpl<Integer> s = new StackArrayImpl<Integer>(); s.push(1); s.push(2); s.values().hasNext();}" reason=""/>
