@@ -22,6 +22,7 @@ class CodeGenerator:
 		self.template = None
 		self.templateExample = None
 		self.text = None
+		self.package = None
 		self.example = None
 		self.outputFile = None
 		self.hasTests = False
@@ -53,6 +54,9 @@ class CodeGenerator:
   
 	def BindText(self, text):
 		self.text = text
+
+	def BindPackage(self, package):
+		self.package = package
   
 	def BindExample(self, example):
 		self.example = example
@@ -81,7 +85,7 @@ class CodeGenerator:
 
 		# Create an llm
 		llm = ChatOpenAI(openai_api_key = os.getenv('OPENAI_API_KEY'), model_name = self.model, temperature = 0)
-		prompt_template = PromptTemplate(input_variables=["text"], template = self.template)
+		prompt_template = PromptTemplate(input_variables=["package", "text"], template = self.template)
 		self.answer_chain = LLMChain(llm = llm, prompt = prompt_template)
   
 		# Create second chain
@@ -95,9 +99,9 @@ class CodeGenerator:
      
 		if self.HasExampleChain():
 			chain = SimpleSequentialChain(chains = [self.answer_chain, self.answer_chain2])
-			self.answer = chain.run(input = {"text": self.text, "example": self.example})
+			self.answer = chain.run(input = {"package": self.package, "text": self.text, "example": self.example})
 		else:
-			self.answer = self.answer_chain.run(self.text)
+			self.answer = self.answer_chain.run({"package": self.package, "text": self.text})
    
 		isOk = False
    
@@ -109,7 +113,7 @@ class CodeGenerator:
 				isOk = True
 			else:
 				llm = ChatOpenAI(openai_api_key = os.getenv('OPENAI_API_KEY'), model_name = self.model, temperature = 0)
-				prompt_template = PromptTemplate(input_variables=["text"], template = self.template)
+				prompt_template = PromptTemplate(input_variables=["package", "text"], template = self.template)
 				self.answer_chain = LLMChain(llm = llm, prompt = prompt_template)
     
 				text = "Fix this code:\n " + self.answer + "\nAccording to this client feedback: " + userFeedback
@@ -139,6 +143,10 @@ class CodeGenerator:
 
 		start_index += len("<code>")
 		code = self.answer[start_index:end_index]
+  
+		print("===========================")
+		print(code)
+		print("===========================")
   
 		if self.hasTests == True:
 			start_index = self.answer.find("<tests>")

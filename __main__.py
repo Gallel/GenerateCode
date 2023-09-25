@@ -14,64 +14,59 @@ from src.GenerateCodeWithExampleCustomTest import GenerateCodeWithExampleCustomT
 from src.GenerateCodeWithExampleAndTest import GenerateCodeWithExampleAndTest
 
 from src.ReadJavaDoc import ReadJavadoc
+from src.CodeCompiler import CodeCompiler
 
 startTime = datetime.now()
 
-def LoadJavadoc(filePath):
-	print("Loading javadoc...")
-	reader = ReadJavadoc(filePath)
+def LoadJavadoc(filePath, exceptionsPath, utilPath):
+	print("[INFO] Loading javadoc...")
+	reader = ReadJavadoc(filePath, exceptionsPath, utilPath)
 	text = reader.constructClass()
-	print("Elapsed time: " + str(datetime.now() - startTime))
+	print("[INFO] Elapsed time: " + str(datetime.now() - startTime))
  
 	return text
 
 def LoadTests(testFilePath):
-	print("Loading tests...")
+	print("[INFO] Loading tests...")
 	with open(testFilePath, "r") as file:
 		text = file.read()
-	print("Elapsed time: " + str(datetime.now() - startTime))
+	print("[INFO] Elapsed time: " + str(datetime.now() - startTime))
  
 	return text
 
-def CodeWithoutTests(model, text, folderName = None, isActivePrompting = False):
-	print("Generating code without tests...")
-	generator = GenerateCodeWithoutTests(model, text, folderName, isActivePrompting)
-	generator.Generate()
-	print("Elapsed time: " + str(datetime.now() - startTime))
+def CodeWithoutTests(model, text, package, folderName = None, isActivePrompting = False):
+	print("[INFO] Generating code without tests...")
+	GenerateCodeWithoutTests(model, text, package, folderName, isActivePrompting)
+	print("[INFO] Elapsed time: " + str(datetime.now() - startTime))
 
-def CodeWithCustomTests(model, text, tests, folderName = None, isActivePrompting = False):
-	print("Generating code with custom tests...")
-	generator = GenerateCodeWithCustomTests(model, text, tests, folderName, isActivePrompting)
-	generator.Generate()
-	print("Elapsed time: " + str(datetime.now() - startTime))
+def CodeWithCustomTests(model, text, package, tests, compiler, folderName = None, isActivePrompting = False):
+	print("[INFO] Generating code with custom tests...")
+	GenerateCodeWithCustomTests(model, text, package, tests, compiler, folderName, isActivePrompting)
+	print("[INFO] Elapsed time: " + str(datetime.now() - startTime))
 
-def CodeAndTests(model, text, folderName = None, isActivePrompting = False):
-	print("Generating code with own tests...")
-	generator = GenerateCodeAndTests(model, text, folderName, isActivePrompting)
-	generator.Generate()
-	print("Elapsed time: " + str(datetime.now() - startTime))
+def CodeAndTests(model, text, package, folderName = None, isActivePrompting = False):
+	print("[INFO] Generating code with own tests...")
+	GenerateCodeAndTests(model, text, package, folderName, isActivePrompting)
+	print("[INFO] Elapsed time: " + str(datetime.now() - startTime))
 
-def CodeWithExample(model, text, example, folderName = None, isActivePrompting = False):
-	print("Generating code with example...")
-	generator = GenerateCodeWithExample(model, text, example, folderName, isActivePrompting)
-	generator.Generate()
-	print("Elapsed time: " + str(datetime.now() - startTime))
+def CodeWithExample(model, text, package, example, folderName = None, isActivePrompting = False):
+	print("[INFO] Generating code with example...")
+	GenerateCodeWithExample(model, text, package, example, folderName, isActivePrompting)
+	print("[INFO] Elapsed time: " + str(datetime.now() - startTime))
 
-def CodeWithExampleCustomTests(model, text, tests, example, folderName = None, isActivePrompting = False):
-	print("Generating code with example and custom tests...")
-	generator = GenerateCodeWithExampleCustomTest(model, text, tests, example, folderName, isActivePrompting)
-	generator.Generate()
-	print("Elapsed time: " + str(datetime.now() - startTime))
+def CodeWithExampleCustomTests(model, text, package, tests, example, folderName = None, isActivePrompting = False):
+	print("[INFO] Generating code with example and custom tests...")
+	GenerateCodeWithExampleCustomTest(model, text, package, tests, example, folderName, isActivePrompting)
+	print("[INFO] Elapsed time: " + str(datetime.now() - startTime))
  
-def CodeWithExampleTests(model, text, example, folderName = None, isActivePrompting = False):
-	print("Generating code with example and own tests...")
-	generator = GenerateCodeWithExampleAndTest(model, text, example, folderName, isActivePrompting)
-	generator.Generate()
-	print("Elapsed time: " + str(datetime.now() - startTime))
+def CodeWithExampleTests(model, text, package, example, folderName = None, isActivePrompting = False):
+	print("[INFO] Generating code with example and own tests...")
+	GenerateCodeWithExampleAndTest(model, text, package, example, folderName, isActivePrompting)
+	print("[INFO] Elapsed time: " + str(datetime.now() - startTime))
 
 def SleepTime(meanWaitTime, timeToRemove):
 	realWaitTime = random.randint(meanWaitTime - 5, meanWaitTime + 5)
-	print("Wait " + str(realWaitTime) + " seconds to continue...");
+	print("[INFO] Wait " + str(realWaitTime) + " seconds to continue...");
 	time.sleep(realWaitTime)
  
 	return timeToRemove + realWaitTime
@@ -82,8 +77,17 @@ if __name__ == '__main__':
 	
 	model = os.getenv('OPENAI_MODEL')
 	basePath = r"D:/Escritorio/UOC/GEI/Semestre 9 (2022 - 2)/1 - TFG/Material/DSLib-master/"
-	filePath = basePath + r"docs/edu/uoc/ds/adt/sequential/LinkedList.html"
-	testFilePath = basePath + r"src/test/java/edu/uoc/ds/adt/sequential/LinkedListTest.java"
+	tmpDirectory = r"tmp"
+	filePath = basePath + r"docs/edu/uoc/ds/adt/sequential/QueueArrayImpl.html"
+	testFilePath = basePath + r"src/test/java/edu/uoc/ds/adt/sequential/QueueArrayTest.java"
+	exceptionsPath = basePath + r"src/main/java/edu/uoc/ds/exceptions"
+	utilPath = basePath + r"src/main/java/edu/uoc/ds/traversal"
+	projectPathfile = r"/src/main/java/edu/uoc/ds/adt/sequential"
+	realFilename = "QueueArrayImpl.java"
+	testClassname = "edu.uoc.ds.adt.sequential.QueueArrayTest"
+	package = "edu.uoc.ds.adt.sequential"
+ 
+	# Depracated
 	example = "queue"
 	
 	timesToIterate = 1
@@ -93,6 +97,7 @@ if __name__ == '__main__':
 	isActivePrompting = False
 	validArgs = ["all", "1", "2", "3", "times", "example1", "example2", "example3"]
 	
+	# Preconditions
 	if (len(sys.argv) > 1):
 		arg = sys.argv[1]
   
@@ -101,19 +106,27 @@ if __name__ == '__main__':
   
 	if arg not in validArgs:
 		raise Exception("[ERROR] Invalid argument!")
-  
-	text = LoadJavadoc(filePath)
+	# End of preconditions
+
+	# Load javadoc
+	text = LoadJavadoc(filePath, exceptionsPath, utilPath)
 	if testFilePath != "":
 		tests = LoadTests(testFilePath)
+	# End of load javadoc
+
+	# Start compiler
+	codeCompiler = CodeCompiler(basePath, tmpDirectory, projectPathfile, realFilename, testClassname)
+	codeCompiler.CopyProject()
+	# End of compiler
  
 	timeToRemove = 0
  
 	if arg == "1":
-		CodeWithoutTests(model, text, None, isActivePrompting)
+		CodeWithoutTests(model, text, package, None, isActivePrompting)
 	elif arg == "2":
-		CodeWithCustomTests(model, text, tests, None, isActivePrompting)
+		CodeWithCustomTests(model, text, package, tests, codeCompiler, None, isActivePrompting)
 	elif arg == "3":
-		CodeAndTests(model, text, None, isActivePrompting)
+		CodeAndTests(model, text, package, None, isActivePrompting)
 	elif arg == "times":
 		for i in range(timesToIterate):
 			# Generate folders
@@ -123,32 +136,32 @@ if __name__ == '__main__':
 			os.makedirs(folderName);
    
 			# Generate code
-			CodeWithoutTests(model, text, folderName)
+			CodeWithoutTests(model, text, package, folderName)
 			timeToRemove = SleepTime(waitTime, timeToRemove)
-			CodeWithCustomTests(model, text, tests, folderName)
+			CodeWithCustomTests(model, text, package, tests, codeCompiler, folderName)
 			timeToRemove = SleepTime(waitTime, timeToRemove)
-			CodeAndTests(model, text, folderName)
+			CodeAndTests(model, text, package, folderName)
 
 			if i != timesToIterate - 1:
 				timeToRemove = SleepTime(waitTime, timeToRemove)
 	elif arg == "example1":
-		CodeWithExample(model, text, example, None, isActivePrompting)
+		CodeWithExample(model, text, package, example, None, isActivePrompting)
 	elif arg == "example2":
-		CodeWithExampleCustomTests(model, text, tests, example, None, isActivePrompting)
+		CodeWithExampleCustomTests(model, text, package, tests, example, None, isActivePrompting)
 	elif arg == "example3":
-		CodeWithExampleTests(model, text, example, None, isActivePrompting)
+		CodeWithExampleTests(model, text, package, example, None, isActivePrompting)
 	else:
-		CodeWithoutTests(model, text)
+		CodeWithoutTests(model, text, package)
 		timeToRemove = SleepTime(waitTime, timeToRemove)
-		CodeWithCustomTests(model, text, tests)
+		CodeWithCustomTests(model, text, package, tests, codeCompiler)
 		timeToRemove = SleepTime(waitTime, timeToRemove)
-		CodeAndTests(model, text)
+		CodeAndTests(model, text, package)
 	
 	totalTime = datetime.now() - startTime
 	delta = timedelta(seconds = timeToRemove)
 	realTime = totalTime - delta
  
 	if timeToRemove == 0:
-		print("Total elapsed time: " + str(totalTime))
+		print("[INFO] Total elapsed time: " + str(totalTime))
 	else:
-		print("Total elapsed time: " + str(totalTime) + " (" + str(timeToRemove) + " seconds waiting) -> Real time: " + str(realTime))
+		print("[INFO] Total elapsed time: " + str(totalTime) + " (" + str(timeToRemove) + " seconds waiting) -> Real time: " + str(realTime))

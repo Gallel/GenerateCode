@@ -1,11 +1,12 @@
+import os
 import codecs
 
 # Read HTML
 from bs4 import BeautifulSoup
 
 class ReadJavadoc:
-	def __init__(self, path):     
-		with codecs.open(path, "r", encoding="utf-8") as file:
+	def __init__(self, classPath, exceptionsPath, utilPath):     
+		with codecs.open(classPath, "r", encoding="utf-8") as file:
 			html_content = file.read()
    
 		soup = BeautifulSoup(html_content, 'html.parser')
@@ -80,6 +81,14 @@ class ReadJavadoc:
 		self.classDescription = classBlock.get_text()
 		self.constructors = constructors
 		self.methods = methods
+
+		# Exceptions
+		exceptions = os.listdir(exceptionsPath)
+		self.exceptions = [os.path.splitext(exception)[0] for exception in exceptions if os.path.isfile(os.path.join(exceptionsPath, exception))]
+  
+		# Utils
+		utils = os.listdir(utilPath)
+		self.utils = [os.path.splitext(util)[0] for util in utils if os.path.isfile(os.path.join(utilPath, util))]
   
 	def constructClass(self):
 		classText = self.classDescription + "\n" + self.classType + "\n\n"
@@ -89,5 +98,11 @@ class ReadJavadoc:
   
 		for method in self.methods:
 			classText += method["description"] + method["type"] + " " + method["name"] + "\n\n"
+
+		if len(self.exceptions) > 0:
+			classText += "List of custom exceptions: " + ', '.join(self.exceptions) + '.\n'
+
+		if len(self.exceptions) > 0:
+			classText += "List of util classes: " + ', '.join(self.utils) + '.\n'
      
 		return classText
